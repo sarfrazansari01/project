@@ -85,18 +85,28 @@
 }
 .navbar-menu .navbar-expand-lg .navbar-nav {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	align-content: center;
-	width: 100%;
+}
+.navbar-menu .phone-btn:hover {
+	background-color: #234537;
 }
 .navbar-menu .navbar{
-	padding:0px;
+	padding: 0px;
+	width: 80%;
+	float: left;
+}
+.navbar-menu .dsa-phone {
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: end;
 }
 .navbar-menu .phone-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
+	position: relative;
 	right: 0;
 	background-color: #eeb03f;
 	width: 220px;
@@ -110,15 +120,18 @@
 	cursor: pointer;
 	transition:all 0.5s ease;
 }
-.navbar-menu .phone-btn:hover {
-	background-color: #234537;
-}
+
 .navbar-menu .nav-item {
 	padding: 10px 2px;
 }
 .navbar-menu .phone-btn .fa-phone {
 	margin-right: 10px;
 	font-weight: 700;
+}
+.navbar-menu .cut-nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar-menu .navbar-expand-lg .navbar-nav .nav-link {
 	padding-top: 0.5rem;
@@ -134,14 +147,396 @@
 .navbar-menu .navbar-expand-lg .navbar-nav .active .nav-link{
 	font-weight: 600 !important;
 }
+.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu {
+	background-color: #d49925 !important;
+	color:#fff;
+}
+.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    font-size: 18px;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+	text-decoration: none;
+	background-color: #eeb03f;
+}
 
+
+/*Banner section style here*/
+.dsa-banner-sec {
+	background-image: url(../images/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	padding-top: 50px;
+}
+.dsa-banner-sec .dsa-content{
+	padding-top: 50px;
+	padding-bottom: 120px;
+	padding-left: 100px;
+}
+.dsa-banner-sec .dsa-content .dsa-sub-heading {
+    font-size: 60px;
+    line-height: 83px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.dsa-banner-sec .dsa-content .dsa-title {
+    font-size: 60px;
+    line-height: 83px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.dsa-banner-sec .dsa-content p {
+    font-size: 30px;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: "Poppins";
+	line-height: 82px;
+}
+.dsa-banner-sec .dsa-content .btn-banner {
+	width: 100%;
+	margin-top: 30px;
+}
+.dsa-banner-sec .dsa-content .btn-banner .btn-appointment {
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e4a732;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    border: 1px solid #e4a732;
+    width: 300px;
+	height: 64px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.dsa-banner-sec .dsa-content .btn-banner .btn-appointment:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+.dsa-banner-sec .right-img .doctor {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*Why choose us section style here*/
+.dsa-why-choose {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.dsa-why-choose .cut-row {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.dsa-why-choose .why-choose-us {
+	width: 98%;
+}
+.dsa-why-choose h2 {
+	font-size: 40px;
+	color: #244236;
+	font-weight: 400;
+	font-family: "Poppins";
+}
+.dsa-why-choose p{
+	font-size: 18px;
+	line-height: 30px;
+	color: #201d1d;
+	font-weight: 300;
+	font-family: "Poppins";
+}
+.dsa-why-choose ul{
+	margin-bottom: 0px;
+}
+.dsa-why-choose ul li{
+	font-size: 18px;
+	line-height: 35px;
+	color: #201d1d;
+	font-weight: 300;
+	font-family: "Poppins";
+	list-style: none;
+	padding-left: 20px;
+	position: relative;
+}
+.dsa-why-choose ul li::before {
+    font-family: "FontAwesome";
+	font-weight: 400;
+	content: "\f105";
+	position: absolute;
+	left: 0;
+	font-size: 27px;
+	color: #244236;
+}
+/*India best ayurvedic section style here*/
+.dsa-india-ayurvedic-sec {
+	padding-bottom: 100px;
+}
+.dsa-india-ayurvedic-sec h2{
+	font-size: 40px;
+	line-height: 55px;
+	color: #244236;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+	margin-bottom: 50px;
+}
+.dsa-india-ayurvedic-sec .cust-iba {
+	width: calc(90% - 20px);
+	margin: 0 auto;
+}
+.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+	padding: 40px;
+	min-height: 670px;
+}
+.dsa-india-ayurvedic-sec .cust-iba .box1{
+	background-image: url(../images/iba-bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.dsa-india-ayurvedic-sec .cust-iba .box2 {
+  background-image: url(../images/iba-bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.dsa-india-ayurvedic-sec .cust-iba .box3 {
+  background-image: url(../images/iba-bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
+	height: 294px;
+}
+.dsa-india-ayurvedic-sec .cust-iba .iba-box h3{
+	font-size: 30px;
+	line-height: 55px;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: "Poppins";
+}
+.dsa-india-ayurvedic-sec .cust-iba .iba-box p{
+	font-size: 20px;
+	line-height: 31px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Poppins";
+}
+.dsa-india-ayurvedic-sec .btn-ayurvedic{
+	text-align: center;
+	margin-top: 50px;
+}
+.dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment{
+	font-size: 20px;
+	line-height: 19px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #e4a732;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #e4a732;
+	width: 300px;
+	height: 64px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment:hover {
+	background-color: #234537;
+	color: #fff;
+	border: 1px solid #234537;
+}
+
+/*Personalised Ayurvedic Treatment section style here*/
+.pl-ayurvedic-treatment-sec {
+	background-color: #f7f7f7;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.pl-ayurvedic-treatment-sec .pl-tp-content h2{
+	font-size: 40px;
+	line-height: 55px;
+	color: #244236;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+}
+
+.pl-ayurvedic-treatment-sec .pl-tp-content p{
+	font-size: 18px;
+	line-height: 35px;
+	color: #201d1d;
+	font-weight: 300;
+	font-family: "Poppins";
+	text-align: center;
+	width: 61%;
+	margin:0 auto;
+}
+.pl-ayurvedic-treatment-sec .cst-boxies {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3{
+	font-size: 30px;
+	line-height: 30px;
+	color: #244236;
+	font-weight: 600;
+	font-family: "Poppins";
+	margin-top: 20px;
+}
+.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p{
+	font-size: 20px;
+line-height: 30px;
+color: #181616;
+font-weight: 300;
+font-family: "Poppins";
+text-align: center;
+}
+/*About us section style here*/
+.about-us-sec {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.about-us-sec iframe {
+	border: 0px;
+	max-width: 100%;
+	width: calc(100% - 40px);
+}
+.about-us-sec .tp-abt-content{
+	margin-bottom: 50px;
+}
+.about-us-sec .tp-abt-content h2 {
+	font-size: 40px;
+	line-height: 55px;
+	color: #244236;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+}
+.about-us-sec .tp-abt-content p{
+	font-size: 18px;
+	line-height: 35px;
+	color: #201d1d;
+	font-weight: 300;
+	font-family: "Poppins";
+	text-align: center;	
+}
+.about-us-sec .about-right-content p {
+	font-size: 20px;
+	line-height: 35px;
+	color: #201d1d;
+	font-weight: 400;
+	font-family: "Poppins";
+	margin-bottom: 5px;
+}
+.about-us-sec .about-right-content .btn-about {
+	margin-top: 30px;
+}
+.about-us-sec .btn-about .btn-aboutus {
+	font-size: 20px;
+	line-height: 19px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #e4a732;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #e4a732;
+	width: 216px;
+	height: 75px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-us-sec .btn-about .btn-aboutus:hover {
+	background-color: #234537;
+	color: #fff;
+	border: 1px solid #234537;
+}
+/*Happy world section style here*/
+
+.happy-world-sec {
+	background-image: url(../images/world-happy-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.happy-world-sec .hw-content {
+	text-align: center;
+}
+.happy-world-sec .hw-content h2{
+	font-size: 73px;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: "Poppins";
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.happy-world-sec .hw-content p{
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+	margin-bottom: 0px;
+}
+/*dr mukesh sharda section style here*/
+
+.dr-mukesh-sharda-sec {
+	padding-top: 100px;
+}
+.dr-mukesh-sharda-sec p {
+	font-size: 30px;
+	line-height: 52px;
+	color: #244236;
+	font-weight: 500;
+	font-family: "Poppins";
+	margin-bottom: 30px;
+}
+.dr-mukesh-sharda-sec .dr-img-left img{
+	position: absolute;
+	bottom: 0px;
+}
+.dr-mukesh-sharda-sec .sign-area {
+    float: right;
+}
+.dr-mukesh-sharda-sec .sign-area p{
+    font-style: italic;
+}
 
 /*Footer content style here*/
 footer.dsa-foo-sec{
 	background-image: url(../images/foo-bg.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position:center;	
+	background-attachment: fixed;
 	padding-top:50px;
 }
 .dsa-foo-sec .foo-social-icon {
@@ -181,4 +576,57 @@ footer.dsa-foo-sec{
 	font-weight: 300;
 	font-family: "Poppins";
 	text-align: center;
+}
+
+.dsa-foo-sec .cust-address {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.dsa-foo-sec .foo-address-box{
+	text-align: center;
+}
+.dsa-foo-sec .foo-address-box p{
+	font-size: 20px;
+	line-height: 33px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Poppins";
+	text-align: center;
+	margin-top: 20px;
+}
+nav.foo-navbar .navbar-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	border-top: 1px solid #345344;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+nav.foo-navbar .navbar-nav .nav-link {
+    padding:15px;
+    font-size: 18px;
+    line-height: 14px;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+nav.foo-navbar .navbar-nav .active .nav-link {
+	font-weight: 600 !important;
+}
+
+.cp-right-row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.cp-right-row p {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 300;
+	font-family: "Poppins";
+	margin-bottom: 0px;
+	text-align: center;
+	letter-spacing: 1px;
 }
