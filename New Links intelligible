@@ -1,0 +1,52 @@
+counselor login:
+First Step
+Lead Summary:  http://intelligible.co.in/lead/m_leads_summary
+Lead Overview {Sub LInk} : http://intelligible.co.in/lead/m_lead_overview/9JXMu0X23uciF7BlOpjzavW_ctTsEADH2Wb0YksoK5gRD9uTLCeHBJHTP2d7Skh-IJatKIUVtG6Ln3_YvWUQBg~~
+Lead Call (Sub Link): http://intelligible.co.in/lead/m_call_details/_tj3iox-krY01rronwI19Rm6XNFVxR_GBY0ikIOBgNRUlQA5jKK3JQoiw90fGzsH_N_O193ZwBvGxHq-a9EubQ~~
+
+FO login:
+Second Step
+
+RM/CRE Login:
+Third Step
+http://intelligible.co.in/patient/m_patient_summary
+Patient Summary: http://intelligible.co.in/patient/m_patient_summary
+Patient Overview: http://intelligible.co.in/patient/m_patient_overview/X9YL89_g0_ZvjgI-0gOtqkEQL9C1KI82XkIs8FgVt8to2gHfJV_0y_4dQAB95pgB88Y-n6-bROK2KgX0wvr0IA~~
+Patient Consult: http://intelligible.co.in/patient/m_patient_plc/?patient_id=13921&lead_id=131219&token_id=27929
+
+Doctor Login:
+Fourth Step:
+Consult By Doctor: http://intelligible.co.in/patient/patient_consult_by_doctor/s90Xdhp1cMFadnfSagLWRw--sZebtA9VIa79kq7KGZ1Hct_EyerKcp539RQAaoOkncgyuc5KxlbxzTev61_1_Q~~?consult=y&add_n=y&token_id=27929
+Doctor Prescription: http://intelligible.co.in/patient/m_patient_prescription_form/FjV3U9DtKa8c5bhGy619Qd8fnKk4uCRPm7B44kKl6SIXDE3vaVKu0qUu2hr_bxFLaRKxXiaW6_ljAWSv7Hv-Bg~~?prescription=y&add_n=y
+
+FO login:
+Fifth Step:
+Procedure Billing: http://intelligible.co.in/patient/m_procedure_billing_form/M1QHI99iwbXrwSBqOrfkVCyb6HnOq5DAyLORDW5tSm6LwUyvSvvLHYuZaXS8oeYIAP7YqjD3pzFwHCIY-K-RyA~~?billing_page=y#procedure_billing
+Medicine Billing: http://intelligible.co.in/patient/m_medicine_billing_form/pmtshQOapwtYGmI7iKpY9as-FXZeaAKke2WAHEXRqYCTEHC6IKdD2f7-kVlM-87GrLNmsmkuGerg_Dnuavu5sQ~~
+HT Billing: http://intelligible.co.in/patient/m_ht_billing_form/pmtshQOapwtYGmI7iKpY9as-FXZeaAKke2WAHEXRqYCTEHC6IKdD2f7-kVlM-87GrLNmsmkuGerg_Dnuavu5sQ~~
+
+Doctor Login:
+Sixth Step:
+Doctor Dashboard: http://intelligible.co.in/dashboard/m_doctor {Complete the crtical points}
+
+Technician Login:
+Seventh Step:
+Technician Procedure: http://intelligible.co.in/patient/m_technician_procedure/20313
+
+CRE Login:
+Eight Step:
+Old Patient Post OP Call:  http://intelligible.co.in/patient/m_procedure_sitting_post_op_calls
+Today Patient Post OP Call: http://intelligible.co.in/patient/post_op_patient_today_call_screen
+
+
+Payment Mode Add Module Link:
+View Payment Mode: http://intelligible.co.in/payment_method/view_payment_mode
+View Payment Mode options: http://intelligible.co.in/payment_method/view_payment_mode_options
+
+Other Links:
+http://intelligible.co.in/calling_ppt/view_calling_ppt 
+http://intelligible.co.in/calling_ppt/add_calling_ppt
+http://intelligible.co.in/new_questionnaire/view_questions
+http://intelligible.co.in/new_questionnaire/create_questions
+http://intelligible.co.in/new_questionnaire/view_questionnaire
+http://intelligible.co.in/new_questionnaire/create_questionnaire

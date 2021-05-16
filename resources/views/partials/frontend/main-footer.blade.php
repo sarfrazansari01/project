@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="foo-social-icon">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/DrShardaAyurveda" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/shardaayurveda" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/c/DrShardaAyurveda" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/dr-sharda-ayurveda" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/DrShardaAyurveda/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -50,25 +50,25 @@
                 <nav class="navbar foo-navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Services</a>
+                            <a class="nav-link" href="{{ route('services') }}">Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="javascript:void(0);">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Treatment</a>
+                            <a class="nav-link" href="javascript:void(0);">Treatment</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Store</a>
+                            <a class="nav-link" href="javascript:void(0);">Store</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Brog</a>
+                            <a class="nav-link" href="javascript:void(0);">Blog</a>
                         </li>
                     </ul>
 
@@ -82,3 +82,16 @@
         </div>
     </div>
 </footer>
+<script>
+jQuery('#client-test').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+</script>

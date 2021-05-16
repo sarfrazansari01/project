@@ -13,7 +13,7 @@
 @section('content')
 <section class="dsa-banner-sec">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row cust-dsa-banner">
             <div class="col-md-6">
                 <div class="dsa-content">
                     <h3 class="dsa-sub-heading">India's Best</h3>
@@ -194,7 +194,7 @@
 </section>
 <section class="dr-mukesh-sharda-sec"> 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row cust-dr">
             <div class="col-md-4">
                 <div class="dr-img-left">
                     <img src="{{ URL::asset('front/images/Dr-Mukesh-Sharda.png') }}" class="img-fluid" alt="Dr Mukesh Sharda">
@@ -205,6 +205,197 @@
                 <div class="sign-area">
                     <img src="{{ URL::asset('front/images/signature.png') }}" class="ceo-sign img-fluid" alt="CEO Sign" >
                     <p>Director (CEO)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="our-product">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="prod-tp-content">
+                    <h2>Our <b>Products</b></h2>
+                    <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
+                </div>
+            </div>
+        </div>
+        <div class="row cust-product">
+            <div class="col-md-4">
+                <div class="prod-box">
+                    <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
+                    <ul class="price">
+                        <li class="brand-name">Dr.sharda </li>
+                        <li class="header">Best joint pain oil of ayurveda</li>
+                        <li class="rate"><i class="fa fa-inr" aria-hidden="true"></i> 200/-</li>
+                        <li class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </li>
+                        <li><a href="#" class="btn-shop-know">Shop Now</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="prod-box">
+                    <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
+                    <ul class="price">
+                        <li class="brand-name">Dr.sharda </li>
+                        <li class="header">Best joint pain oil of ayurveda</li>
+                        <li class="rate"><i class="fa fa-inr" aria-hidden="true"></i> 200/-</li>
+                        <li class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </li>
+                        <li><a href="#" class="btn-shop-know">Shop Now</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="prod-box">
+                    <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
+                    <ul class="price">
+                        <li class="brand-name">Dr.sharda </li>
+                        <li class="header">Best joint pain oil of ayurveda</li>
+                        <li class="rate"><i class="fa fa-inr" aria-hidden="true"></i> 200/-</li>
+                        <li class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </li>
+                        <li><a href="#" class="btn-shop-know">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="client-testimonial">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cl-test">
+                <span class="cl-suedo">Testimonials</span>
+                <h2 class="client-test-title">Client <b>Testimonial</b></h2>
+            </div>
+        </div>
+        <div class="row cust-test">
+            <div class="col-md-12">
+                <div id="client-test" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <ul>
+                                <li>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </li>
+                            </ul>
+                            <h3>It was a Great Experience!</h3>
+                            <p>I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <ul>
+                                <li>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </li>
+                            </ul>
+                            <h3>It was a Great Experience!</h3>
+                            <p>I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="latest-post-sec">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="lp-content">
+                    <h2>Latest <b>Post</b></h2>
+                    <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
+                </div>
+            </div>
+        </div>
+        <div class="row custom-lp">
+            <div class="col-md-4">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="get-in-touch-sec">
+    <div class="container-fluid">
+        <div class="row custom-get">
+            <div class="col-md-6">
+                <h2>Get in Touch</h2>
+                <p>Asthma Is Categorized As “shwas Rog” n Ayurveda. A Condition In Which APerson Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                <div class="email">
+                    <a href="#" class="email-icon"><i class="fa fa-envelope" aria-hidden="true"></i> dr.shardaayurveda@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <a href="tel:+919876035500" class="phone-icon"><i class="fa fa-phone" aria-hidden="true"></i> +91 9876035500</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="get-form">
+                    <h3>Let’s Talk</h3>
+                    <form action="/action_page.php">
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                        <input type="email" id="email" name="email" placeholder="Email"><br>
+                        <textarea id="story" name="story" rows="5" cols="33" placeholder="Message"></textarea><br>
+                        <input type="submit" value="Submit" class="submit">
+                    </form> 
                 </div>
             </div>
         </div>

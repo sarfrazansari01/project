@@ -4,8 +4,10 @@
         @include('../partials/frontend/main-head')
     </head>
     <body>
-            @include('../partials/frontend/main-header')
-                @yield('content')
-            @include('../partials/frontend/main-footer')
+        @include('../partials/frontend/main-header')
+        <div class="main-sec">
+            @yield('content')
+        </div>
+        @include('../partials/frontend/main-footer')
     </body>
 </html>

@@ -1,10 +1,10 @@
 <header>
     <div class="top-bar-sec">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row cust-new">
                 <div class="col-md-12">
                     <div class="top-bar">
-                        <p>Dr Sharda Ayurweda</p>
+                        <p><marquee>Dr Sharda Ayurweda</marquee></p>
                     </div>
                 </div>
             </div> 
@@ -15,16 +15,16 @@
             <div class="row custom-logo-sec">
                 <div class="col-md-3">
                     <div class="tp-social-icon">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-youtube"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/DrShardaAyurveda" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/shardaayurveda" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/c/DrShardaAyurveda" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/dr-sharda-ayurveda" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/DrShardaAyurveda/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="logo-img">
-                        <a href="#"><img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="logo"></a>
+                        <a href="/"><img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -51,31 +51,31 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="{{ route('services') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Our Services
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
+                                        <a class="dropdown-item" href="{{ route('ibs') }}">IBS</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gallery</a>
+                                    <a class="nav-link" href="javascript:void(0);">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Treatment</a>
+                                    <a class="nav-link" href="javascript:void(0);">Treatment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Store</a>
+                                    <a class="nav-link" href="javascript:void(0);">Store</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link" href="javascript:void(0);">Blog</a>
                                 </li>
                             </ul>
                         </div>
