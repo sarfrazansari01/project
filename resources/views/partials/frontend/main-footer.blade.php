@@ -83,15 +83,49 @@
     </div>
 </footer>
 <script>
-jQuery('#client-test').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    dots: true,
-    responsive:{
-        0:{
-            items:1
+    jQuery('#client-test').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    })
+
+    $(document).ready(function () {
+        $(".mobile").keypress(function (e) {
+            //if the letter is not digit then display error and don't type anything
+            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                //display error message
+                $("#errmsgMobile").html("Only number are allowed!").show().fadeOut(5000);
+                return false;
+            }
+        });
+    });
+
+
+    $('#sbtForm').click(function () {
+        var email = $('#email').val();
+        if (IsEmail(email) == false) {
+            $("#errmsgEmail").html("Invalid email").show().fadeOut(5000);
+            return false;
+        }
+        var mobNum = $(".mobile").val();
+        if (mobNum.length != 10) {
+            $("#errmsgMobile").html("Number should be 10 digit!").show().fadeOut(5000);
+            return false;
+        }
+    });
+
+    function IsEmail(email) {
+        var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (!regex.test(email)) {
+            return false;
+        } else {
+            return true;
         }
     }
-})
 </script>

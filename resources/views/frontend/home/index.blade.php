@@ -372,33 +372,5 @@
         </div>
     </div>
 </section>
-
-<section class="get-in-touch-sec">
-    <div class="container-fluid">
-        <div class="row custom-get">
-            <div class="col-md-6">
-                <h2>Get in Touch</h2>
-                <p>Asthma Is Categorized As “shwas Rog” n Ayurveda. A Condition In Which APerson Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
-                <div class="email">
-                    <a href="#" class="email-icon"><i class="fa fa-envelope" aria-hidden="true"></i> dr.shardaayurveda@gmail.com</a>
-                </div>
-                <div class="phone">
-                    <a href="tel:+919876035500" class="phone-icon"><i class="fa fa-phone" aria-hidden="true"></i> +91 9876035500</a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="get-form">
-                    <h3>Let’s Talk</h3>
-                    <form action="/action_page.php">
-                        <input type="text" id="name" name="name" placeholder="Name"><br>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
-                        <input type="email" id="email" name="email" placeholder="Email"><br>
-                        <textarea id="story" name="story" rows="5" cols="33" placeholder="Message"></textarea><br>
-                        <input type="submit" value="Submit" class="submit">
-                    </form> 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@include('../partials/frontend/form')
 @stop
