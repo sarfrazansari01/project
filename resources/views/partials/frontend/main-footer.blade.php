@@ -94,6 +94,15 @@
             }
         }
     })
+    
+    jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+        if (scroll >= 300) {
+            jQuery(".navbar-menu").addClass("sticky_header");
+        }else {
+            $(".navbar-menu").removeClass("sticky_header");
+        }
+    }); 
 
     $(document).ready(function () {
         $(".mobile").keypress(function (e) {

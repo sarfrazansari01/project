@@ -88,26 +88,13 @@
 
 .navbar-menu{
 	background-color: #d49925;
+	transition-delay: all 0.5s ease;
 }
-.navbar-menu .navbar-expand-lg .navbar-nav {
-	display: flex;
-	justify-content: start;
-	align-content: center;
-}
+
 .navbar-menu .phone-btn:hover {
 	background-color: #234537;
 }
-.navbar-menu .navbar{
-	padding: 0px;
-	width: 80%;
-	float: left;
-}
-.navbar-menu .dsa-phone {
-	width: 20%;
-	float: left;
-	display: flex;
-	justify-content: end;
-}
+
 .navbar-menu .phone-btn {
 	display: flex;
 	justify-content: center;
@@ -166,13 +153,92 @@
     font-family: "Poppins";
     text-transform: uppercase;
     transition: all 0.5s ease;
-    text-align: center;
+    text-align: left;
 }
 .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
 	text-decoration: none;
 	background-color: #eeb03f;
 }
+.sticky_header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+}
+@media(min-width: 992px){
+	.navbar-menu .navbar-expand-lg .navbar-nav {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+	}
+	.navbar-menu .navbar {
+		padding: 0px;
+	}
+	.navbar-menu .dsa-phone {
+		display: flex;
+		justify-content: end;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
+@media(max-width: 1366px){
+	.navbar-menu .navbar {
+		padding: 0px;
+		width: 80%;
+		float: left;
+	}
+	.navbar-menu .dsa-phone {
+		width: 20%;
+		float: left;
+		display: flex;
+		justify-content: end;
+	}
+	.navbar-menu .navbar-expand-lg .navbar-nav {
+		display: flex;
+		justify-content: start;
+		align-content: center;
+	}
 
+}
+@media(max-width: 1024px){
+	.navbar-menu .navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	.navbar-menu .phone-btn {
+		font-size: 16px;
+	}
+	.top-bar-sec .cust-new, .logo-sec .custom-logo-sec, .logo-sec .custom-logo-sec, .navbar-menu .cut-nav-row {
+		width: calc(100% - 0px);
+		margin: 0 auto;
+	}
+}
+@media(max-width: 991px){
+	.navbar-light .navbar-toggler {
+		color: #fff !important;
+		border-color: #fff !important;
+		background: #fff;
+		margin-top: 5px;
+	}
+	.navbar-menu .navbar {
+		width: 30%;
+	}
+	.navbar-menu .dsa-phone {
+		width: 70%;
+	}
+}
+@media(max-width: 767px){
+	.logo-sec .custom-logo-sec .tp-social-icon {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.logo-sec .custom-logo-sec .search-container {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
 
 /*Banner section style here*/
 .dsa-banner-sec {
@@ -250,26 +316,26 @@
 
 /*Why choose us section style here*/
 .dsa-why-choose {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 40px;
 }
 .dsa-why-choose .cut-row {
     width: calc(95% - 0px);
     margin: 0 auto;
     display: flex;
-	align-items: center;
+    /*align-items: center;*/
 }
 .dsa-why-choose .why-choose-us {
 	width: 98%;
 }
 .dsa-why-choose h2 {
-	font-size: 40px;
+	font-size: 35px;
 	color: #244236;
 	font-weight: 400;
 	font-family: "Poppins";
 }
 .dsa-why-choose p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	color: #201d1d;
 	font-weight: 300;
@@ -279,7 +345,7 @@
 	margin-bottom: 0px;
 }
 .dsa-why-choose ul li{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 35px;
 	color: #201d1d;
 	font-weight: 300;
@@ -299,11 +365,11 @@
 }
 /*India best ayurvedic section style here*/
 .dsa-india-ayurvedic-sec {
-	padding-bottom: 100px;
+	padding-bottom: 40px;
 }
 .dsa-india-ayurvedic-sec h2{
-	font-size: 40px;
-	line-height: 55px;
+	font-size: 35px;
+	line-height: 45px;
 	color: #244236;
 	font-weight: 400;
 	font-family: "Poppins";
@@ -316,7 +382,12 @@
 }
 .dsa-india-ayurvedic-sec .cust-iba .iba-box {
 	padding: 40px;
-	min-height: 670px;
+	min-height: 555px;
+	transition: all .5s ease;
+}
+.dsa-india-ayurvedic-sec .cust-iba .iba-box:hover {
+	transition: all .5s ease;
+	transform: translate(0,-10px);
 }
 .dsa-india-ayurvedic-sec .cust-iba .box1{
 	background-image: url(../images/iba-bg1.jpg);
@@ -337,18 +408,18 @@
 	background-repeat: no-repeat;
 }
 .dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
-	height: 294px;
+	height: 229px;
 }
 .dsa-india-ayurvedic-sec .cust-iba .iba-box h3{
 	font-size: 30px;
-	line-height: 55px;
+	line-height: 40px;
 	color: #ffffff;
 	font-weight: 600;
 	font-family: "Poppins";
 }
 .dsa-india-ayurvedic-sec .cust-iba .iba-box p{
-	font-size: 20px;
-	line-height: 31px;
+	font-size: 18px;
+	line-height: 30px;
 	color: #ffffff;
 	font-weight: 300;
 	font-family: "Poppins";
@@ -388,7 +459,7 @@
 	padding-bottom: 100px;
 }
 .pl-ayurvedic-treatment-sec .pl-tp-content h2{
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 55px;
 	color: #244236;
 	font-weight: 400;
@@ -397,7 +468,7 @@
 }
 
 .pl-ayurvedic-treatment-sec .pl-tp-content p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 35px;
 	color: #201d1d;
 	font-weight: 300;
@@ -419,7 +490,7 @@
 }
 
 .pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3{
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 30px;
 	color: #244236;
 	font-weight: 600;
@@ -427,7 +498,7 @@
 	margin-top: 20px;
 }
 .pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p{
-	font-size: 20px;
+	font-size: 16px;
 line-height: 30px;
 color: #181616;
 font-weight: 300;
@@ -436,8 +507,8 @@ text-align: center;
 }
 /*About us section style here*/
 .about-us-sec {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 40px;
 }
 .about-us-sec iframe {
 	border: 0px;
@@ -452,7 +523,7 @@ text-align: center;
 	margin-bottom: 50px;
 }
 .about-us-sec .tp-abt-content h2 {
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 55px;
 	color: #244236;
 	font-weight: 400;
@@ -460,7 +531,7 @@ text-align: center;
 	text-align: center;
 }
 .about-us-sec .tp-abt-content p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 35px;
 	color: #201d1d;
 	font-weight: 300;
@@ -468,8 +539,8 @@ text-align: center;
 	text-align: center;	
 }
 .about-us-sec .about-right-content p {
-	font-size: 20px;
-	line-height: 34px;
+	font-size: 16px;
+	line-height: 30px;
 	color: #201d1d;
 	font-weight: 400;
 	font-family: "Poppins";
@@ -479,7 +550,7 @@ text-align: center;
 	margin-top: 30px;
 }
 .about-us-sec .btn-about .btn-aboutus {
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 19px;
 	color: #ffffff;
 	font-weight: 700;
@@ -592,6 +663,11 @@ text-align: center;
 	padding: 40px;
 	box-shadow: 1px 2px 14px #eee;
 	text-align: center;
+	transition: all .5s ease;
+}
+.our-product .cust-product .prod-box:hover {
+	transition: all .5s ease;
+	transform: translate(0,-10px);
 }
 .our-product .cust-product .prod-box .price {
 	padding: 35px 18px;
@@ -658,6 +734,7 @@ text-align: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background-color: #f7f7f7;
+	overflow: hidden;
 }
 .cl-test{
 	position: relative;
@@ -685,9 +762,10 @@ text-align: center;
 	font-family: "Poppins";
 	text-align: center;
 	margin-bottom: 50px;
-	z-index: 9999;
+	z-index: 2;
 	position: relative;
 }
+
 .client-testimonial .testimonial-content img {
 	width: 150px !important;
 	border-radius: 50%;
@@ -712,8 +790,8 @@ text-align: center;
 	font-family: "Poppins";
 }
 .testimonial-content p{
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 16px;
+	line-height: 30px;
 	color: #244236;
 	font-weight: 400;
 	font-family: "Poppins";
@@ -774,6 +852,8 @@ text-align: center;
 }
 .latest-post-sec .lp-post:hover {
 	background-color: #e4a732;
+	transition: all .5s ease;
+	transform: translate(0,-10px);
 }
 .latest-post-sec .lp-post .post-content {
 	padding: 40px;
@@ -818,7 +898,7 @@ text-align: center;
 	align-items: center;
 }
 .get-in-touch-sec .custom-get h2 {
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 55px;
 	color: #244236;
 	font-weight: 600;
@@ -826,7 +906,7 @@ text-align: center;
 	text-align: left;
 }
 .get-in-touch-sec .custom-get p{
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 33px;
 	color: #211f1f;
 	font-weight: 300;
@@ -846,8 +926,8 @@ text-align: center;
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
-	padding-left: 14px;
-	padding-top: 11px;
+	padding-left: 15px;
+	padding-top: 14px;
 	margin-right: 10px;
 }
 .get-in-touch-sec .custom-get .phone-icon {
@@ -932,6 +1012,9 @@ footer.dsa-foo-sec{
 	display: flex;
 	justify-content: end;
 	align-items: center;
+	align-items: center;
+	width: calc(90% - 0px);
+	margin: 0 auto;
 }
 .dsa-foo-sec .foo-social-icon a i{
 	font-size: 20px;
@@ -1024,3 +1107,604 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 	text-align: center;
 	letter-spacing: 1px;
 }
+
+
+
+
+/*media query laptop, tab & mobile here*/
+@media(max-width: 1500px){
+	.dsa-banner-sec .dsa-content .dsa-title {
+		font-size: 50px;
+		line-height: 74px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
+		height: 195px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		padding: 30px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
+		font-size: 24px;
+	}
+	.about-us-sec .custum-row {
+		display: flex;
+		align-items: center;
+	}
+	.cl-test .cl-suedo {
+		font-size: 100px;
+		top: -45px;
+	}
+}
+@media(max-width: 1200px){
+	.dsa-banner-sec .dsa-content {
+		padding-top: 0px;
+		padding-bottom: 20px;
+		width: calc(95% - 0px);
+	}
+	.dsa-banner-sec .cust-dsa-banner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.dsa-banner-sec .dsa-content .dsa-title {
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.dsa-banner-sec .dsa-content p {
+		font-size: 24px;
+		line-height: 50px;
+	}
+	.dsa-banner-sec .dsa-content .dsa-sub-heading {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.dsa-why-choose h2 {
+		font-size: 28px;
+	}
+	.dsa-why-choose p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.dsa-why-choose ul li {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.dsa-why-choose ul li::before {
+		font-size: 20px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box p {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
+		height: 150px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		min-height: 493px;
+	}
+	.pl-ayurvedic-treatment-sec .pl-tp-content h2 {
+		font-size: 34px;
+	}
+	.pl-ayurvedic-treatment-sec .pl-tp-content p {
+		width: 75%;
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3 {
+		font-size: 24px;
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p {
+		font-size: 18px;
+	}
+	.about-us-sec .tp-abt-content h2 {
+		font-size: 34px;
+	}
+	.about-us-sec .about-right-content p {
+		font-size: 18px;
+	}
+	.dr-mukesh-sharda-sec p {
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.our-product .cust-product .prod-box {
+		padding: 20px;
+	}
+	.our-product .cust-product .prod-box .price .header {
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+	.testimonial-content h3 {
+		font-size: 34px;
+	}
+	.testimonial-content p {
+		font-size: 18px;
+		line-height: 30px;
+		width: 90%;
+	}
+	.latest-post-sec {
+		bottom: -100px;
+	}
+	.get-in-touch-sec .custom-get p {
+		font-size: 18px;
+		width: 95%;
+		margin-bottom: 0px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba {
+	    width: calc(90% - 0px);
+	    margin: 0 auto;
+	}
+	.dsa-why-choose .cut-row {
+		width: calc(90% - 0px);
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+}
+@media(max-width: 1100px){
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
+		font-size: 20px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
+		font-size: 20px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		min-height: 494px;
+		padding: 20px;
+	}
+	.happy-world-sec .hw-content h2 {
+		font-size: 50px;	
+	}
+	.happy-world-sec .hw-content p {
+		font-size: 28px;
+	}
+	.dr-mukesh-sharda-sec p {
+		line-height: 30px;
+	}
+	.our-product .cust-product {
+		width: calc(95% - 0px);
+	}
+	.latest-post-sec .lp-post {
+		width: calc(94% - 0px);
+	}
+	.latest-post-sec .lp-post .post-content {
+		padding: 20px;
+	}
+	.latest-post-sec .lp-post .post-content h3 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.latest-post-sec .lp-post .post-content p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+@media(max-width: 1024px){
+	.dsa-banner-sec .cust-dsa-banner {
+		width: calc(95% - 0px);
+	}
+	.dsa-why-choose {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.dsa-india-ayurvedic-sec {
+		padding-bottom: 50px;
+	}
+	.pl-ayurvedic-treatment-sec, .about-us-sec, .our-product, .client-testimonial {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.about-us-sec .btn-about .btn-aboutus {
+		width: 180px;
+		height: 65px;
+	}
+	.happy-world-sec {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.latest-post-sec {
+		bottom: -50px;
+	}
+	.get-in-touch-sec {
+		padding-top: 130px;
+		padding-bottom: 50px;
+	}
+	.dsa-why-choose .cut-row,.dsa-india-ayurvedic-sec .cust-iba, .pl-ayurvedic-treatment-sec .cst-pl-row, .about-us-sec .custum-row, .our-product .cust-product, .latest-post-sec .custom-lp, .dr-mukesh-sharda-sec .cust-dr, {
+		width: calc(100% - 0px);
+	}
+	.get-in-touch-sec .custom-get {
+		width: calc(98% - 0px);
+	}
+	.dsa-foo-sec .foo-address-box p, .dsa-foo-sec .foo-logo p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	nav.foo-navbar .navbar-nav .nav-link {
+		font-size: 16px;		
+	}
+	.get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+		font-size: 18px;
+	}
+}
+@media(max-width: 991px){
+	.dsa-banner-sec .dsa-content .dsa-title {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.dsa-banner-sec .dsa-content .dsa-sub-heading {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.dsa-banner-sec .dsa-content p {
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		min-height: 490px;
+	}
+	.pl-ayurvedic-treatment-sec .pl-tp-content p {
+		line-height: 30px;
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3 {
+		font-size: 20px;
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.happy-world-sec .hw-content h2 {
+		font-size: 40px;
+	}
+	.happy-world-sec .hw-content p {
+		font-size: 24px;
+	}
+
+	.dsa-banner-sec .cust-dsa-banner {
+		width: calc(95% - 0px);
+		margin: 0 auto;
+	}
+	.dsa-why-choose .cut-row, .latest-post-sec .lp-post{
+		width: calc(100% - 0px);
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box p {
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
+		line-height: 30px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba {
+		width: calc(100% - 0px);
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
+		height: 100px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		min-height: 385px;
+	}
+	.our-product .cust-product .prod-box {
+		width: calc(100% - 0px);
+	}
+	.client-testimonial .client-test-title {
+		font-size: 34px;
+	}
+	.cl-test .cl-suedo {
+		font-size: 65px;
+		top: -21px;
+	}
+	.get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+		font-size: 15px;
+	}
+	nav.foo-navbar .navbar-nav .nav-link {
+		padding: 10px;
+	}
+
+}
+
+@media(max-width: 767px){
+	.dsa-banner-sec .cust-dsa-banner {
+		width: calc(100% - 0px);
+		margin: 0 auto;
+	}
+	.dsa-banner-sec .cust-dsa-banner {
+		flex-wrap: wrap;
+	}
+	.dsa-banner-sec .right-img {
+		text-align: center;
+		margin-right: 0px;
+		margin-left: 2px;
+	}
+	.dsa-banner-sec .cust-dsa-banner .col-md-6 {
+		width: 50%;
+	}
+	.dsa-banner-sec .dsa-content .dsa-title br{
+		display: none;
+	}
+	.dsa-banner-sec{
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+	.dsa-banner-sec .dsa-content .dsa-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.dsa-banner-sec .dsa-content .dsa-sub-heading {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.dsa-banner-sec .dsa-content {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.dsa-banner-sec .dsa-content .btn-banner .btn-appointment {
+		font-size: 16px;
+		width: 240px;
+		height: 53px;
+	}
+	.dsa-why-choose {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.dsa-why-choose h2 {
+		margin-top: 30px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box {
+		min-height: auto;
+		padding: 20px 20px;
+		margin-bottom: 20px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba {
+		width: calc(400px - 0px);
+	}
+	.dsa-india-ayurvedic-sec h2 {
+		font-size: 24px;
+		line-height: 25px;
+		margin-bottom: 30px;
+		text-align: center;
+		padding-left: 15px;
+	}
+	.dsa-india-ayurvedic-sec {
+		padding-bottom: 50px;
+	}
+	.dsa-india-ayurvedic-sec .btn-ayurvedic {
+		margin-top: 10px;
+	}
+	
+	.dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment {
+		font-size: 16px;
+		width: 230px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba .iba-box p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.pl-ayurvedic-treatment-sec .pl-tp-content h2 {
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.our-product .cust-product .prod-box {
+		width: calc(400px - 0px);
+		margin-bottom: 20px;
+	}
+	.testimonial-content h3 {
+		font-size: 24px;
+	}
+	.get-in-touch-sec .custom-get h2 {
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.get-in-touch-sec .custom-get h2 {
+		font-size: 24px;
+		line-height: 55px;
+		text-align: center;
+	}
+	.get-in-touch-sec .get-form {
+		background: #fff;
+		padding: 30px;
+		margin-top: 30px;
+	}
+	.get-in-touch-sec .custom-get p {
+		text-align: center;
+	}
+	.get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+		font-size: 16px;
+	}
+	.get-in-touch-sec .custom-get .email {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		width: 320px;
+		margin: 0 auto;
+	}
+	.get-in-touch-sec .custom-get .phone {
+		width: 320px;
+		margin: 0 auto;
+	}
+	.get-in-touch-sec .custom-get .email .email-icon .fa-envelope, .get-in-touch-sec .custom-get .phone-icon .fa-phone {
+		font-size: 24px;
+		width: 50px;
+		height: 50px;
+		padding-left: 12px;
+		padding-top: 10px;
+		margin-right: 5px;
+	}
+	.latest-post-sec {
+		top: 0px;
+		bottom: 0px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.get-in-touch-sec {
+		padding-bottom: 50px;
+	}
+	.latest-post-sec .lp-post .post-content .ptn-post {
+		width: 100%;
+		display: inline-flex;
+		justify-content: center;
+	}
+	.latest-post-sec .lp-post .post-content h3 {
+		text-align: center;
+	}
+	.latest-post-sec .lp-post .post-content p, .our-product .cust-product .prod-box .price {
+			text-align: center;
+		}
+	.our-product .prod-tp-content h2 {
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.dr-mukesh-sharda-sec .dr-img-left img {
+		display: none;
+	}
+	.dr-mukesh-sharda-sec {
+		padding-top: 50px;
+		background-color: #f7f7f7;
+	}
+	.dr-mukesh-sharda-sec .cust-dr {
+		width: calc(100% - 0px);
+		
+	}
+	.dr-mukesh-sharda-sec .cust-dr {
+		width: calc(100% - 0px);
+		margin: 0 auto;
+	}
+	.client-testimonial .client-test-title {
+		font-size: 24px;
+	}
+	.cl-test .cl-suedo {
+		font-size: 41px;
+		top: -5px;
+	}
+	.happy-world-sec .hw-content h2 {
+		font-size: 22px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.happy-world-sec .hw-content p {
+		font-size: 16px;
+	}
+	.pl-ayurvedic-treatment-sec .pl-tp-content p {
+		width: 94%;
+	}
+	.pl-ayurvedic-treatment-sec .cst-pl-row {
+		width: calc(100% - 0px);
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies {
+		margin-top: 40px;
+		flex-wrap: wrap;
+	}
+	.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box {
+		width: 49.33%;
+		margin-bottom: 20px;
+	}
+	.pl-ayurvedic-treatment-sec, .about-us-sec, .our-product, .client-testimonial {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.about-us-sec .tp-abt-content h2 {
+		font-size: 24px;
+	}
+	.about-us-sec .tp-abt-content p {
+		font-size: 16px;
+	}
+	.about-us-sec iframe {
+		width: calc(100% - 0px);
+	}
+	.about-us-sec .about-right-content p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.about-us-sec .about-right-content .btn-about {
+		text-align: center;
+	}
+	.about-right-content {
+		margin-top: 20px;
+	}
+	.about-us-sec .btn-about .btn-aboutus {
+		width: 159px;
+		height: 55px;
+		font-size: 16px;
+	}
+	.about-us-sec .tp-abt-content h2 {
+		font-size: 24px;
+		line-height: 35px;
+	}
+
+
+
+	.dsa-why-choose .cut-row, .latest-post-sec .lp-post {
+		margin-bottom: 20px;
+	}
+	.dsa-foo-sec .foo-social-icon {
+		justify-content: center;
+		width: calc(100% - 0px);
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+	.dsa-foo-sec .foo-address-box {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	nav.foo-navbar .navbar-nav {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.dsa-foo-sec .cp-right-row {
+		padding-bottom: 20px;
+	}
+	.dsa-foo-sec .cust-address {
+		padding-bottom: 0px;
+		width: calc(95% - 0px);
+	}
+
+}
+@media(max-width: 590px){
+	.dsa-banner-sec .dsa-content .dsa-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+}
+.dsa-banner-sec .dsa-content .dsa-title {
+	font-size: 18px;
+	line-height: 25px;
+}
+.dsa-banner-sec .dsa-content p {
+	font-size: 16px;
+	line-height: 19px;
+}
+.dsa-banner-sec .dsa-content .btn-banner .btn-appointment {
+	font-size: 12px;
+	width: 160px;
+	height: 42px;
+}
+}
+@media(max-width: 479px){
+	.dsa-why-choose h2 {
+		font-size: 22px;
+	}
+	.our-product .cust-product .prod-box {
+		width: calc(100% - 0px);
+		margin-bottom: 20px;
+	}
+	.dsa-india-ayurvedic-sec .cust-iba {
+		width: calc(100% - 0px);
+	}
+	.dsa-banner-sec .dsa-content .dsa-title {
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.dsa-banner-sec .dsa-content .dsa-sub-heading {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.dsa-banner-sec .dsa-content p {
+		font-size: 8px;
+		line-height: 19px;
+		margin-bottom: 0px;
+	}
+	.dsa-banner-sec .dsa-content .btn-banner .btn-appointment {
+		font-size: 11px;
+		width: 145px;
+		height: 33px;
+	}
+	.dsa-banner-sec .dsa-content .btn-banner {
+		margin-top: 4px;
+	}
+}
+
+
