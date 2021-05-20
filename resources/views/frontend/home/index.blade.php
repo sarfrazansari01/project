@@ -14,7 +14,7 @@
 <section class="dsa-banner-sec">
     <div class="container-fluid">
         <div class="row cust-dsa-banner">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="dsa-content">
                     <h3 class="dsa-sub-heading">India's Best</h3>
                     <h2 class="dsa-title">Ayurvedic Clinic for <br>Chronic Diseases</h2>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" >
                 <div class="right-img">
                     <img src="{{ URL::asset('front/images/mam.png') }}" class="doctor img-fluid" alt="Doctor">
                 </div>
@@ -36,27 +36,29 @@
 <section class="dsa-why-choose">
     <div class="container-fluid">
         <div class="row cut-row">
-            <div class="col-md-7">
-                <div class="left-img">
+            <div class="col-xl-7 col-md-12 mb-5 col-sm-12 mb-2">
+                <div class="left-img" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/why-choose.jpg') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
-            <div class="col-md-5">
-                <h2>Why Choose <b>Ayurveda</b></h2>
-                <p>THE WOUND IS THE PLACE WHERE THE LIGHT ENTERS YOU!<br>
-                    In this materialistic world AYURVEDA is new LIGHT although it is the oldest healing of science. In Sanskrit, Ayurveda means “THE SCIENCE OF LIFE.” Ayurvedic knowledge was originated more than 5000 years ago in India, and is called as “MOTHER OF HEALINGS.” Ayurveda works on three principles of energies i.e. VATA PITTA and KAPHA. Which are present in all human beings and works to control the various system of human anatomy and physiology.</p>
-                <ul>
-                    <li>VATA for MOVEMENTS</li>
-                    <li>PITTA for DIGESTION</li>
-                    <li>KAPHA for NOURISHMENT</li>
-                </ul>
-                <p>Ayurveda gives a holistic approach to treat and cure disease. In such circumstance Ayurveda plays an important role in ones’s life by:</p>
-                <ul>
-                    <li>HEALING</li>
-                    <li> DETOXIFYING</li>
-                    <li>REJUVENATING NEW CELLS</li>
-                </ul>
-                <p>Natural Plant, Animal and Mineral origin drugs administered to our body is accepted more than synthetic medicines and with minimum adverse effects.</p>
+            <div class="col-xl-5 col-md-12 col-sm-12 ">
+                <div class="adj-height">
+                    <h2>Why Choose <b>Ayurveda</b></h2>
+                    <p data-aos="fade-up" data-aos-duration="3000">THE WOUND IS THE PLACE WHERE THE LIGHT ENTERS YOU!</p>
+                    <p data-aos="fade-up" data-aos-duration="3000">In this materialistic world AYURVEDA is new LIGHT although it is the oldest healing of science. In Sanskrit, Ayurveda means “THE SCIENCE OF LIFE.” Ayurvedic knowledge was originated more than 5000 years ago in India, and is called as “MOTHER OF HEALINGS.” Ayurveda works on three principles of energies i.e. VATA PITTA and KAPHA. Which are present in all human beings and works to control the various system of human anatomy and physiology.</p>
+                    <ul data-aos="fade-up" data-aos-duration="3000">
+                        <li>VATA for MOVEMENTS</li>
+                        <li>PITTA for DIGESTION</li>
+                        <li>KAPHA for NOURISHMENT</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="3000">Ayurveda gives a holistic approach to treat and cure disease. In such circumstance Ayurveda plays an important role in ones’s life by:</p>
+                    <ul data-aos="fade-up" data-aos-duration="3000">
+                        <li>HEALING</li>
+                        <li> DETOXIFYING</li>
+                        <li>REJUVENATING NEW CELLS</li>
+                    </ul>
+                    <p data-aos="fade-up" data-aos-duration="3000">Natural Plant, Animal and Mineral origin drugs administered to our body is accepted more than synthetic medicines and with minimum adverse effects.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -66,29 +68,41 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h2>India's Best <b>Ayurvedic</b></h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000">India's Best <b>Ayurvedic</b></h2>
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box1">
-                    <div class="wht-space"></div>
-                    <h3>Asthma</h3>
-                    <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                    <div class="xd">
+                        <div class="cont">	
+                            <div class="wht-space"></div>
+                            <h3>Asthma</h3>
+                            <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box2">
-                    <div class="wht-space"></div>
-                    <h3>Rheumatoid Arthritis</h3>
-                    <p>Rheumatoid Arthritis is called as "AMAVATA" in Ayurveda. Ayurveda has the efficiency to treat Chronic Rheumatoid Arthritis (RA) at any stage of life.</p>
+                    <div class="xd">
+                        <div class="cont">
+                            <div class="wht-space"></div>
+                            <h3>Rheumatoid Arthritis</h3>
+                            <p>Rheumatoid Arthritis is called as "AMAVATA" in Ayurveda. Ayurveda has the efficiency to treat Chronic Rheumatoid Arthritis (RA) at any stage of life.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6 mt-2 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box3">
-                    <div class="wht-space"></div>
-                    <h3>Diabetes</h3>
-                    <p>Diabetes is called “MADHUMEHA” in Ayurveda. Weak Digestion of an Individual causes production of Sticky Toxin and passes that is “AMA” that gets added in the Pancreatic Cells and damages production of Insulin.</p>
+                    <div class="xd">
+                        <div class="cont">
+                            <div class="wht-space"></div>
+                            <h3>Diabetes</h3>
+                            <p>Diabetes is called “MADHUMEHA” in Ayurveda. Weak Digestion of an Individual causes production of Sticky Toxin and passes that is “AMA” that gets added in the Pancreatic Cells and damages production of Insulin.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,41 +118,41 @@
 <section class="pl-ayurvedic-treatment-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="pl-tp-content">
+            <div class="pl-tp-content" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Steps to Get Your <b>Personalised Ayurvedic</b> Treatment</h2>
                 <p>No two individuals are alike. Jiva Ayurveda follows “Ayunique”. It examines the patient and disease with an aim to diagnose the root cause and offer completely personalised treatment.</p>
             </div>
         </div>
         <div class="row cst-pl-row">
             <div class="cst-boxies">
-                <div class="treatment-box">
+                <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000" >
                     <img src="{{ URL::asset('front/images/icon11.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Reach us</h3>
                     <p>Call, Message <br> Or Chat</p>
                 </div>
 
 
-                <div class="treatment-box">
+                <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon12.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Appointment</h3>
                     <p>Book Appointment with <br>our Specialist</p>
                 </div>
 
 
-                <div class="treatment-box">
+                <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon13.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Nadi Parisksha</h3>
                     <p>To get Doshas analysed</p>
                 </div>
 
 
-                <div class="treatment-box">
+                <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon14.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Specialised</h3>
                     <p>Specialised Doctor <br>will assist you</p>
                 </div>
 
-                <div class="treatment-box">
+                <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon15.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Specialised</h3>
                     <p>Specialised Doctor <br>will assist you</p>
@@ -159,12 +173,12 @@
             </div>
         </div>
         <div class="row custum-row">
-            <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/w8UaP6U1H18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-xl-6 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+                <iframe width="620" height="450" src="https://www.youtube.com/embed/w8UaP6U1H18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6">
-                <div class="about-right-content">
-                    <p>DR. SHARDA AYURVEDA is renowned for the treatment of auto-immune diseases over the years in the world.</p>
+            <div class="col-xl-6 col-md-12">
+                <div class="about-right-content" data-aos="zoom-in" data-aos-duration="3000">
+                    <p><strong>DR. SHARDA AYURVEDA</strong> is renowned for the treatment of auto-immune diseases over the years in the world.</p>
                     <p>We have immerged as a leading centres in Punjab and have treated thousands of patients worldwide.</p>
                     <p>Our team of professional doctors aims to provide traditional and scientific research based effective treatment.</p>
                     <p>Our strong pillars are Care, Compassion and Commitment towards our patients.</p>
@@ -183,7 +197,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="hw-content">
+                <div class="hw-content" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/white-logo.png') }}" class="img-fluid wht-logo" alt="Company logo">
                     <h2>लोकाः समस्ताः सुखिनो भवन्तु</h2>
                     <p>Let The Entire World Be Happy</p>
@@ -195,12 +209,12 @@
 <section class="dr-mukesh-sharda-sec"> 
     <div class="container-fluid">
         <div class="row cust-dr">
-            <div class="col-md-4">
-                <div class="dr-img-left">
+            <div class="col-xl-4 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="dr-img-left" >
                     <img src="{{ URL::asset('front/images/Dr-Mukesh-Sharda.png') }}" class="img-fluid" alt="Dr Mukesh Sharda">
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-xl-8 col-md-12 mt-4 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
                 <p><b>Dr. Mukesh Sharda( BAMS, PhD)</b> is practicing Ayurveda for more than 12 years and in 2013 she started her chain of Clinics. Dr. Mukesh Sharda has been awarded by the Honourable Chief Minister of Punjab Respected Capt. Amrinder Singh as well as Honourable  Health Minister Mr. Brahm Mohindra and also from Honourable Central Health Minister Mr. J.P Nadda.</p>
                 <div class="sign-area">
                     <img src="{{ URL::asset('front/images/signature.png') }}" class="ceo-sign img-fluid" alt="CEO Sign" >
@@ -214,15 +228,15 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="prod-tp-content">
+                <div class="prod-tp-content" data-aos="zoom-in" data-aos-duration="3000">
                     <h2>Our <b>Products</b></h2>
                     <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
                 </div>
             </div>
         </div>
         <div class="row cust-product">
-            <div class="col-md-4">
-                <div class="prod-box">
+            <div class="col-xl-4 col-md-12 mb-4">
+                <div class="prod-box" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
                     <ul class="price">
                         <li class="brand-name">Dr.sharda </li>
@@ -240,8 +254,8 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="prod-box">
+            <div class="col-xl-4 col-md-12 mb-4">
+                <div class="prod-box" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
                     <ul class="price">
                         <li class="brand-name">Dr.sharda </li>
@@ -259,7 +273,7 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="prod-box">
                     <img src="{{ URL::asset('front/images/our-product.png') }}" class="img-fluid" alt="Product" >
                     <ul class="price">
@@ -280,7 +294,7 @@
         </div>
     </div>
 </section>
-<section class="client-testimonial">
+<section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000">
     <div class="container-fluid">
         <div class="row">
             <div class="cl-test">
@@ -331,7 +345,7 @@
 <section class="latest-post-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 mb-4">
                 <div class="lp-content">
                     <h2>Latest <b>Post</b></h2>
                     <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
@@ -339,7 +353,7 @@
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -349,7 +363,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -359,7 +373,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">

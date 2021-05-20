@@ -6,7 +6,7 @@ $routeName = \Route::currentRouteName();
 <section class="get-in-touch-sec">
     <div class="container-fluid">
         <div class="row custom-get">
-            <div class="col-md-6">
+            <div class=" col-xl-6 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <h2>Get in Touch</h2>
                 <p>Asthma Is Categorized As “shwas Rog” n Ayurveda. A Condition In Which APerson Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
                 <div class="email">
@@ -17,7 +17,7 @@ $routeName = \Route::currentRouteName();
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="get-form">
+                <div class="get-form" data-aos="zoom-in" data-aos-duration="3000">
                     <h3>Let’s Talk</h3>
                     <span class="error-form display-none">Failed !! please check required fields&#8230;.</span> <br/>
                     <span class="success-form display-none">Thank you for submitting your details, Our patient advisor will contact you soon.</span>

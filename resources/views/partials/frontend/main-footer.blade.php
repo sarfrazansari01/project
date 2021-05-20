@@ -1,15 +1,6 @@
 <footer class="dsa-foo-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="foo-social-icon">
-                    <a href="https://www.facebook.com/DrShardaAyurveda" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/shardaayurveda" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/c/DrShardaAyurveda" target="_blank"><i class="fa fa-youtube"></i></a>
-                    <a href="https://www.linkedin.com/company/dr-sharda-ayurveda" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/DrShardaAyurveda/" target="_blank"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -22,67 +13,66 @@
         <div class="row cust-address">
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <img src="{{ URL::asset('front/images/foo-vector.png') }}" class="cp-logo" alt="footer logo">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>				
                     <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <img src="{{ URL::asset('front/images/foo-vector.png') }}" class="cp-logo" alt="footer logo">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
                     <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <img src="{{ URL::asset('front/images/foo-vector.png') }}" class="cp-logo" alt="footer logo">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
                     <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <img src="{{ URL::asset('front/images/foo-vector.png') }}" class="cp-logo" alt="footer logo">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
                     <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar foo-navbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('services') }}">Our Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);">Treatment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);">Store</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);">Blog</a>
-                        </li>
-                    </ul>
-
-                </nav>
+            <div class="col-lg-12">
+                <div class="brd"></div>
             </div>
-        </div>
-        <div class="row cp-right-row">
-            <div class="col-md-12">
-                <p>Copyright  2021 Beauty Supply Outlet. All Rights Reserved</p>
+            <div class="col-md-6">
+                <p class="text-white">Copyright  2021 Beauty Supply Outlet. All Rights Reserved</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="listing">
+                    <li>
+                        <a href="/">Home <span class="sr-only">(current)</span></a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a  href="{{ route('about-us') }}">About Us</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="{{ route('services') }}">Our Services</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">Gallery</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">Treatment</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">Store</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">Blog</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 </footer>
 <script>
+    AOS.init();
     jQuery('#client-test').owlCarousel({
         loop: true,
         margin: 10,
@@ -94,15 +84,15 @@
             }
         }
     })
-    
-    jQuery(window).scroll(function() {
+
+    jQuery(window).scroll(function () {
         var scroll = jQuery(window).scrollTop();
         if (scroll >= 300) {
             jQuery(".navbar-menu").addClass("sticky_header");
-        }else {
+        } else {
             $(".navbar-menu").removeClass("sticky_header");
         }
-    }); 
+    });
 
     $(document).ready(function () {
         $(".mobile").keypress(function (e) {

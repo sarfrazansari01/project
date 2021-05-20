@@ -13,7 +13,7 @@
     <div class="logo-sec">
         <div class="container-fluid">
             <div class="row custom-logo-sec">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="zoom-in" data-aos-duration="3000">
                     <div class="tp-social-icon">
                         <a href="https://www.facebook.com/DrShardaAyurveda" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/shardaayurveda" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -22,13 +22,13 @@
                         <a href="https://www.instagram.com/DrShardaAyurveda/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="logo-img">
                         <a href="/"><img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="search-container">
+                    <div class="search-container" data-aos="zoom-out-down" data-aos-duration="3000">
                         <form action="/action_page.php">
                             <input type="text" placeholder="Search Products.." name="search">
                             <button type="submit"><i class="fa fa-search"></i></button>
