@@ -1,353 +1,100 @@
 <?php
 /**
- * Obesity Page 
+ * Services Page 
  * 
- * @created    16/04/2020
+ * @created    08/04/2020
  * @package    Dr Sharda Ayurveda
  * @copyright  Copyright (C) 2020
  * @license    Proprietary
  * @author     Mohit Thakur
  */
 ?>
-@extends('layouts.front')
+@extends('layouts.main')
 @section('content')
-<div class="btContentHolder">
-    <div class="btContent">
-        <div class="bt_bb_wrapper">
-            <section id="bt_section608a23b49d50d"  class="boldSection btDivider topSemiSpaced bottomSemiSpaced btDarkSkin gutter inherit wBackground cover" style="background-color:#0cb8b6;background-image:url('http://medicare.bold-themes.com/clinic/wp-content/uploads/sites/2/2015/12/bgn-grad.png');">
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft animate animate-fadein animate-moveleft inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                                <hr>
-                                            </div>
-                                            <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                                <hr>
-                                            </div>
-                                            <header class="header btClear large  " >
-                                                <div class="btSuperTitle">
-                                                    Are you tired of changing one diet after another without getting the results of weight loss 
-                                                    you want? Perhaps one needs more of holistic approach(AYURVEDA) for weight-loss in their life.
-                                                </div>
-                                            </header>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<section class="ser-banner-sec">
+    <div class="container-fluid">
+        <div class="row cust-ser-banner">
+            <div class="col-md-12" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="ser-content">
+                    <p>POWER TO HEAL</p>
+                    <h2 class="ser-title">ASTHMA</h2>
+                    <h3 class="ser-sub-heading">Breathing Healthy With Ayurveda</h3>
+                    <div class="page-breadcrumb"> 
+                        <ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> 
+                                <a itemprop="item" href="https://www.drshardaayurveda.com/">
+                                    <span itemprop="name">Home</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <li class="active anchor-dis-li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> 
+                                <a itemprop="item" href="https://www.drshardaayurveda.com/services/">
+                                    <span itemprop="name">Services</span>
+                                </a>
+                                <meta itemprop="position" content="2">
+                            </li>
+                            <li class="active anchor-dis-li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> 
+                                <a itemprop="item" href="https://www.drshardaayurveda.com/services/">
+                                    <span itemprop="name">Obesity</span>
+                                </a>
+                                <meta itemprop="position" content="3">
+                            </li>
+                        </ol>
                     </div>
                 </div>
-            </section>
-            <section id="bt_section608a23b49d7a7"  class="boldSection topSpaced gutter inherit" >
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein animate-moveright btMiddleVertical"  >
-                                        <div class="rowItemContent" >
-                                            <div class="bpgPhoto btTextCenter" >
-                                                <div class="btImage">
-                                                    <img src="{{ URL::asset('frontend/img/obesity.jpg') }}" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical btDoublePadding"  >
-                                        <div class="rowItemContent" >
-                                            <header class="header btClear medium  " >
-                                                <!--<div class="btSuperTitle">For your children</div>-->
-                                                <div class="dash">
-                                                    <h3><span class="headline">OBESITY</span></h3>
-                                                </div>
-                                            </header>
-                                            <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                                <hr>
-                                            </div>
-                                            <div class="btText" >
-                                                <div class="btText">
-                                                    <p>
-                                                        Ayurveda provides with a simple approach for weight-loss that is easy to follow, 
-                                                        attainable, and highly effective. Obesity is the most common disorder in the modern age.
-                                                        It is reflected by excess accumulation of fat in the body. Continuous indulgence in high 
-                                                        junk food, fried foods along with sedentary lifestyle results in excessive fat getting 
-                                                        accumulated in various body channels. Obesity in turn causes a number of metabolic disturbances 
-                                                        in body such as hypertension, diabetes, irregular digestion etc. It affects social life too. 
-                                                        Overweight, if not controlled timely leads to obesity.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="bt_section608a23b49edaf"  class="boldSection bottomSpaced gutter inherit" >
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical btDoublePadding"  >
-                                        <div class="rowItemContent" >
-                                            <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                                <hr>
-                                            </div>
-                                            <div class="btText" >
-                                                <div class="btText">
-                                                    <p>
-                                                        According to Ayurveda, being overweight involves excess of Kapha dosha in body. 
-                                                        Kapha and excess weight share many of the same qualities; they are both heavy, slow, 
-                                                        cool, oily, smooth, dense, soft, stable, and substantive.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="bt_section6090b1c3be1b1" class="boldSection bottomSpaced gutter inherit">
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  ">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12 btTextLeft animate animate-fadein inherit animated">
-                                        <div class="rowItemContent">
-                                            <header class="header btClear large  ">
-                                                <div class="btSuperTitle" style="color: #005C59;"><strong>CAUSES OF OBESITY</strong></div>
-                                            </header>
-                                            <div class="btClear btSeparator bottomSmallSpaced border">
-                                                <hr>
-                                            </div>
-                                            <div class="btTabs tabsVertical">
-                                                <div class="tabPanes accordionPanes">
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>EXCESSIVE EATING HABITS</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>EXCESSIVE EATING HABITS -</strong> One who is into binge eating always is at greater risk 
-                                                                of getting obese.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>Consuming one Rasa in meal</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>Consuming one Rasa in meal -</strong> E.g.- Sugar (Meetha)
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>DAY SLEEPING</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>DAY SLEEPING -</strong> One who sleeps more in day time than at night is on the verge of getting Obese.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>LACK OF EXERCISING</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>LACK OF EXERCISING -</strong> Missing out exercise and physical workout in life can make one obese.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>Some metabolic diseases</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>Some metabolic diseases -</strong> like Hypo-thyroid, Diabetes can make on obese.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rowItem col-md-12 col-ms-12 btTextLeft topSpaced animate animate-fadein inherit animated">
-                                        <div class="rowItemContent">
-                                            <header class="header btClear large  ">
-                                                <div class="btSuperTitle" style="color: #005C59;"><strong>SYMPTOMS OF OBESITY</strong></div>
-                                            </header>
-                                            <div class="btClear btSeparator bottomSmallSpaced border">
-                                                <hr>
-                                            </div>
-                                            <div class="btTabs tabsVertical">
-                                                <div class="tabPanes accordionPanes">
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>INCREASE IN BODY MASS INDEX (BMI)</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>INCREASE IN BODY MASS INDEX (BMI) -</strong>  Weight in Kilograms/ Square of height in metre.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>DYSONEA </span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>DYSONEA -</strong> Some people face problem in breathing due to Obesity.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tabPane">
-                                                        <div class="tabAccordionTitle"><span>Increase in Sugar</span></div>
-                                                        <div class="tabAccordionContent" style="display: none;">
-                                                            <p>
-                                                                <strong>Increase in Sugar -</strong> levels in Diabetes.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="bt_section608a23b49edaf"  class="boldSection bottomSpaced gutter inherit" >
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical btDoublePadding"  >
-                                        <div class="rowItemContent" >
-                                            <header class="header btClear large  ">
-                                                <div class="btSuperTitle" style="text-align: center; color: #005C59;"><strong>SUCCESS RATE OF TREATING OBESITY AT DR. SHARDA AYURVEDA, PUNJAB</strong></div>
-                                            </header>
-                                            <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                                <hr>
-                                            </div>
-                                            <div class="btText" >
-                                                <div class="btText">
-                                                    <p>
-                                                       In our all the clinics in Punjab, every disease is cured through only AYURVEDIC herbal medicines.
-                                                       Treatment is done with a combination of effective medicines. At DR. SHARDA AYURVEDA we have 
-                                                       experienced a very good success rate. Here in our clinics in Punjab we have cured more than 
-                                                       1500 patients with herbal ayurveda treatment.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="bt_section6090bac935117" class="boldSection bottomSpaced gutter inherit">
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  ">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12 btTextLeft animate animate-fadein animate-moveleft inherit animated">
-                                        <div class="rowItemContent">
-                                            <header class="header btClear large btDash topDash  btAccentDash">
-                                                <h2>
-                                                    <span class="headline" style="text-align: center; color: #005C59;">
-                                                        Get Free Consultation
-                                                    </span>
-                                                </h2>
-                                            </header>
-                                            <div class="btClear btSeparator bottomSemiSpaced noBorder">
-                                                <hr>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boldRow  ">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12 btTextLeft animate animate-fadein inherit animated">
-                                        <div class="rowItemContent">
-                                            <div class="btText">
-                                                <div role="form" class="wpcf7" id="wpcf7-f681-p298-o1" lang="en-US" dir="ltr">
-                                                    <form action="https://www.drshardaayurveda.com/submit_lp_page.php" method='POST' class="wpcf7-form init demo">
-                                                        <div style="display: none;">
-                                                            <input type="text" name="action" value="user_mail">
-                                                            <input type="text" name="lp_url" value="https://www.drshardaayurveda.com/">
-                                                            <input type="text" name="return_url" value="https://www.drshardaayurveda.com/thanks.html">
-                                                            <input type="text" name="page_url" value="http://dev.drshardaayurveda.com/obesity">
-                                                        </div>
-                                                         <div class="row">
-                                                            <div class="col">
-                                                                <p>
-                                                                    <!--Name <span class="required" style="color: red;">(*)</span><br>-->
-                                                                    <span class="wpcf7-form-control-wrap your-name">
-                                                                        <input type="text" name="name" placeholder="Name" size="40" class="wpcf7-form-control wpcf7-text" aria-required="true" aria-invalid="false">
-                                                                    </span> 
-                                                                </p>
-                                                            </div>
-                                                            <div class="col">
-                                                                <p>
-                                                                    <!--Email <span class="required" style="color: red;">(*)</span><br>-->
-                                                                    <span class="wpcf7-form-control-wrap your-email">
-                                                                        <input type="email" name="email" placeholder="Email" size="40" class="wpcf7-form-control wpcf7-text " aria-required="true" aria-invalid="false">
-                                                                    </span> 
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                         <div class="row">
-                                                            <div class="col">
-                                                                <p>
-                                                                     <!--<span class="required" style="color: red;">(*)</span><br>-->
-                                                                    <span class="wpcf7-form-control-wrap your-name">
-                                                                        <input type="text" name="mobile" placeholder="Phone"  size="40" class="wpcf7-form-control wpcf7-text" aria-required="true" aria-invalid="false">
-                                                                    </span> 
-                                                                </p>
-                                                            </div>
-                                                            <div class="col">
-                                                                <p>
-                                                                    <!--City <span class="required" style="color: red;">(*)</span><br>-->
-                                                                    <span class="wpcf7-form-control-wrap your-email">
-                                                                        <input type="text" name="city" placeholder="City"  size="40" class="wpcf7-form-control wpcf7-text " aria-required="true" aria-invalid="false">
-                                                                    </span> 
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                         <div class="row">
-                                                            <div class="col">
-                                                                <p>
-                                                                    <input type="submit" value="BOOK APPOINTMENT" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-                                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </div>
         </div>
     </div>
-</div>
+</section>
+<section class="ser-href">
+    <div class="container-fluid">
+        <div class="row cust-ser-href">
+            <div class="col-md-12" data-aos="zoom-in" data-aos-duration="3000">
+                <ul class="ser-href-listing">
+                    <li>
+                        <a href="#treatment">TREATMENT <span class="sr-only">(current)</span></a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a  href="#types">TYPES</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="#causes">CAUSES</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="#symptoms">SYMPTOMS</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="#advantages">ADVANTAGES</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="#testimonials">TESTIMONIALS</a><span class="ln">&#124;</span>
+                    </li>
+                    <li>
+                        <a href="#faqs">FAQ’S</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dsa-why-choose treatment">
+    <div class="container-fluid">
+        <div class="row cut-row">
+            <div class="col-xl-7 col-md-12 mb-5 col-sm-12 mb-2">
+                <div class="left-img" data-aos="zoom-in" data-aos-duration="3000">
+                    <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+                </div>
+            </div>
+            <div class="col-xl-5 col-md-12 col-sm-12 ">
+                <div class="adj-height">
+                    <h2>Asthma Ayurvedic <b>Treatment</b></h2>
+                    <p data-aos="fade-up" data-aos-duration="3000">In Ayurveda, Asthma is known as Thamaka Shvasa.</p>
+                    <p data-aos="fade-up" data-aos-duration="3000">Asthma is a chronic inflammatory disease which affects the airways. It is symbolized by episodes of frequent nasal allergies, difficulty in breathing and shortness of breath and wheezing mostly in early morning or at mid night  which might be due to respiratory origin In Asthma there is a spontaneous attack on patient in which one is unable to breath because of airway blockage. The severity of an attack may differ from one attack to the next, from person to person ,may be life threatening and could require immediate emergency medical attention.</p>
+                    <p data-aos="fade-up" data-aos-duration="3000">Asthma develops when a body is exposed to high cold temperatures, unhealthy air pollutants, environmental factors and taking high stress. All the impurities carried itself through the body’s channels to the chest and lungs area, where they irritate the lining of airways, also triggering an inflammatory response that harms the epithelial lining of the airways. Asthma treatment with Ayurveda has its guaranteed results. We never suggest any of our patients to go for Inhalers. We always treat naturally. Ayurvedic Medicine for Asthma has effective and amazing results. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @stop

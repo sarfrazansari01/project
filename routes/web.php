@@ -24,7 +24,7 @@ Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_
 Route::get('/services', [App\Http\Controllers\HomeController::class, 'services'])->name('services');
 //Endocrine
 Route::get('/endocrine', [App\Http\Controllers\HomeController::class, 'endocrine'])->name('endocrine');
-Route::get('/obesity', [App\Http\Controllers\HomeController::class, 'obesity'])->name('obesity');
+Route::get('/services/obesity', [App\Http\Controllers\HomeController::class, 'obesity'])->name('obesity');
 Route::get('/diabetes', [App\Http\Controllers\HomeController::class, 'diabetes'])->name('diabetes');
 Route::get('/thyroid', [App\Http\Controllers\HomeController::class, 'thyroid'])->name('thyroid');
 
