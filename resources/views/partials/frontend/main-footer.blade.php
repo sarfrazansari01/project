@@ -6,33 +6,32 @@
             <div class="col-md-12">
                 <div class="foo-logo">
                     <img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="footer logo">
-                    <p>Dr. Sharda Ayurveda is India's renown clinic <br>specialized in Ayurvedic Treatment for all Chronic Disorders.</p>
                 </div>
             </div>
         </div>
         <div class="row cust-address">
-            <div class="col-md-3">
+            <div class="col-md-3 caso">
                 <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>				
-                    <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>				
+                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                </div>
+            </div>
+            <div class="col-md-3 caso">
+                <div class="foo-address-box">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                </div>
+            </div>
+            <div class="col-md-3 caso">
+                <div class="foo-address-box">
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
-                    <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
-                    <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp;Ludhiana(Head Office)</p>	
-                    <p>Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
                 </div>
             </div>
         </div>
@@ -41,7 +40,7 @@
                 <div class="brd"></div>
             </div>
             <div class="col-md-6">
-                <p class="text-white">Copyright  2021 Beauty Supply Outlet. All Rights Reserved</p>
+                <p class="text-white copy">Copyright  2021 Beauty Supply Outlet. All Rights Reserved</p>
             </div>
             <div class="col-md-6">
                 <ul class="listing">

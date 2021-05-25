@@ -298,7 +298,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="cl-test">
-                <span class="cl-suedo">Testimonials</span>
+                    <!-- <span class="cl-suedo">Testimonials</span> -->
                 <h2 class="client-test-title">Client <b>Testimonial</b></h2>
             </div>
         </div>
@@ -308,6 +308,8 @@
                     <div class="item">
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <h3 class="usrname">ALEX MARTIN</h3>
+                            <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
                                     <span class="fa fa-star checked"></span>
@@ -317,13 +319,21 @@
                                     <span class="fa fa-star checked"></span>
                                 </li>
                             </ul>
-                            <h3>It was a Great Experience!</h3>
-                            <p>I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.</p>
+                            <p>
+                                <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of 
+                                getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started
+                                with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering 
+                                A big Thanks to Dr. Sharda Ayurveda.
+                                <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                            </p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <h3 class="usrname">ALEX MARTIN</h3>
+                            <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
                                     <span class="fa fa-star checked"></span>
@@ -333,8 +343,14 @@
                                     <span class="fa fa-star checked"></span>
                                 </li>
                             </ul>
-                            <h3>It was a Great Experience!</h3>
-                            <p>I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.</p>
+                            <p>
+                                <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I 
+                                was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their 
+                                Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started 
+                                decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.
+                                <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -345,7 +361,7 @@
 <section class="latest-post-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 mb-4">
+            <div class="col-xl-12 col-md-12 mb-4">
                 <div class="lp-content">
                     <h2>Latest <b>Post</b></h2>
                     <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>

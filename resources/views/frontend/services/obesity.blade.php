@@ -28,16 +28,10 @@
                                 <meta itemprop="position" content="1">
                             </li>
                             <li class="active anchor-dis-li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> 
-                                <a itemprop="item" href="https://www.drshardaayurveda.com/services/">
-                                    <span itemprop="name">Services</span>
+                                <a itemprop="item" href="https://www.drshardaayurveda.com/asthma/">
+                                    <span itemprop="name">ASTHMA</span>
                                 </a>
                                 <meta itemprop="position" content="2">
-                            </li>
-                            <li class="active anchor-dis-li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> 
-                                <a itemprop="item" href="https://www.drshardaayurveda.com/services/">
-                                    <span itemprop="name">Obesity</span>
-                                </a>
-                                <meta itemprop="position" content="3">
                             </li>
                         </ol>
                     </div>
@@ -91,7 +85,17 @@
                     <h2 data-aos="flip-left" data-aos-duration="3000">Asthma Ayurvedic <b>Treatment</b></h2>
                     <p data-aos="fade-up" data-aos-duration="3000">In Ayurveda, Asthma is known as Thamaka Shvasa.</p>
                     <p data-aos="fade-up" data-aos-duration="3000">Asthma is a chronic inflammatory disease which affects the airways. It is symbolized by episodes of frequent nasal allergies, difficulty in breathing and shortness of breath and wheezing mostly in early morning or at mid night  which might be due to respiratory origin In Asthma there is a spontaneous attack on patient in which one is unable to breath because of airway blockage. The severity of an attack may differ from one attack to the next, from person to person ,may be life threatening and could require immediate emergency medical attention.</p>
-                    <p data-aos="fade-up" data-aos-duration="3000">Asthma develops when a body is exposed to high cold temperatures, unhealthy air pollutants, environmental factors and taking high stress. All the impurities carried itself through the body’s channels to the chest and lungs area, where they irritate the lining of airways, also triggering an inflammatory response that harms the epithelial lining of the airways. Asthma treatment with Ayurveda has its guaranteed results. We never suggest any of our patients to go for Inhalers. We always treat naturally. Ayurvedic Medicine for Asthma has effective and amazing results. </p>
+                    <p data-aos="fade-up" data-aos-duration="3000">
+                        Asthma develops when a body is exposed to high cold temperatures, unhealthy air pollutants, environmental 
+                        factors and taking high stress. All the impurities carried itself through the body’s channels to the chest 
+                        and lungs area, where they irritate the lining of airways, also triggering an inflammatory response that harms
+                        the epithelial lining of the airways. Asthma treatment with Ayurveda has its guaranteed results. We never suggest 
+                        any of our patients to go for Inhalers. We always treat naturally. Ayurvedic Medicine for Asthma has effective and 
+                        amazing results. 
+                    </p>
+                    <div class="btn-ayurvedic">
+                        <a href="#appointmentModal" class="btn-appointment">BOOK an APPOINTMENT</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,11 +166,30 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="btn-ayurvedic">
-                    <a href="#" class="btn-appointment">Find More Treatment</a>
-                </div>
+    </div>
+</section>
+
+<section class="ser-href appointment">
+    <div class="container-fluid">
+        <div class="row cust-appointment">
+            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="3000">
+                <h3 class="appointment-title">Get a free Assessment Report</h3>
+            </div>
+            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="3000">
+                <a type="button" href="#appointmentModal" class="btn-appointment">BOOK an APPOINTMENT</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ser-href symptoms" id="symptoms">
+    <div class="container-fluid">
+        <div class="row symptoms-img">
+            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+            </div>
+            <div class="col-md-6" data-aos="zoom-in" data-aos-duration="3000">
+                <h2><strong>Symptoms</strong> Of Asthma</h2>
             </div>
         </div>
     </div>

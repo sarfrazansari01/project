@@ -541,15 +541,15 @@
     text-align: center;
 }
 
-.pl-ayurvedic-treatment-sec .pl-tp-content p{
-    font-size: 18px;
-    line-height: 35px;
+.pl-ayurvedic-treatment-sec .pl-tp-content p {
+    font-size: 16px;
+    line-height: 29px;
     color: #201d1d;
     font-weight: 300;
     font-family: "Poppins";
     text-align: center;
     width: 61%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 .pl-ayurvedic-treatment-sec .cst-pl-row {
     width: calc(90% - 0px);
@@ -611,7 +611,7 @@
     text-align: center;
 }
 .about-us-sec .tp-abt-content p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 35px;
     color: #201d1d;
     font-weight: 300;
@@ -726,7 +726,7 @@
     text-align: center;
 }
 .our-product .prod-tp-content p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 35px;
     color: #201d1d;
     font-weight: 300;
@@ -902,13 +902,12 @@
     margin-top: 40px;
 }
 #client-test .owl-dot {
-    background: #ddd ;
-    padding: 10px !important;
+    background: #d4992559;
     margin-right: 4px;
-    border-radius: 50%;
+    padding: 1px 25px!important;
 }
 #client-test .owl-dot.active {
-    background: #2a110c;	
+    background: #d49925;
 }
 
 /*Latest post section style here*/
@@ -965,7 +964,7 @@
     font-family: "Poppins";
 }
 .latest-post-sec .lp-post .post-content p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #ffffff;
     font-weight: 300;
@@ -979,6 +978,14 @@
     font-family: "Poppins";
     text-decoration: none;
     cursor: pointer;
+}
+.fa-quote-left {
+    color: #d49925;
+    font-size: 40px;
+}
+.fa-quote-right {
+    color: #d49925;
+    font-size: 40px;
 }
 .latest-post-sec .lp-post .post-content .ptn-post:hover {
     color: #fff;
@@ -1098,14 +1105,36 @@
     color: #fff;
 }
 
-.fa-map-marker{color: #d49925;
-               font-size: 25px;}
+.fa-map-marker {
+    color: #d49925;
+    font-size: 21px!important;
+    position: relative;
+    right: 6px;
+}
+
+.csr {
+    position: relative;
+    left: 9px;
+}
+
+.caso::after {
+    content: "";
+    position: absolute;
+    width: 0.3px;
+    height: 132px;
+    background-color: #f3f3f3!important;
+    top: 19px;
+    bottom: 4px;
+    left: 253px;
+    right: 0px;
+    opacity: 0.1;
+}
 
 
 .listing li a {
     color: #fff;
     padding: 8px 11px;
-    font-size: 17px;
+    font-size: 13px;
     text-decoration:none;
 }
 
@@ -1116,6 +1145,7 @@
 .listing li {
     list-style: none;
     display: inline-block;
+    font-size:13px;
 }
 
 .get-in-touch-sec .get-form #story {
@@ -1149,7 +1179,9 @@
     border: 1px solid #244236;
 }
 
-
+.copy {
+    font-size: 13px;
+}
 
 
 /*Footer content style here*/
@@ -1223,7 +1255,7 @@ header .navbar-nav .nav-item .nav-link:hover {
     text-align: center;
 }
 .dsa-foo-sec .foo-address-box p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 33px;
     color: #ffffff;
     font-weight: 300;
@@ -1532,7 +1564,9 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: calc(100% - 0px);
         margin: 0 auto;
     }
-
+    .caso::after{
+        background-color: transparent!important;
+    }
 
     .xd:hover {
         background-image: linear-gradient( 
@@ -1762,6 +1796,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         line-height: 35px;
     }
 
+
+
     .dsa-why-choose .cut-row, .latest-post-sec .lp-post {
         margin-bottom: 20px;
     }
@@ -1786,6 +1822,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         padding-bottom: 0px;
         width: calc(95% - 0px);
     }
+
 }
 
 @media(max-width: 768px){
@@ -1800,6 +1837,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .latest-post-sec .lp-post{
         border-radius: 0px;
     }
+
+
 }
 
 
@@ -1863,9 +1902,13 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: calc(100% - 0px);
     }
 
+    iframe {
+        height: 250px;
+    }
     .get-in-touch-sec .get-form{
         padding: 15px;
     }
+
 }
 
 @media screen and (max-width:320px){
@@ -1923,26 +1966,26 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 }
 
 .ser-banner-sec .ser-content p:before {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #FFF;
-  left: 410px;
-  position: absolute;
-  top: 19%;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #FFF;
+    left: 410px;
+    position: absolute;
+    top: 19%;
 }
 
 .ser-banner-sec .ser-content p:after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #FFF;
-  right: 0;
-  position: absolute;
-  right: 410px;
-  top: 19%;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #FFF;
+    right: 0;
+    position: absolute;
+    right: 410px;
+    top: 19%;
 }
 
 .page-breadcrumb .breadcrumb {
@@ -2017,4 +2060,68 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 .types .cust-iba .iba-box h3 {
     color: #333;
 }
+
+.btn-ayurvedic .btn-appointment {
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e4a732;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #e4a732;
+    width: 300px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.dsa-india-ayurvedic-sec .btn-ayurvedic {
+    text-align: center;
+    margin-top: 50px;
+}
+.appointment{
+    background: #e4a732;
+}
+
+.appointment-title{
+    color: #fff;
+    text-align: right;
+    /*text-transform: uppercase;*/
+    margin-top: 2%;
+}
+.appointment .btn-appointment{
+    text-align: left;
+    border: 1px solid #fff;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 2%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e4a732;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+}
+.ser-href .cust-appointment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.symptoms{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.symptoms h2{
+    color: #244236;
+}
+
 /* End CSS Added By Mohit*/
