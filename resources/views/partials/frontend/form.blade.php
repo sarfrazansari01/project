@@ -7,9 +7,17 @@ $routeName = \Route::currentRouteName();
     <div class="container-fluid">
         <div class="row custom-get">
             <div class=" col-xl-6 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
-                <h2>Get in Touch</h2>
-                <p>Asthma Is Categorized As “shwas Rog” n Ayurveda. A Condition In Which APerson Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
-                <div class="email">
+                <h2 class="mb-4">Get in Touch</h2>
+                <div class="phone-consult">
+                    <span><a href="tel:+919876035500" class="consult-ico"><img src="{{ URL::asset('front/images/6.png') }}"></span>Phone Consultation</a>
+                </div>
+                <div class="phone-consult">
+                    <span> <a href="tel:+919876035500" class="consult-ico"><img src="{{ URL::asset('front/images/7.png') }}"></span>Video Consultation</a>
+                </div>
+                <div class="phone-consult">
+                    <span><a href="tel:+919876035500" class="consult-ico"><img src="{{ URL::asset('front/images/8.png') }}"></span>Clinic Consultation</a>
+                </div>
+                <div class="email crsem">
                     <a href="#" class="email-icon"><i class="fa fa-envelope" aria-hidden="true"></i> dr.shardaayurveda@gmail.com</a>
                 </div>
                 <div class="phone">

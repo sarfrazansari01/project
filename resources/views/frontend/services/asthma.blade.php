@@ -207,59 +207,53 @@
         <div class="row">
             <div class="col-lg-2">
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-12">
                 <p class="acc">Get a <strong>free Assessment</strong> Report</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-12">
                 <div class="apn">
                     <a href="#" >BOOK AN APPOINTMENT</a>
                 </div>
             </div>
             <div class="col-lg-2"></div>
-
             <div class="col-lg-2"></div>
-
             <div class="col-lg-2"></div>
         </div>
     </div>
 </div>
 
-
-
-<div class="container-fluid pt-5 mt-5 pb-3 mb-4" data-aos="zoom-in" data-aos-duration="3000">
-    <div class="row">
-        <div class="float-xl-left costa">
-            <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class="ima">
-        </div>
-        <div class="float-xl-right ml-5 sym">
-            <h3><span>Symptoms</span> of Asthma</h3>
-            <p class="sub"><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Shortness of Breath</p>
-            <p>On feels problem in breathing as normal breathing process hinders.</p>
-            <br>
-            <p class="sub"><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Pain And Tightness in Chest</p>
-            <p>Tightness and pain in chest takes their place in body one being affected by Asthma</p>
-            <br>
-            <p class="sub"><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Whistling Sound While Breathing</p>
-            <p>Some Whistling sounds automatically occurs one Who is prone to Asthma</p>
-            <br>
-            <p class="sub"><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Chest Pain</p>
-            <p>A patient also feels pain in Chest when it severe Asthma attack</p>
-            <br>
-            <p class="sub"><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Thick Mucus Sputum</p>
-            <p>In Asthma consistency of sputum (saliva) gets thick</p>
-        </div>
+<div class="wrp pt-5 mt-5 pb-5" >
+    <div class="kmoz" >
+        <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
+    </div>
+    <div class="cvn sym" >
+        <h3><span>Symptoms</span> of Asthma</h3>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Shortness of Breath</p>
+        <p>On feels problem in breathing as normal breathing process hinders.</p>
+        <br>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Pain And Tightness in Chest</p>
+        <p>Tightness and pain in chest takes their place in body one being affected by Asthma</p>
+        <br>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Whistling Sound While Breathing</p>
+        <p>Some Whistling sounds automatically occurs one Who is prone to Asthma</p>
+        <br>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Chest Pain</p>
+        <p>A patient also feels pain in Chest when it severe Asthma attack</p>
+        <br>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Thick Mucus Sputum</p>
+        <p>In Asthma consistency of sputum (saliva) gets thick</p>
     </div>
 </div>
-
 <div class="split"></div>
+<br>
 <div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000">
     <div class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Asthma</h3>
-        <p><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Effective Ayurvedic Medicines help in get rid of inhaler</p>
-        <p><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Ayurvedic treatment helps in recovering through Breathing Exercises.</p>
-        <p><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Ayurvedic treatment helps i recovering through dietary and Lifestyle changes</p>
-        <p><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Ayurvedic Medicines has no adverse side effects on health.</p>
-        <p><i class="fa fa-arrow-right aft" aria-hidden="true"></i>Ayurveda reduces future Health risks.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Effective Ayurvedic Medicines help in get rid of inhaler</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment helps in recovering through Breathing Exercises.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment helps i recovering through dietary and Lifestyle changes</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic Medicines has no adverse side effects on health.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda reduces future Health risks.</p>
     </div>
     <div class="moz" style="background-color:#244236">
         <iframe width="51%" height="315" src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -344,186 +338,182 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-6">
-            <div class="container">
-                <div id="accordion">
-                    <div class="card">
-                        <div class="card-header" id="headingOne" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               <i class="fa" aria-hidden="true"></i>
-                                    Can One Opt For Ayurvedic Treatment For Asthma? 
-                                </button>
-                            </h5>
-                        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               <i class="fa" aria-hidden="true"></i>
+                                Can One Opt For Ayurvedic Treatment For Asthma? 
+                            </button>
+                        </h5>
+                    </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
                                 Ayurveda is an ancient form of medicine that began in india. 
                                 It uses all the healthy nutritious herbs to formulate medicines. Ayurveda transforms an individual completely. 
                                 Ayurveda cures a patient naturally with least side-effects. It Causes on restoration of airway passage which is 
                                 the major cause of Asthma. Choose best Ayurvedic Doctor in India Dr. Mukesh Sharda and get relieve from Asthma.  
-                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Can Ayurveda Permanentely Cure Asthma ?
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa" aria-hidden="true"></i>
+                                Can Ayurveda Permanentely Cure Asthma ?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon 
                                 officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon 
                                 tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh 
                                 helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
                                 Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them 
                                 accusamus labore sustainable VHS.
-                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Which All Fruits Cannot be Taken i Asthma? 
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa" aria-hidden="true"></i>
+                                Which All Fruits Cannot be Taken i Asthma? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon 
                                 officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
                                 moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim 
                                 keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
                                 vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
                                 of them accusamus labore sustainable VHS.
-                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    How to remove mucus from lungs at home? 
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                            <div class="card-body">
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fa" aria-hidden="true"></i>
+                                How to remove mucus from lungs at home? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
                                 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 
                                 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
                                 keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
                                 lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
                                 accusamus labore sustainable VHS.
-                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFive" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Can Asthma damage lungs? 
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                            <div class="card-body">
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <i class="fa" aria-hidden="true"></i>
+                                Can Asthma damage lungs? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
                                 non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua 
                                 put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer 
                                 labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
                                 beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable 
                                 VHS.
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="container">
-                <div id="accordion">
-                    <div class="card">
-                        <div class="card-header" id="headingSix" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Can Ayurveda Permanently Cure Asthma? 
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+        <div class="col-lg-6 col-sm-12">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingSix" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <i class="fa" aria-hidden="true"></i>
+                                Can Ayurveda Permanently Cure Asthma? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSeven" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Which All Fruits Cannot Be Taken in Asthma? 
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSeven" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <i class="fa" aria-hidden="true"></i>
+                                Which All Fruits Cannot Be Taken in Asthma? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingEight" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    How to remove mucus from lungs at home?
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingEight" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <i class="fa" aria-hidden="true"></i>
+                                How to remove mucus from lungs at home?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingNine" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    Can Asthma damage lungs ?
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingNine" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                <i class="fa" aria-hidden="true"></i>
+                                Can Asthma damage lungs ?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTen" style="background-color:transparent;">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                    <i class="fa" aria-hidden="true"></i>
-                                    How to remove mucus from lungs at home?
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTen" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                <i class="fa" aria-hidden="true"></i>
+                                How to remove mucus from lungs at home?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
                 </div>
@@ -531,6 +521,50 @@
         </div>
     </div>
 </div>
+<section class="latest-post-sec">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 mb-4">
+                <div class="lp-content">
+                    <h2>Latest <b>Post</b></h2>
+                    <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
+                </div>
+            </div>
+        </div>
+        <div class="row custom-lp">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="lp-post">
+                    <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
+                    <div class="post-content">
+                        <h3>Your Medical Records are safe</h3>
+                        <p>Asthma Is Categorized As “shwas Rog” In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <a href="#" class="ptn-post">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 @include('../partials/frontend/form')
 @stop

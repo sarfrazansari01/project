@@ -7,6 +7,10 @@
     padding: 15px;
     text-align: center;
 }
+
+
+
+
 .top-bar-sec p{
     font-size: 16px;
     line-height: 14px;
@@ -173,6 +177,20 @@ small:after {
     position: relative;
     outline: none;
 }
+
+.ima {
+    height: 457px;
+    object-fit: cover;
+}
+
+.cvn p {
+    padding-left: 28px;
+}
+
+.sym h3 {
+    margin-bottom: 15px;
+}
+
 .logo-sec .custom-logo-sec .search-container button {
     font-size: 18px;
     cursor: pointer;
@@ -195,6 +213,53 @@ small:after {
 .navbar-menu .phone-btn:hover {
     background-color: #234537;
 }
+
+
+.nvi {
+    width: 28%;
+    float: left;
+    margin: 8px;
+}
+
+.nvi img {
+    width: 100%;
+    height: 92px;
+    object-fit: contain;
+}
+
+.mbtn {
+    text-align: end;
+}
+
+.mob-nav .tp-social-icon a {
+    font-size: 21px;
+    padding: 0px 7px;
+    color: #234336;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.mob-nav .tp-social-icon {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nvi .fa-search {
+    position: relative;
+    /*left: 44px;*/
+    top: 14px;
+}
+.nvi button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;}
+
 
 .navbar-menu .phone-btn {
     display: flex;
@@ -401,7 +466,7 @@ small:after {
 
 
 .dsa-banner-sec2 {
-    background-image: url(../images/service-header.webp);
+    background-image: url(../images/ban.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -865,6 +930,64 @@ small:after {
     font-weight: 600;
     font-family: "Poppins";
 }
+
+.phone-consult img {
+    position: relative;
+    bottom: 11px;
+    width: 40px;
+    padding: 2px;
+    left: -2px;
+}
+
+.phone-consult {
+    margin-bottom: 41px;
+}
+
+.sub img {
+    width: 18px;
+    margin-left: -25px;
+    margin-right: 5px;
+}
+
+
+.im3 img {
+    width: 18px;
+    margin-left: -28px;
+    margin-right: 13px;
+}
+
+
+.consult-ico{ font-size: 20px;
+              line-height: 33px;
+              color: #244236;
+              font-weight: 500;
+              font-family: "Poppins";
+}
+
+
+
+.consult-ico:hover{
+    color: #244236;
+}
+
+
+.crsem {
+    margin-top: -42px;
+}
+
+.phone-consult span{
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 14px;
+    margin-right: 10px;
+    position: relative;
+    top: 13px;
+}
+
 .our-product .cust-product .prod-box .price .rate {
     font-size: 30px;
     line-height: 35px;
@@ -1236,11 +1359,12 @@ small:after {
     transition: all 0.5s ease;
     text-decoration: none;
     border: 1px solid #e4a732;
-    width: 300px;
+    max-width: 300px;
     height: 64px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding:8px 10px;
 }
 
 
@@ -1274,6 +1398,13 @@ small:after {
     margin-right: 4px;
 }
 
+
+.kmoz{float: left;
+      width: 51%;
+      height: 396px;}
+
+
+
 /*.costa iframe {
     width: 809px;
     height: 419px;
@@ -1282,7 +1413,7 @@ small:after {
 .wrp .moz {
     float: right;
     width: 51%;
-    height:396px;
+    height:421px;
 }
 
 
@@ -1325,8 +1456,12 @@ button.btn.btn-link.collapsed:hover {
 }
 
 #accordion .fa {
-    font-size: 28px;
+    font-size: 31px;
     color: #eeb03f;
+    border: 1px solid;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
 }
 
 
@@ -1342,20 +1477,43 @@ button.btn.btn-link.collapsed:hover {
 }
 
 [data-toggle="collapse"] .fa:before {  
-    content: "\f139";
+    content: "\f107"!important;
 }
 
 [data-toggle="collapse"].collapsed .fa:before {
-    content: "\f13a";
+    content: "\f106";
 }
 
+
+[data-toggle="collapse"] .fa:before {  
+    content: "\f107";
+
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+
+    content: "\f106"!important;
+}
+
+#accordion .card-body:before {
+    content: "";
+    position: absolute!important;
+    width: 2px!important;
+    height: 155px!important;
+    background-color: #eeb03f!important;
+    left: 44px!important;
+}
+#accordion .card-body {
+    position: relative!important;
+    padding-left: 77px!important;
+}
 .wrp .mz {
     padding: 41px;
 }
 
 .moz iframe {
     width: 100%;
-    height: 396px;
+    height: 421px;
     opacity: 0.4;
 }
 
@@ -1389,12 +1547,19 @@ button.btn.btn-link.collapsed:hover {
 .flx .mx {
     width: 100%;
 }
+.cvn {
+    width: 49%;
+    float: left;
+    padding-left: 44px;
+}
+
 .flx {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.mob-nav{display: none;}
 .sym h3 {
     font-size: 38px;
     color: #244236;
@@ -1490,6 +1655,15 @@ button.btn.btn-link.collapsed:hover {
 .serlisting {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
 
 .listing li a {
     color: #fff;
@@ -1669,6 +1843,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-size: 50px;
         line-height: 74px;
     }
+    .mob-nav{display:none;}
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
         height: 195px;
     }
@@ -1834,6 +2009,29 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-size: 30px;
         line-height: 45px;
     }
+    .mob-nav {
+        display: block;
+
+    }
+    header{display: none!important;}
+    .wrp .mz {
+        width: 100%;}
+
+    .wrp .moz {
+
+        width: 100%;}
+
+    .ima {
+        height: auto;}
+    .kmoz {
+        float:none;
+        width: 100%;
+        height: auto;
+    }
+
+    .cvn {
+        width: 100%;}
+
     .navbar-light .navbar-toggler {
         color: #fff !important;
         border-color: #fff !important;
@@ -2209,6 +2407,19 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-size: 18px;
         line-height: 25px;
     }
+
+    .serlisting li a{padding: 6px 6px;
+                     font-size: 13px;}
+
+    .serlisting .ln{font-size:13px;}
+    .sym h3{margin-top:15px;}
+    .sym h3 {
+        font-size: 28px;}
+
+
+
+
+    .acc{text-align: center;}
     .dsa-banner-sec .dsa-content .dsa-title {
         font-size: 18px;
         line-height: 25px;
@@ -2265,6 +2476,22 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: calc(100% - 0px);
     }
 
+
+    #accordion button.btn.btn-link.collapsed{padding:9px;
+                                             border-radius: 0px;
+                                             border-bottom:1px solid #ccc;
+    }
+
+    .cvn{padding-left:11px;}
+    .mz h3 {
+        font-size: 31px;}
+    .moz iframe{height:auto;}
+    .wrp .moz{height:auto; margin-top:10px;}
+
+    .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
+        padding: 3px;
+    }
+
     iframe {
         height: 250px;
     }
@@ -2281,20 +2508,32 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .get-in-touch-sec .custom-get .email {
         max-width:320px!important;
     }
-}
 
+    .ser-heading {
+        font-size: 40px;}
+
+    .service p {
+        font-size: 32px;}
+
+
+
+
+    .crd a{max-width:300px; padding:5px;}
+}
 
 
 @media(min-width: 1920px){
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
         padding: 30px;
     }
-
+    .mob-nav{display:none;}
 
     .pl-tp-content{margin:auto;}
-    .moz iframe{height: 369px;}
-    .wrp .moz{height: 369px;}
+    .moz iframe{height: 371px;}
+    .wrp .moz{height: 371px; margin-bottom:20px;}
 }
+
+
 
 /* CSS Added By Mohit*/
 .ser-banner-sec {
