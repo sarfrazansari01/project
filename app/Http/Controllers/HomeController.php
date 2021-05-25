@@ -100,6 +100,16 @@ class HomeController extends Controller
         return view('frontend/services/obesity');
     }
     /**
+     * Show the application asthma page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function asthma()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/asthma');
+    }
+    /**
      * Show the application diabetes page.
      *
      * @return \Illuminate\Contracts\Support\Renderable

@@ -61,6 +61,7 @@
                                         Our Services
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a>
                                         <a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a>
                                         <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
                                         <a class="dropdown-item" href="{{ route('ibs') }}">IBS</a>

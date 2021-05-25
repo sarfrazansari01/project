@@ -1,6 +1,6 @@
 <?php
 /**
- * Services Page 
+ * Asthma Services Page 
  * 
  * @created    08/04/2020
  * @package    Dr Sharda Ayurveda
@@ -530,6 +530,7 @@
             </div>
         </div>
     </div>
+</div>
 
-</div> 
+@include('../partials/frontend/form')
 @stop

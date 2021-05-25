@@ -33,6 +33,89 @@
     border-radius: 0px 50px 0px 50px;
 }
 
+.bread li a{color:#fff; text-decoration: none;}
+
+.bread li {
+    display: inline-block;
+    padding: 2px 5px;
+    color:#fff;
+}
+.bread {
+    list-style: none;
+}
+.breadcrumb-item.active {
+    color: #ccc!important;
+    font-weight: 100;
+}
+
+.service p {
+    font-size: 37px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+
+.ser-heading {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+
+
+small:before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 1px;
+    background-color: #fff;
+    top: 11px;
+    margin-left: -27px;
+    opacity: 0.4;
+}
+small:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 19px;
+    background-color: #fff;
+    top: 12px;
+    margin-left: 12px;
+    opacity: 0.4;
+}
+
+.service small {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    position: relative;
+}
+
+
+
+/*slick slider start//////*/
+
+
+
+
+
+
+/*slick slider end///////*/
+
+
+
+
+
+.service {
+    padding-top: 68px;
+    padding-bottom: 50px;
+}
+
+
+.service{text-align: center;}
+
 
 .top-bar-sec .cust-new{
     width: calc(90% - 0px);
@@ -314,6 +397,17 @@
     background-position: center;
     padding-top: 50px;
 }
+
+
+
+.dsa-banner-sec2 {
+    background-image: url(../images/service-header.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 50px;
+}
+
 .dsa-banner-sec .cust-dsa-banner {
     width: calc(92% - 0px);
     margin: 0 auto;
@@ -1131,6 +1225,272 @@
 }
 
 
+.crd a {
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e4a732;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    border: 1px solid #e4a732;
+    width: 300px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cses li {
+    color: #666;
+    line-height: 62px;
+    font-weight: 500;
+}
+
+.cses ul li{list-style: none;}
+
+.causes {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.sym span {
+    font-weight: 500;
+}
+
+.sub {
+    font-family: 'Poppins';
+    margin-bottom: 1px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #234537;
+}
+
+.aft {
+    margin-left: -20px;
+    margin-right: 4px;
+}
+
+/*.costa iframe {
+    width: 809px;
+    height: 419px;
+}*/
+
+.wrp .moz {
+    float: right;
+    width: 51%;
+    height:396px;
+}
+
+
+#accordion  .card-header{
+    border-bottom: 0px solid rgba(0,0,0,.125)!important;
+}
+
+button.btn.btn-link:focus-visible {
+    outline: none!important;
+}
+
+button.btn.btn-link:focus {
+    border: 0px solid!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+#accordion .card
+{
+    border: 0px solid transparent!important;
+
+}
+
+button.btn.btn-link:hover {
+    text-decoration: none!important;
+}
+
+button.btn.btn-link.collapsed:hover {
+    text-decoration: none!important;
+}
+
+
+
+
+.btn-link {   
+    color: #212529!important;
+    text-decoration: none;
+    font-family: 'Poppins'!important;
+    font-size: 16px!important;
+}
+
+#accordion .fa {
+    font-size: 28px;
+    color: #eeb03f;
+}
+
+
+
+.provider img{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 14px;
+    margin-right: 10px;
+}
+
+[data-toggle="collapse"] .fa:before {  
+    content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+    content: "\f13a";
+}
+
+.wrp .mz {
+    padding: 41px;
+}
+
+.moz iframe {
+    width: 100%;
+    height: 396px;
+    opacity: 0.4;
+}
+
+
+.mz i {
+    color: #fff;
+}
+.mz p {
+    color: #fff;
+    margin-left: 23px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 300;
+}
+.mz h3 {
+    font-size: 37px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-bottom:24px;
+}
+.wrp .mz {
+    width: 49%;
+    float: left;
+    padding: 27px;
+}
+.wrp {
+    width: 100%;
+}
+
+.flx .mx {
+    width: 100%;
+}
+.flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sym h3 {
+    font-size: 38px;
+    color: #244236;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.ancr a {
+    color: #244236;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-bottom: 1px solid #244236;
+    text-decoration:none!important;
+}
+.costa img {
+    max-width: 687px;
+}
+
+.cot{width:49%; float: left;}
+.mcot{width:49%; float: right;}
+
+.split{clear:both;}
+
+
+.apn a {
+    color: #fff;
+    border: 2px solid;
+    padding: 14px 24px;
+    font-weight: 500;
+}
+.apn {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.acc {
+    text-align: end;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.fa-arrow-right{color: #244236;}
+
+
+.ndv::after {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 5px;
+    background-color: green;
+    top: 10px;
+    left: -39px;
+}
+.ndv {
+    position: relative;
+}
+
+.cses p {
+    font-family: 'Poppins';
+    line-height: 31px;
+    font-size: 16px;
+    position: relative;
+}
+
+.serlisting li a {
+    color: #2e2e2e;
+    padding: 8px 11px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.serlisting .ln {
+    color: #2e2e2e;
+    font-size: 17px;
+}
+
+.serlisting li a:hover
+{	color:#d49925;
+
+}
+
+.serlisting li {
+    list-style: none;
+    display: inline-block;
+    font-size:13px;
+}
+
+
+.serlisting {
+    text-align: center;
+}
+
 .listing li a {
     color: #fff;
     padding: 8px 11px;
@@ -1897,6 +2257,9 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 }
 
+
+
+
 @media screen and (max-width:414px){
     .get-in-touch-sec .custom-get {
         width: calc(100% - 0px);
@@ -1905,17 +2268,22 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     iframe {
         height: 250px;
     }
+
     .get-in-touch-sec .get-form{
         padding: 15px;
     }
 
 }
 
+
+
 @media screen and (max-width:320px){
     .get-in-touch-sec .custom-get .email {
         max-width:320px!important;
     }
 }
+
+
 
 @media(min-width: 1920px){
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
@@ -1924,6 +2292,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 
 
     .pl-tp-content{margin:auto;}
+    .moz iframe{height: 369px;}
+    .wrp .moz{height: 369px;}
 }
 
 /* CSS Added By Mohit*/
