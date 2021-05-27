@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
-                <h2>Diabetes Ayurvedic <b>Thyroid </b></h2>
+                <h2>Thyroid Ayurvedic <b>Treatment </b></h2>
                 <p>
                     Thyroid occurs due to inadequate production of Thyroid hormone. Any structural or functional defect of the Thyroid gland leads to a decrease in the secretion of the hormone. Thyroid in Ayurveda cannot be considered as a single disease but is a syndrome, where an increase in pitta dosha leads to hypofunction of thyroid, Agni dusti, stress contributes to the imbalance of Vattadosha and therefore weight gain, heaviness, coldness are a sign of Kapha imbalance. In conclusion, we could say that imbalance of Vata Pitta Kapha leads to Thyroid. The thyroid gland is one of the most important and sensitive endocrine glands. It easily responds to stress. 
                     There are 2 types of Thyroid glands which are classified as- 
@@ -88,7 +88,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h2 data-aos="fade-up" data-aos-duration="3000" class="aos-init aos-animate">Type's of <b>Diabetes</b></h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000" class="aos-init aos-animate">Type's of <b>Thyroid</b></h2>
             </div>
         </div>
         <div class="row cust-iba">
@@ -149,7 +149,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
-                    <h2>Causes of <b>diabetes</b></h2>
+                    <h2>Causes of <b>Thyroid</b></h2>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
 <br>
 <div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000" id="advantages">
     <div class="mz" style="background-color:#eeb03f">
-        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Diabetes </h3>
+        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Thyroid </h3>
         <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">In Western medicine one will be required to take medications for life once one has been diagnosed with Thyroid. In Ayurveda by Ayurvedic treatment, management of diet, lifestyle, and Ayurvedic herbs can stop this disease from progressing further.</p>
         <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment assist with the proper secretion of hormones and at the same time encouraging the proper absorption of nutrients.</p>
         <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Pranayama and Yoga create calm and relaxation and Ayurvedic treatment help relieve and control stress, which is the major contributor to Thyroid dysfunction. </p>
