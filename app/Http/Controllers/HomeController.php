@@ -129,4 +129,24 @@ class HomeController extends Controller
         $home_page = Home::findOrFail(HOME_PAGE)->toArray();
         return view('frontend/services/ibs');
     }
+    /**
+     * Show the application thyroid page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function thyroid()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/thyroid');
+    }
+    /**
+     * Show the application psoriasis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function psoriasis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/psoriasis');
+    }
 }

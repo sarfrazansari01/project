@@ -62,6 +62,9 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a>
+                                        <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
+                                        <a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a>
+                                        <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

@@ -1,6 +1,6 @@
 <?php
 /**
- * Diabetes Page 
+ * thyroid Page 
  * 
  * @created    08/04/2020
  * @package    Dr Sharda Ayurveda
@@ -17,11 +17,11 @@
             <div class="col-md-12" dalta-aos="zoom-in" data-aos-duration="3000">
                 <div class="service">
                     <small>POWER TO HEAL</small>
-                    <h3 class="ser-heading mt-4">DIABETES</h3>
+                    <h3 class="ser-heading mt-4">THYROID</h3>
                     <p>Breathing Healthy With Ayurveda</p>
                     <ul class="bread">
                         <li class="breadcrumb-item active" aria-current="page">Home&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
-                        <li ><a href="https://www.drshardaayurveda.com/diabetes/">Diabetes</a></li>
+                        <li ><a href="https://www.drshardaayurveda.com/thyroid/">Thyroid</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,15 +71,10 @@
                 </div>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
-                <h2>Diabetes Ayurvedic <b>Treatment</b></h2>
+                <h2>Diabetes Ayurvedic <b>Thyroid </b></h2>
                 <p>
-                    Diabetes is a condition called Madhumeha in Ayurveda.
-                    Madhumeha (Madhu- sweet; Meha-to flow or urination)
-                    It is a condition in which a person passes honey-like urine.
-                    Reduced Insulin production leads to this disease. Dr. Sharda Ayurveda experts says that intake of excess Food like Heavy, Salty, Oily, Sour and new grains, new wine are contributing factors of Madhumeha. It is a metabolic disorder that is due to imbalanced KaphaDosha and increased Fat in the Body. Poor Digestion gives birth to Diabetes.
-                    Diabetes is becoming the biggest Health concern in Today’s era and one in each house is a survivor. The less active you are, the greater risk of being Diabetic. Adopt Ayurveda for Diabetes for Healthy living.
-                    2 types of Diabetes is categorized as -
-
+                    Thyroid occurs due to inadequate production of Thyroid hormone. Any structural or functional defect of the Thyroid gland leads to a decrease in the secretion of the hormone. Thyroid in Ayurveda cannot be considered as a single disease but is a syndrome, where an increase in pitta dosha leads to hypofunction of thyroid, Agni dusti, stress contributes to the imbalance of Vattadosha and therefore weight gain, heaviness, coldness are a sign of Kapha imbalance. In conclusion, we could say that imbalance of Vata Pitta Kapha leads to Thyroid. The thyroid gland is one of the most important and sensitive endocrine glands. It easily responds to stress. 
+                    There are 2 types of Thyroid glands which are classified as- 
                 </p>
                 <div class="btn-banner crd">
                     <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
@@ -102,10 +97,10 @@
                     <div class="xd">
                         <div class="cont">	
                             <div class="wht-space"></div>
-                            <h3>Insulin Dependent</h3>
+                            <h3>HYPOTHYROIDISM</h3>
                             <p>
-                                In Type 1 Diabetes body fails to produce Insulin. People suffering from Type 1 Diabetes are Insulin-dependent, 
-                                which implies they are dependent on Insulin to stay alive.
+                                It is an Autoimmune disorder with less production of Thyroid hormone which causes Hypothyroidism
+                                Hypothyroidism is the most common thyroid disorder, and it affects around 6-10% of women. According to Ayurveda hypothyroidism can be considered as a condition that results due to Agni Dushti.  
                             </p>
                         </div>
                     </div>
@@ -116,17 +111,9 @@
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
-                            <h3>Non Insulin Dependent</h3>
+                            <h3>HYPERTHYROIDISM</h3>
                             <p>
-                                Type 2 Diabetes affects the way the body uses Insulin.
-                                The cells in the body get weak and do not respond effectively as they used to do earlier.
-
-                            </p>
-                            <p>
-                                This is mostly caused due to Obesity and also affects Kidneys and the Liver.
-                            </p>
-                            <p>
-                                Dr. Sharda Ayurveda is one of the best Ayurvedic clinics for Diabetes treatment.
+                                It is also an autoimmune disorder. In Ayurveda, it is termed, BHASMAK Rog.  Approximately 1% of the population suffers from hyperthyroidism. Hyperthyroidism is an excess secretion of thyroid hormones in the body. It includes many conditions such as GRAVE’S diseases, Goiter and Thyroiditis. In Ayurveda, hyperthyroidism is a condition due to increased PITTA in the body. Due to this increased pitta, the digestive fire also increases further imbalances the metabolism of the body.
                             </p>
                         </div>
                     </div>
@@ -174,20 +161,20 @@
         <div class="row cust-product" >
             <div class="col-xl-6 col-md-6 mb-4">
                 <ul>
-                    <li style="color:#244236">Excessive intake of Dairy Products</li>
-                    <li>High Blood Pressure</li>
-                    <li>Family history can also cause Diabetes</li>
-                    <li>Excessive Sleep</li>
-                    <li>Overweight</li>
+                    <li style="color:#244236">Fatigue and Weakness</li>
+                    <li>Weight gain and hard to lose weight</li>
+                    <li>Dry, scaling, flaking skin</li>
+                    <li>Puffiness around eyes and eyelids</li>
+                    <li>Fungal infection</li>
                 </ul>
             </div>
             <div class="col-xl-6 col-md-6 mb-4 ndv">
                 <p>
-                    As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                    If Blood pressure fluctuates and is not stable also causes Diabetes.
-                    Diabetes continues itself through hereditary. 
-                    No work and only Sleep can be the biggest invite to Diabetes. 
-                    More the fatty Tissues, the more resistant cells become to Insulin.  
+                    One suffering from Hypothyroidism suffers from Fatigue and weakness in the body. 
+                    An Individual constantly gains weight and gets very difficult to reduce even after so many efforts. 
+                    Major Skin issues are seen like cracked heels, dry and dull skin. Brittle, splitting, curved, or ridged nails.
+                    Swelling around Eyes and eyelids is common.
+                    Fungal Infection on nails or peeling/splitting of skin between toes also sometimes occur.
                 </p>
                 <div class="ancr">
                     <a href="#">Book An Apointment</a>&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -223,21 +210,21 @@
         <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
-        <h3><span>Symptoms</span> of Diabetes</h3>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Increased Thirst</p>
-        <p>One is always in a state of Thirst. After drinking water, one feels always thirsty.</p>
+        <h3><span>Symptoms</span> of Thyroid </h3>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Excessive sweating</p>
+        <p>Excessive Sweating and intolerance to heat is a big symptom.</p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Frequent Urination</p>
-        <p>Urge to urinate always is the biggest symptom of Diabetes.</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Fatigue, lethargy, and general tiredness</p>
+        <p>Restlessness, Fatigue becomes part of daily routine. </p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Fatigue</p>
-        <p>An Individual is always in a state of restlessness and tiredness.</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Reduced ability to concentrate</p>
+        <p>One Loses the ability to concentrate on certain things. </p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Unexplained Weight Loss</p>
-        <p>Serious weight loss issues can be seen in Diabetic patients.</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Weight loss</p>
+        <p>A patient suffers from major Weight loss. </p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Blurred Vision</p>
-        <p>Vision capability gets lowered if Diabetes hits hard. </p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Feelings of anxiety and nervousness</p>
+        <p>An Individual suffers from mood swings and gets nervous easily. </p>
     </div>
 </div>
 <div class="split"></div>
@@ -245,11 +232,11 @@
 <div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000" id="advantages">
     <div class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Diabetes </h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Amla and Turmeric help in improving metabolism, therefore reducing cellular resistance.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda focuses on improving metabolism and remove blockages through a special anti-clog detoxifying treatment.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Secondly Ayurveda focuses on the rejuvenation process with Rasayana herbs to improve and strengthen the pancreas functions and renew the cells and tissues. Therefore, restoring the normal functions of all the body organs.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Thirdly Ayurveda focuses on maintaining blood sugar levels naturally under control. Ayurvedic treatment with diet plans is recommended to control blood sugar levels naturally throughout life.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment for Diabetes is so effective that even an Insulin dependent patient can slowly get back to normal Sugar levels.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">In Western medicine one will be required to take medications for life once one has been diagnosed with Thyroid. In Ayurveda by Ayurvedic treatment, management of diet, lifestyle, and Ayurvedic herbs can stop this disease from progressing further.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment assist with the proper secretion of hormones and at the same time encouraging the proper absorption of nutrients.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Pranayama and Yoga create calm and relaxation and Ayurvedic treatment help relieve and control stress, which is the major contributor to Thyroid dysfunction. </p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">The Ayurvedic treatment boosts the immune system and opens the body channels that control healthy metabolism.</p>
+        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">All the Ayurvedic Medicines at Dr. Sharda Ayurveda are Nature extracted and works on treating the root cause of disease.</p>
     </div>
     <div class="moz" style="background-color:#244236">
         <iframe width="51%" height="315" src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -283,7 +270,7 @@
                             </ul>
 
                             <p><span><i class="fa fa-quote-left" aria-hidden="true"></i>
-                                </span>Myself Gurdeep Singh from Ropar. I was Insulin-dependent for 8 months and was under prescribed Ayurvedic medicines for Diabetes from Dr. Sharda Ayurveda. I was amazed by the results of Ayurvedic Medicines that helped me in speedy Healthy recovery.<span><i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </span>I was suffering from Thyroid for 3 years and was continuously taking medicines to get rid of it. Despite taking medicines my Thyroid kept on increasing and was getting hard to manage. One of my friends suggested me to visit Dr. Sharda Ayurveda for the Ayurvedic treatment of my Thyroid. I visited them and within 3 months of treatment, my Thyroid started decreasing. I am very thankful to them. <span><i class="fa fa-quote-right" aria-hidden="true"></i>
                                 </span></p>
                         </div>
                     </div>
@@ -303,7 +290,7 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                I visited Dr. MukeshShardaAyurvedic doctor for diabetes treatment before 2 months. I was impressed by the way she treats her patients with smooth Ayurvedic treatment and diet changes. I took medication for almost 2 months and I am in my healing stage. I am very thankful to her.
+                                Due to my Thyroid, my body weight was constantly increasing. I was on medications but was unable to manage them. I visited Dr. Sharda Ayurveda for Ayurvedic Thyroid treatment and Dr.MukeshSharda prescribed me Ayurvedic medication with dietary changes. I am very happy and satisfied with the results of the medicines. 
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -324,7 +311,7 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                Dr. Sharda Ayurveda has a team of expert Ayurvedic doctors for diabetes treatment in India. My 25 years old son was detected with Diabetes. Without any doubt, I visited Dr. Sharda Ayurveda for treatment and I cannot thank them enough. Because of them my son is Diabetic free in younger age only and is Healthy. 
+                                Dr. Sharda Ayurveda is best for the Ayurvedic treatment of the Thyroid. I consulted them for my Thyroid treatment. All the doctors are highly knowledgeable and guides in a perfect way. Their Ayurvedic Medicines are quite effective and have good results.
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -356,14 +343,14 @@
                     <div class="card-header" id="headingOne" style="background-color:transparent;">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               <i class="fa" aria-hidden="true"></i>
-                                Is Ayurveda safe for Diabetes?
+                                What are the Best Exercises for the Thyroid?
                             </button>
                         </h5>
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                                Ayurveda offers natural and effective medicines to manage Diabetes. Clinical studies show that Herbal Medicines when combined with Lifestyle and Dietary changes can bring remarkable results in diabetes.
+                            All strenuous exercises like walking, swimming, biking, jogging can be adopted, Ujjaipranayam also help in treating Thyroid.
                         </div>
                     </div>
                 </div>
@@ -372,13 +359,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="fa" aria-hidden="true"></i>
-                                Which Food one need to avoid in Diabetes?
+                                Which food affects the Thyroid?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                                Sugar (sweetened beverages), trans fats, white bread, Rice, Pasta, Fruit flavored Yogurt, flavored Coffee drink, and Maple syrup, etc.
+                            Excessive intake of Soy rich food, certain vegetables like cabbage, broccoli, cauliflower, spinach, and fruits like sweet potato, peaches, strawberry, etc. nuts like millets, peanuts, etc. can cause Thyroid.
                         </div>
                     </div>
                 </div>
@@ -387,13 +374,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <i class="fa" aria-hidden="true"></i>
-                                Can Diabetes be treated without medicine?
+                                What are early warning signs of Thyroid?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                                Dietary changes, weight loss may lead to management of type 2 diabetes but this is not true for type 1 Diabetes. 
+                            High heart rate, excessive tiredness, anxiety, weight gain or loss, body shakes, and feeling chilly or overheated.
                         </div>
                     </div>
                 </div>
@@ -402,13 +389,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 <i class="fa" aria-hidden="true"></i>
-                                How much water can a Diabetic patient take?
+                                How can I check thyroid malfunction at home?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                                Men can drink 12-13 cups per day and women can drink 9-10 cups.
+                            Thyroid malfunction cannot be checked at home. One can get their blood tests to be done to check the value of t3,t4,tsh.
                         </div>
                     </div>
                 </div>
@@ -417,13 +404,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 <i class="fa" aria-hidden="true"></i>
-                                Is it possible to reverse Diabetes? 
+                                Can Ayurveda cure Thyroid? 
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
-                                Through positive lifestyle choices and under proper care with AyurvedicMedications ,expertphysician, diabetes can be managed and one can live a normal Life. 
+                            Ayurveda can but along with standard treatment mentioned with dietary changes because Ayurvedic medicines help in treating all complications that occur during hypothyroid.
                         </div>
                     </div>
                 </div>
@@ -436,13 +423,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 <i class="fa" aria-hidden="true"></i>
-                                What is the main cause of Diabetes?
+                                How can one reduce weight having a history of hypothyroid?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">
-                            Excessive Weight ,Family history, Old age, polycystic ovary syndrome,High blood pressure, abnormal cholesterol, and triglycerides levels are the main causes of diabetes.
+                            By avoiding Milk, Milk products in the diet, having small and frequent meals, exercise daily, avoid carbs in the diet, take Dr. Sharda herbal powder to cure constipation. 
                         </div>
                     </div>
                 </div>
@@ -451,13 +438,15 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 <i class="fa" aria-hidden="true"></i>
-                                How do I lower my sugar immediately?
+                                Often heard that Coriander is good in Thyroid. 
                             </button>
                         </h5>
                     </div>
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                         <div class="card-body">
-                            Consistent exercises, managed diet plan, proper hydration, following doctor advice, one can decrease sugar immediately.
+                            . Is Coriander water good for the Thyroid?
+Yes, it is quite effective due to its mineral content i.e.- It is rich in Vitamin B1,vit.B2,vit.B3. Consume it daily in the morning. 
+
                         </div>
                     </div>
                 </div>
@@ -466,13 +455,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 <i class="fa" aria-hidden="true"></i>
-                                What can one do to prevent Diabetes?
+                                . What if I miss my Thyroid dose for the day?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                         <div class="card-body">
-                            For the prevention of diabetes, one needs to follow up a routine of physical efforts every day, maintaining a well-balanced and healthy diet that has low-fat content and contains very few calories. If you see one overweight is prone to be Diabetic so losing weight is also a necessity. 
+                            Missing on to your Thyroid dose for the day will not harm your body as Ayurveda works on treating the root cause, not just symptom-based treatment.  
                         </div>
                     </div>
                 </div>
@@ -481,13 +470,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 <i class="fa" aria-hidden="true"></i>
-                                How to manage Diabetes?
+                                What is the time duration for Thyroid treatment in Ayurveda?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                         <div class="card-body">
-                            The most important part of managing diabetes is Diet, one should follow a healthy, balanced, and well-nourished diet. A person suffering from Diabetes should exercise regularly and stay active. Take medications as prescribed. 
+                            Ayurveda works differently for every individual. Sometimes if the disease is acute it takes approximately 2-3 months for recovery. A course of treatment depends upon the level of disease it is. 
                         </div>
                     </div>
                 </div>
@@ -496,13 +485,13 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                If it is sugar-free food, can I eat as much as I want?
+                                What are early warning signs of Thyroid?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                         <div class="card-body">
-                            Sugar-free food can only be a part of a healthy meal plan in small amounts. Always keep in mind that some of the food items still have carbs and can affect blood glucose levels. Many sugar-free foods have calories and carbohydrates and lots of fat in them. Make sure you read the nutrition labels before consuming. 
+                            High heart rate, excessive tiredness, anxiety, weight gain or loss, body shakes, and feeling chilly or overheated are the warning signs of Thyroid.
                         </div>
                     </div>
                 </div>

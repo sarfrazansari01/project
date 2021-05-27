@@ -21,7 +21,7 @@
                     <p>Breathing Healthy With Ayurveda</p>
                     <ul class="bread">
                         <li class="breadcrumb-item active" aria-current="page">Home&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
-                        <li ><a href="#">Asthma</a></li>
+                        <li ><a href="https://www.drshardaayurveda.com/asthma/">Asthma</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +63,7 @@
     </div>
 </div>
 
-<section class="dsa-why-choose">
+<section class="dsa-why-choose" id="treatment">
     <div class="container-fluid">
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
@@ -100,7 +100,7 @@
     </div>
 </section>
 
-<section class="dsa-india-ayurvedic-sec"> 
+<section class="dsa-india-ayurvedic-sec" id="types"> 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -162,7 +162,7 @@
     </div>
 </section>
 
-<section class="our-product causes">
+<section class="our-product causes" id="causes">
     <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12">
@@ -174,7 +174,7 @@
     </div>
 </section>
 
-<section class="our-product" style="background-color:#f3f3f3">
+<section class="our-product" style="background-color:#f3f3f3" id="symptoms">
     <div class="container-fluid cses" >
         <div class="row cust-product" >
             <div class="col-xl-6 col-md-6 mb-4">
@@ -222,7 +222,7 @@
     </div>
 </div>
 
-<div class="wrp pt-5 mt-5 pb-5" >
+<div class="wrp pt-5 mt-5 pb-5" id="advantages">
     <div class="kmoz" >
         <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
     </div>
@@ -261,7 +261,7 @@
 </div>
 <div class="split"></div>
 
-<section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000">
+<section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000" id="testimonials">
     <div class="container-fluid">
         <div class="row">
             <div class="cl-test">
@@ -323,7 +323,7 @@
     </div>
 </section>
 
-<section class="our-product causes">
+<section class="our-product causes" id="faqs">
     <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12">
