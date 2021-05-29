@@ -10,6 +10,155 @@
 
 
 
+/*///////carousel//////*/
+
+
+
+
+.carousel-control-next i{left:100px!important;}
+.carousel-control-prev i{left:-97px!important;}
+
+
+
+.carousel {	
+    margin: 0 auto;
+    padding: 0 68px;
+}
+
+.img-box .cont p {
+    font-size: 17px;
+    color: #fff;
+}
+.img-box .cont h3 {
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.img-box .cont {
+    max-width: 345px;
+    padding: 35px;
+}
+
+
+
+.img-box .cont {
+    position: absolute;
+    bottom: -18px;
+}
+
+.img-box img {
+    position: relative;
+}
+
+
+.img-box:hover .zx {
+    position: absolute;
+    height: 567px;
+    width: 372px;
+    opacity: 0.8;
+    background-image: linear-gradient(
+        45deg
+        , #d49925, transparent);
+    top: 1px;
+    opacity: 0.5;
+    border-radius: 0px 35px 0px 35px;
+}
+
+
+
+.carousel .carousel-item img {
+    margin: 0 auto;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 68px;
+    background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin-top: -15px;
+    z-index: 5;
+    left: 0px;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+    bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    margin: 1px 4px;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li {	
+    background: #999;
+    border-color: transparent;
+}
+.carousel-indicators li.active {
+    background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tnr h2 {
+    color: #696969;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    margin: 40px 70px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.tnr h2::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    height: 1px;
+    border-radius: 1px;
+    background: #d4d4d4;
+    left: 0;
+    right: 0;
+    bottom: 14px;
+}
+.tnr h2 span {
+    display: inline-block;
+    padding: 0 25px;
+    background:#ebebeb;
+    position:relative;
+    z-index:2;
+}
+
+
+
+
+/*carousel end////////*/
+
+
+
+
+
+
+
+
+
 
 .top-bar-sec p{
     font-size: 16px;
@@ -36,6 +185,9 @@
 .iba-box .xd {
     border-radius: 0px 50px 0px 50px;
 }
+
+
+.zfnz .xd{border-radius: 0px 50px 0px 34px;}
 
 .bread li a{color:#fff; text-decoration: none;}
 
@@ -348,12 +500,30 @@ small:after {
         top: 0;
     }
 }
+
+@media screen and (max-width: 1400px){
+    .wrp .mz{height:421px; margin-bottom: 20px}
+
+}
+
+
+@media screen and (max-width:1440px){
+    .wrp .mz{
+        height:421px;
+        margin-bottom: 20px;
+    }
+}
+
+
 @media(max-width: 1366px){
     .navbar-menu .navbar {
         padding: 0px;
         width: 80%;
         float: left;
     }
+
+
+    .wrp .mz{height:auto;}
     .navbar-menu .dsa-phone {
         width: 20%;
         float: left;
@@ -367,6 +537,13 @@ small:after {
     }
 
 }
+
+
+@media screen and (max-width:1200px){
+    .navbar-menu .dsa-phone{width:auto;}
+}
+
+
 @media(max-width: 1024px){
     .navbar-menu .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 4px;
@@ -375,6 +552,9 @@ small:after {
     .dsa-why-choose .why-choose-us {
         width: 90%;
     }
+
+
+    .dr-mukesh-sharda-sec .dr-img-left img{position: inherit;}
 
     .treatment-box h3 {
         font-size: 20px;
@@ -448,6 +628,9 @@ small:after {
         justify-content: center;
         margin-bottom: 20px;
     }
+
+    .dsa-banner-sec2{background-size: cover!important;}
+
     .logo-sec .custom-logo-sec .search-container {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -468,7 +651,7 @@ small:after {
 .dsa-banner-sec2 {
     background-image: url(../images/ban.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     padding-top: 50px;
 }
@@ -624,6 +807,33 @@ small:after {
 }
 .dsa-india-ayurvedic-sec .cust-iba .box1{
     background-image: url(../images/iba-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.dsa-india-ayurvedic-sec .cust-iba .box4{
+    background-image: url(../images/serv-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.dsa-india-ayurvedic-sec .cust-iba .box5{
+    background-image: url(../images/serv-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.dsa-india-ayurvedic-sec .cust-iba .box5a{
+    background-image: url(../images/serv-3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -859,7 +1069,7 @@ small:after {
     margin-bottom: 30px;
 }
 .dr-mukesh-sharda-sec .dr-img-left img{
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0px;
 }
 .dr-mukesh-sharda-sec .sign-area {
@@ -935,8 +1145,8 @@ small:after {
     position: relative;
     bottom: 11px;
     width: 40px;
-    padding: 2px;
-    left: -2px;
+    padding: 3px;
+    left: -5px;
 }
 
 .phone-consult {
@@ -1495,6 +1705,10 @@ button.btn.btn-link.collapsed:hover {
     content: "\f106"!important;
 }
 
+
+
+
+
 #accordion .card-body:before {
     content: "";
     position: absolute!important;
@@ -1507,6 +1721,10 @@ button.btn.btn-link.collapsed:hover {
     position: relative!important;
     padding-left: 77px!important;
 }
+
+
+
+
 .wrp .mz {
     padding: 41px;
 }
@@ -1547,6 +1765,7 @@ button.btn.btn-link.collapsed:hover {
 .flx .mx {
     width: 100%;
 }
+
 .cvn {
     width: 49%;
     float: left;
@@ -1559,7 +1778,13 @@ button.btn.btn-link.collapsed:hover {
     align-items: center;
 }
 
+
+
+
 .mob-nav{display: none;}
+
+
+
 .sym h3 {
     font-size: 38px;
     color: #244236;
@@ -2388,6 +2613,112 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         position: static;
     }
 
+    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment
+    {margin-bottom: 20px;}
+
+    .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
+        font-size: 31px;
+    }
+
+    .pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3 {
+        font-size: 17px;
+    }
+
+    .pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p {
+        font-size: 14px;}
+
+    .about-us-sec .tp-abt-content h2 {
+        font-size: 31px;
+    }
+
+    .about-us-sec .about-right-content p {
+        text-align: justify;
+    }
+
+
+    .happy-world-sec .hw-content h2 {
+        font-size: 27px;
+    }
+
+    .iba-box.box1 {
+        border-radius: 0px;
+    }
+
+    .iba-box.box2 {
+        border-radius:  0px;
+    }
+
+    .iba-box.box3 {
+        border-radius:  0px;
+    }
+
+
+
+    .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont
+    {padding: 10px;}
+    .dsa-india-ayurvedic-sec h2 {
+        font-size: 31px;}
+
+    .dsa-why-choose {
+        padding-top: 48px;
+        padding-bottom: 38px;
+    }
+
+    .dsa-india-ayurvedic-sec {
+        padding-bottom: 2px;
+    }
+
+    .causes {
+        padding-top: 59px;}
+
+
+    .acc {
+        text-align: center;}
+
+    .apn{text-align: center;}
+
+    .cvn{margin-top:51px;}
+    .cvn{padding-left:20px;}
+    .sym h3 {
+        font-size: 31px;
+        text-align: center;
+        margin-bottom: 31px;
+    }
+
+    .mz h3 br {
+        display: none;
+    }
+
+    .mz h3{font-size: 31px;line-height: 33px;}
+
+    .latest-post-sec .lp-post .post-content p{
+        font-size: 14px;
+    }
+
+    .latest-post-sec .lp-post .post-content h3
+    {
+        font-size: 21px;
+        margin-bottom: 14px;
+    }
+
+    .get-in-touch-sec .custom-get .email .email-icon
+    {
+        font-size: 20px!important;
+    }
+
+    .get-in-touch-sec .custom-get .phone-icon {
+        font-size: 20px!important;}
+
+
+
+
+    .xd:hover {
+
+        background-image: linear-gradient( 
+            45deg
+            , transparent, transparent);
+        min-height: auto;
+    }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box {
         min-height: auto!important;
     }
@@ -2476,15 +2807,193 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: calc(100% - 0px);
     }
 
+    .about-us-sec .btn-about .btn-aboutus
+    {
+        width: 205px;
+        height: 61px;
+        border-radius: 3px;
+    }
+
+
+    .happy-world-sec .hw-content h2 {
+        font-size: 31px;
+    }
+
+    .our-product .cust-product .prod-box .price
+    {
+        text-align: center;
+    }
+
+    .dsa-why-choose ul li {
+        font-size: 14px;}
+
+    .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
+        font-size: 23px;
+    }
+
+    .about-us-sec .tp-abt-content h2 {
+        font-size: 24px;
+    }
+    /*9569601105*/
+
+    .get-in-touch-sec .custom-get p
+    {
+        text-align: justify!important;
+        line-height: 23px;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+
+    .ser-heading {
+        font-size: 31px;}
+
+    .service small{font-size: 11px;}
+
+    .service p {
+        font-size: 24px;}
+
+    .left-img {
+        margin-bottom: -38px;
+    }
+
+    .dsa-why-choose h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    .dsa-why-choose p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    .crd a {
+        font-size: 16px;
+        border-radius: 3px;
+        max-width: 221px;
+        height: 53px;
+    }
+
+    .dsa-india-ayurvedic-sec h2 {
+        font-size: 27px;
+    }
+
+    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment
+    {
+        height: 51px;
+        border-radius: 3px;
+    }
+
+    .causes {
+        padding-top: 37px;
+    }
+
+    .prod-tp-content {
+        margin-bottom: 3px;
+    }
+
+    .acc{padding-bottom: 6px;}
+
+    .kmoz{margin-top:-41px;} 
+
+    .mz p{font-size: 14px;}
+    .sym h3 {
+        margin-top: 2px;
+        font-size: 26px;
+    }
+
+
+    .client-testimonial {padding-top:41px;}
+
+    .client-testimonial .client-test-title
+    {
+        line-height: 26px;
+    }
+
+    .testimonial-content p {
+        font-size: 15px;
+        line-height: 26px;}
+
+    .latest-post-sec .lp-content h2 {
+        font-size: 29px;}
+
+    .latest-post-sec .lp-content p {
+        font-size: 14px;}
+
+    .latest-post-sec .lp-content {
+        margin-bottom: 7px;
+    }
+
+    .latest-post-sec .lp-post .post-content p
+    {
+        text-align: left;
+    }
+
+    .get-in-touch-sec .custom-get .email {
+        padding-top: 9px;}
+
+    .phone-consult img{width: 31px;}
+    .phone-consult span{font-size: 25px;}
+
+    .get-in-touch-sec .get-form #name{height: 49px; font-size: 15px;}
+    .get-in-touch-sec .get-form .submit{border-radius: 3px; font-size: 24px; height: 55px;}
+
+
+
+    .get-in-touch-sec .get-form #phone {
+        height: 49px;
+        font-size: 15px;
+    }
+
+
+
+
+
+    .get-in-touch-sec .get-form #email {
+        height: 49px;
+        font-size: 15px;
+    }
+
+
+    .get-in-touch-sec .get-form #story
+    {
+        font-size: 15px;
+        height: 142px;
+    }
+
+    .moz iframe {
+        height: 215px!important;
+    }
+
+
+    .get-in-touch-sec .custom-get .email .email-icon
+    {font-size: 17px!important;}
+    .consult-ico {
+        font-size: 17px;}
+
+    .get-in-touch-sec .custom-get .phone-icon {
+        font-size: 17px!important;
+    }
+
+    .get-in-touch-sec {
+        padding-top: 59px;}
+
+
+    .wrp .mz{margin-top: -49px;}
+    .mz h3 {
+        font-size: 19px;
+        line-height: 23px;
+    }
 
     #accordion button.btn.btn-link.collapsed{padding:9px;
-                                             border-radius: 0px;
-                                             border-bottom:1px solid #ccc;
+        border-radius: 0px;
+        border-bottom:1px solid #ccc;
     }
 
     .cvn{padding-left:11px;}
-    .mz h3 {
-        font-size: 31px;}
+
     .moz iframe{height:auto;}
     .wrp .moz{height:auto; margin-top:10px;}
 
@@ -2503,17 +3012,100 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 }
 
 
+@media screen and (max-width:360px){
+    .dsa-why-choose {
+        padding-top: 16px;
+        padding-bottom: 16px;}
+
+    .latest-post-sec .lp-post .post-content h3
+    {
+        font-size: 17px;
+    }
+
+
+    .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
+        font-size: 21px;
+    }
+
+    .pl-ayurvedic-treatment-sec .pl-tp-content p {
+
+        text-align: initial;
+    }
+
+
+
+    .phone a {
+        display: grid;
+    }
+
+    .phone-consult span {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+    .phone-consult img {
+        width: 39px;
+        bottom: 6px;
+        left: -4px;
+    }
+
+}
+
+
+
 
 @media screen and (max-width:320px){
     .get-in-touch-sec .custom-get .email {
         max-width:320px!important;
     }
 
-    .ser-heading {
-        font-size: 40px;}
+    .dsa-banner-sec .dsa-content .btn-banner .btn-appointment
+    {
+        margin-bottom: 16px;
+    }
+    .dsa-india-ayurvedic-sec h2 {
+        font-size: 24px;
+    }
+    .about-us-sec .tp-abt-content p
+    {
+        line-height: 10px;
+    }
 
+
+    .happy-world-sec .hw-content h2 {
+        font-size: 27px;
+    }
+
+    .our-product .cust-product .prod-box .price .rate
+    {
+        font-size: 27px;
+    }
+
+    .our-product .cust-product .prod-box .price .btn-shop-know {
+        font-size: 18px;}
+
+
+    .ser-heading {
+        font-size: 29px;
+    }
     .service p {
-        font-size: 32px;}
+        font-size: 26px;
+    }
+
+    .dsa-why-choose h2 {
+        font-size: 17px;
+        font-weight: 600;}
+
+    .sym h3{font-size: 24px;}
+    .sub{font-size: 15px}
+
+    .cvn p {
+        padding-left: 26px;
+    }
+
+    .latest-post-sec .custom-lp {
+        width: calc(100% - 0px);}
 
 
 

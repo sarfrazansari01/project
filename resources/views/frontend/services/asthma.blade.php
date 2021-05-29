@@ -108,8 +108,8 @@
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box1">
+            <div class="col-xl-4 col-md-6 col-sm-12 zfnz aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                <div class="iba-box box4">
                     <div class="xd">
                         <div class="cont">	
                             <div class="wht-space"></div>
@@ -123,8 +123,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box2">
+            <div class="col-xl-4 col-md-6 col-sm-12 zfnz aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                <div class="iba-box box5">
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
@@ -137,8 +137,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box3">
+            <div class="col-xl-4  col-md-6 zfnz mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                <div class="iba-box box5a">
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
