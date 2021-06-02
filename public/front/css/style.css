@@ -14,139 +14,37 @@
 
 
 
-
-.carousel-control-next i{left:100px!important;}
-.carousel-control-prev i{left:-97px!important;}
-
-
-
-.carousel {	
-    margin: 0 auto;
-    padding: 0 68px;
+.slider {
+    width: 50%;
+    margin: 100px auto;
 }
 
-.img-box .cont p {
-    font-size: 17px;
-    color: #fff;
-}
-.img-box .cont h3 {
-    font-size: 30px;
-    font-family: 'Poppins';
-    color: #fff;
+.slick-slide {
+    margin: 0px 20px;
 }
 
-.img-box .cont {
-    max-width: 345px;
-    padding: 35px;
-}
-
-
-
-.img-box .cont {
-    position: absolute;
-    bottom: -18px;
-}
-
-.img-box img {
-    position: relative;
-}
-
-
-.img-box:hover .zx {
-    position: absolute;
-    height: 567px;
-    width: 372px;
-    opacity: 0.8;
-    background-image: linear-gradient(
-        45deg
-        , #d49925, transparent);
-    top: 1px;
-    opacity: 0.5;
-    border-radius: 0px 35px 0px 35px;
-}
-
-
-
-.carousel .carousel-item img {
-    margin: 0 auto;
-}
-.carousel-control-prev, .carousel-control-next {
-    width: 68px;
-    background: none;
-}
-.carousel-control-prev i, .carousel-control-next i {
-    font-size: 28px;
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    margin-top: -15px;
-    z-index: 5;
-    left: 0px;
-    right: 0;
-    color: rgba(0, 0, 0, 0.8);
-    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
-}
-.carousel-indicators {
-    bottom: -40px;
-}
-.carousel-indicators li, .carousel-indicators li.active {
-    width: 10px;
-    height: 10px;
-    border: none;
-    border-radius: 50%;
-    margin: 1px 4px;
-    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
-}
-.carousel-indicators li {	
-    background: #999;
-    border-color: transparent;
-}
-.carousel-indicators li.active {
-    background: #555;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.tnr h2 {
-    color: #696969;
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    position: relative;
-    margin: 40px 70px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-}
-.tnr h2::after {
-    content: "";
+.slick-slide img {
     width: 100%;
-    position: absolute;
-    margin: 0 auto;
-    height: 1px;
-    border-radius: 1px;
-    background: #d4d4d4;
-    left: 0;
-    right: 0;
-    bottom: 14px;
 }
-.tnr h2 span {
-    display: inline-block;
-    padding: 0 25px;
-    background:#ebebeb;
-    position:relative;
-    z-index:2;
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
 }
 
 
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
 
 
 /*carousel end////////*/
@@ -594,7 +492,7 @@ small:after {
         padding-top: 130px;
         padding-bottom: 50px;
     }
-    .dsa-why-choose .cut-row,.dsa-india-ayurvedic-sec .cust-iba, .pl-ayurvedic-treatment-sec .cst-pl-row, .about-us-sec .custum-row, .our-product .cust-product, .latest-post-sec .custom-lp, .dr-mukesh-sharda-sec .cust-dr{
+    .dsa-why-choose .cut-row,.dsa-india-ayurvedic-sec .cust-iba, .pl-ayurvedic-treatment-sec .cst-pl-row, .about-us-sec .custum-row, .our-product .cust-product, .latest-post-sec .custom-lp, .dr-mukesh-sharda-sec .cust-dr {
         width: calc(100% - 0px);
     }
     .get-in-touch-sec .custom-get {
@@ -724,8 +622,8 @@ small:after {
 
 /*Why choose us section style here*/
 .dsa-why-choose {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .dsa-why-choose .cut-row {
     width: calc(95% - 0px);
@@ -781,7 +679,7 @@ small:after {
 }
 /*India best ayurvedic section style here*/
 .dsa-india-ayurvedic-sec {
-    padding-bottom: 100px;
+    padding-bottom: 2rem;
 }
 .dsa-india-ayurvedic-sec h2{
     font-size: 40px;
@@ -1050,6 +948,37 @@ small:after {
     text-align: center;
     margin-bottom: 0px;
 }
+
+
+.tab-content p::before {
+    content: "";
+    position: relative;
+    bottom: -5px;
+    border: 2px solid green;
+    right: 10px;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent!important;
+    color: #244236!important;
+    font-size: 16px;
+    font-weight: 500!important;
+}
+
+.nav-pills a{
+    color: #212529!important;
+
+}
+
+#v-pills-tab a {
+    line-height: 46px;
+}
+
+
+
+
+
 /*dr mukesh sharda section style here*/
 
 .dr-mukesh-sharda-sec {
@@ -1080,8 +1009,8 @@ small:after {
 }
 /*Our Product section style here*/
 .our-product {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .prod-tp-content{
     margin-bottom: 50px;
@@ -1238,8 +1167,8 @@ small:after {
 
 /*Testimonial section style here*/
 .client-testimonial {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: #f7f7f7;
     overflow: hidden;
 }
@@ -1587,7 +1516,7 @@ small:after {
 .cses ul li{list-style: none;}
 
 .causes {
-    padding-top: 100px;
+    padding-top: 2rem;
     padding-bottom: 0px;
 }
 
@@ -1611,7 +1540,8 @@ small:after {
 
 .kmoz{float: left;
       width: 51%;
-      height: 396px;}
+      /*height: 396px;*/
+}
 
 
 
@@ -2073,7 +2003,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         height: 195px;
     }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
-        padding: 30px;
+        padding: 17px;
     }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
         font-size: 24px;
@@ -2988,8 +2918,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 
     #accordion button.btn.btn-link.collapsed{padding:9px;
-        border-radius: 0px;
-        border-bottom:1px solid #ccc;
+                                             border-radius: 0px;
+                                             border-bottom:1px solid #ccc;
     }
 
     .cvn{padding-left:11px;}
@@ -3124,8 +3054,6 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .moz iframe{height: 371px;}
     .wrp .moz{height: 371px; margin-bottom:20px;}
 }
-
-
 
 /* CSS Added By Mohit*/
 .ser-banner-sec {

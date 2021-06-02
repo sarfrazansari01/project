@@ -14,7 +14,7 @@
 <section class="dsa-banner-sec2">
     <div class="container-fluid">
         <div class="row cust-dsa-banner">
-            <div class="col-md-12" dalta-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-md-12" dalta-aos="zoom-in" data-aos-duration="4000">
                 <div class="service">
                     <small>POWER TO HEAL</small>
                     <h3 class="ser-heading mt-4">DIABETES</h3>
@@ -66,11 +66,11 @@
     <div class="container-fluid">
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
-                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
                     <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
-            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="4000">
                 <h2>Diabetes Ayurvedic <b>Treatment</b></h2>
                 <p>
                     Diabetes is a condition called Madhumeha in Ayurveda.
@@ -93,11 +93,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h2 data-aos="fade-up" data-aos-duration="3000" class="aos-init aos-animate">Type's of <b>Diabetes</b></h2>
+                <h2 data-aos="fade-up" data-aos-duration="4000" class="aos-init aos-animate">Type's of <b>Diabetes</b></h2>
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                 <div class="iba-box box1">
                     <div class="xd">
                         <div class="cont">	
@@ -111,7 +111,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                 <div class="iba-box box2">
                     <div class="xd">
                         <div class="cont">
@@ -120,27 +120,8 @@
                             <p>
                                 Type 2 Diabetes affects the way the body uses Insulin.
                                 The cells in the body get weak and do not respond effectively as they used to do earlier.
-
-                            </p>
-                            <p>
                                 This is mostly caused due to Obesity and also affects Kidneys and the Liver.
-                            </p>
-                            <p>
                                 Dr. Sharda Ayurveda is one of the best Ayurvedic clinics for Diabetes treatment.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box3">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>Allergic Asthma</h3>
-                            <p>
-                                Allergic Asthma is caused due to exposure to an allergen. Such as dust mites, animal fur or pollen from trees & grass. 
-                                it can also be caused due to chemical fumes. Tabacco smoke can also cause allergic asthma 
                             </p>
                         </div>
                     </div>
@@ -157,11 +138,14 @@
     </div>
 </section>
 
+
+
+
 <section class="our-product causes" id="causes">
     <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12">
-                <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="4000">
                     <h2>Causes of <b>diabetes</b></h2>
                 </div>
             </div>
@@ -170,32 +154,72 @@
 </section>
 
 <section class="our-product" style="background-color:#f3f3f3">
-    <div class="container-fluid cses" >
-        <div class="row cust-product" >
-            <div class="col-xl-6 col-md-6 mb-4">
-                <ul>
-                    <li style="color:#244236">Excessive intake of Dairy Products</li>
-                    <li>High Blood Pressure</li>
-                    <li>Family history can also cause Diabetes</li>
-                    <li>Excessive Sleep</li>
-                    <li>Overweight</li>
-                </ul>
+    <div class="container-fluid cses">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Excessive intake of Dairy Products</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">High Blood Pressure</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Family history can also cause Diabetes</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Excessive Sleep</a>
+                    <a class="nav-link" id="v-pills-settingso-tab" data-toggle="pill" href="#v-pills-settingso" role="tab" aria-controls="v-pills-settingso" aria-selected="false">Overweight</a>
+                </div>
             </div>
-            <div class="col-xl-6 col-md-6 mb-4 ndv">
-                <p>
-                    As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                    If Blood pressure fluctuates and is not stable also causes Diabetes.
-                    Diabetes continues itself through hereditary. 
-                    No work and only Sleep can be the biggest invite to Diabetes. 
-                    More the fatty Tissues, the more resistant cells become to Insulin.  
-                </p>
-                <div class="ancr">
-                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <div class="col-lg-6">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <p>
+                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
+                            If Blood pressure fluctuates and is not stable also causes Diabetes.
+                            Diabetes continues itself through hereditary. 
+                            No work and only Sleep can be the biggest invite to Diabetes. 
+                            More the fatty Tissues, the more resistant cells become to Insulin.  
+                        </p>
+                        <div class="ancr">
+                            <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="{{ URL::asset('front/images/1.png') }}" alt="1.png">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <p>
+                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
+                            If Blood pressure fluctuates and is not stable also causes Diabetes.
+                            Diabetes continues itself through hereditary. 
+                            No work and only Sleep can be the biggest invite to Diabetes. 
+                            More the fatty Tissues, the more resistant cells become to Insulin.  
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <p>
+                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
+                            If Blood pressure fluctuates and is not stable also causes Diabetes.
+                            Diabetes continues itself through hereditary. 
+                            No work and only Sleep can be the biggest invite to Diabetes. 
+                            More the fatty Tissues, the more resistant cells become to Insulin.  
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <p>
+                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
+                            If Blood pressure fluctuates and is not stable also causes Diabetes.
+                            Diabetes continues itself through hereditary. 
+                            No work and only Sleep can be the biggest invite to Diabetes. 
+                            More the fatty Tissues, the more resistant cells become to Insulin.  
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settingso" role="tabpanel" aria-labelledby="v-pills-settingso-tab">
+                        <p>
+                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
+                            If Blood pressure fluctuates and is not stable also causes Diabetes.
+                            Diabetes continues itself through hereditary. 
+                            No work and only Sleep can be the biggest invite to Diabetes. 
+                            More the fatty Tissues, the more resistant cells become to Insulin.  
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>			
+</section>
 
 
 <div class="container-fluid" style="background-color: #eeb03f">
@@ -242,7 +266,7 @@
 </div>
 <div class="split"></div>
 <br>
-<div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000" id="advantages">
+<div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000" id="advantages">
     <div class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Diabetes </h3>
         <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Amla and Turmeric help in improving metabolism, therefore reducing cellular resistance.</p>
@@ -257,7 +281,7 @@
 </div>
 <div class="split"></div>
 
-<section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000" id="testimonials">
+<section class="client-testimonial" data-aos="zoom-in" data-aos-duration="4000" id="testimonials">
     <div class="container-fluid">
         <div class="row">
             <div class="cl-test">
@@ -339,7 +363,7 @@
     <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12">
-                <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="4000">
                     <h2><b>FAQ'S</b></h2>
                 </div>
             </div>
@@ -363,7 +387,7 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                                Ayurveda offers natural and effective medicines to manage Diabetes. Clinical studies show that Herbal Medicines when combined with Lifestyle and Dietary changes can bring remarkable results in diabetes.
+                            Ayurveda offers natural and effective medicines to manage Diabetes. Clinical studies show that Herbal Medicines when combined with Lifestyle and Dietary changes can bring remarkable results in diabetes.
                         </div>
                     </div>
                 </div>
@@ -378,7 +402,7 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                                Sugar (sweetened beverages), trans fats, white bread, Rice, Pasta, Fruit flavored Yogurt, flavored Coffee drink, and Maple syrup, etc.
+                            Sugar (sweetened beverages), trans fats, white bread, Rice, Pasta, Fruit flavored Yogurt, flavored Coffee drink, and Maple syrup, etc.
                         </div>
                     </div>
                 </div>
@@ -393,7 +417,7 @@
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                                Dietary changes, weight loss may lead to management of type 2 diabetes but this is not true for type 1 Diabetes. 
+                            Dietary changes, weight loss may lead to management of type 2 diabetes but this is not true for type 1 Diabetes. 
                         </div>
                     </div>
                 </div>
@@ -408,7 +432,7 @@
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                                Men can drink 12-13 cups per day and women can drink 9-10 cups.
+                            Men can drink 12-13 cups per day and women can drink 9-10 cups.
                         </div>
                     </div>
                 </div>
@@ -423,7 +447,7 @@
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
-                                Through positive lifestyle choices and under proper care with AyurvedicMedications ,expertphysician, diabetes can be managed and one can live a normal Life. 
+                            Through positive lifestyle choices and under proper care with AyurvedicMedications ,expertphysician, diabetes can be managed and one can live a normal Life. 
                         </div>
                     </div>
                 </div>
@@ -521,7 +545,7 @@
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -531,7 +555,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -541,7 +565,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
