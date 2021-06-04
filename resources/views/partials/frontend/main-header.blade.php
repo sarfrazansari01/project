@@ -65,6 +65,7 @@
                                         <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
                                         <a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a>
                                         <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
+                                        <a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

@@ -27,6 +27,7 @@ Route::get('/endocrine', [App\Http\Controllers\HomeController::class, 'endocrine
 Route::get('/obesity', [App\Http\Controllers\HomeController::class, 'obesity'])->name('obesity');
 Route::get('/asthma', [App\Http\Controllers\HomeController::class, 'asthma'])->name('asthma');
 Route::get('/diabetes', [App\Http\Controllers\HomeController::class, 'diabetes'])->name('diabetes');
+Route::get('/constipation', [App\Http\Controllers\HomeController::class, 'constipation'])->name('constipation');
 Route::get('/thyroid', [App\Http\Controllers\HomeController::class, 'thyroid'])->name('thyroid');
 
 //Digestive
