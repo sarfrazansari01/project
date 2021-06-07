@@ -173,36 +173,98 @@
 <section class="our-product" style="background-color:#f3f3f3" id="symptoms">
     <div class="container-fluid cses">
         <div class="row">
-            <div class="col-lg-6 mb-4">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">0.1 Excessive intaka of Vata</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">0.2 Environmental Conditions</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">0.3 Exposure To Unhealthy Air</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">0.4 Genetics
-                    </a>
-                    <a class="nav-link" id="v-pills-settingso-tab" data-toggle="pill" href="#v-pills-settingso" role="tab" aria-controls="v-pills-settingso" aria-selected="false">0.5 Exposute To Cold Climate
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <p>In Ayurveda, Asthma is known as Thamaka Shvasa Ashtma is a chronic inflammatory diseas which affects the airways. It is symbolized by episodes of frequent nasal allergies, difficulty in breathing and shortness of breath and wheezing mostly in early morning or at mid night which might be due to respiratory origin in Asthma there is a spantaneous attack on patient in which one is unable to breath because of airway blockage</p>
-                        <div class="ancr">
-                            <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="{{ URL::asset('front/images/1.png') }}" alt="1.png">
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    0.1 Excessive intaka of Vata
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                In Ayurveda, Asthma is known as Thamaka Shvasa Ashtma is a chronic inflammatory diseas which affects the airways. It is symbolized by episodes of frequent nasal allergies, difficulty in breathing and shortness of breath and wheezing mostly in early morning or at mid night which might be due to respiratory origin in Asthma there is a spantaneous attack on patient in which one is unable to breath because of airway blockage
+                                <div class="ancr mb-2 mt-4">
+                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    0.2 Environmental Conditions
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                                <div class="ancr mb-2 mt-4">
+                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    0.3 Exposure To Unhealthy Air
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                                <div class="ancr mb-2 mt-4">
+                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                    0.4 Genetics
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                                <div class="ancr mb-2 mt-4">
+                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settingso" role="tabpanel" aria-labelledby="v-pills-settingso-tab">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                    0.5 Exposute To Cold Climate
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                                <div class="ancr mb-2 mt-4">
+                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,11 +320,26 @@
 <div  class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000">
     <div id="hgte" class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Asthma</h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Effective Ayurvedic Medicines help in get rid of inhaler</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment helps in recovering through Breathing Exercises.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment helps i recovering through dietary and Lifestyle changes</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic Medicines has no adverse side effects on health.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda reduces future Health risks.</p>
+        <p class="im3">
+            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
+            Effective Ayurvedic Medicines help in get rid of inhaler
+        </p>
+        <p class="im3">
+            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
+            Ayurvedic treatment helps in recovering through Breathing Exercises.
+        </p>
+        <p class="im3">
+            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
+            Ayurvedic treatment helps i recovering through dietary and Lifestyle changes
+        </p>
+        <p class="im3">
+            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
+            Ayurvedic Medicines has no adverse side effects on health.
+        </p>
+        <p class="im3">
+            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
+            Ayurveda reduces future Health risks.
+        </p>
     </div>
     <div   class="moz" >
         <iframe id="hgt"  width="51%"  src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
