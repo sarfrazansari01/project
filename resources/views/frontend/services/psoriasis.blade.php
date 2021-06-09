@@ -73,13 +73,19 @@
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Psoriasis Ayurvedic <b> Treatment</b></h2>
                 <p>
-                     People often ignore Psoriasis as assuming it is a normal Infection of the Skin. The adverse impact of Psoriasis even causes all the Skin of the body to shed off. 
+                     People often ignore Psoriasis as assuming it is a normal Infection of the Skin. The adverse impact of Psoriasis
+                     even causes all the Skin of the body to shed off. 
                 </p>
                 <p>
-                     Psoriasis is an autoimmune, non-contagious, chronic disease of the skin. It is a skin disorder that causes skin cells to multiply up to 10 times faster than normal. This makes theskin build up into bumpy red patches covered with white scales. In Psoriasis, the production of skin cells occurs in 3-4 days instead of 30 days hence causing shedding of skin. They can grow anywhere, but mostly appears on the scalp, elbows, knees, and lower back.
+                     Psoriasis is an autoimmune, non-contagious, chronic disease of the skin. It is a skin disorder that causes skin cells to 
+                     multiply up to 10 times faster than normal. This makes theskin build up into bumpy red patches covered with white scales. 
+                     In Psoriasis, the production of skin cells occurs in 3-4 days instead of 30 days hence causing shedding of skin. 
+                     They can grow anywhere, but mostly appears on the scalp, elbows, knees, and lower back.
                 </p>
                 <p>
-                     Psoriasis can't be spread from person to person. It does sometimes occur in members of the same family. Psoriasis usually appears in early adulthood. For most people, it affects just a few areas. In severe cases, Psoriasis can cover large parts of the body. The patches can heal and then come back throughout a person's life. 
+                     Psoriasis can't be spread from person to person. It does sometimes occur in members of the same family. 
+                     Psoriasis usually appears in early adulthood. For most people, it affects just a few areas. In severe cases, 
+                     Psoriasis can cover large parts of the body. The patches can heal and then come back throughout a person's life. 
                 </p>
                 <div class="btn-banner crd">
                     <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
@@ -104,7 +110,8 @@
                             <div class="wht-space"></div>
                             <h3>Plaque Psoriasis </h3>
                             <p>
-                                In Plaque Psoriasis, rashes are seen in red color on the body, inflamed in nature, and sometimes Whitish Silvery scales are found on elbows, knees, and the scalp.
+                                In Plaque Psoriasis, rashes are seen in red color on the body, inflamed in nature, and sometimes Whitish Silvery 
+                                scales are found on elbows, knees, and the scalp.
                             </p>
                         </div>
                     </div>
@@ -117,7 +124,8 @@
                             <div class="wht-space"></div>
                             <h3>Guttate Psoriasis</h3>
                             <p>
-                                In Guttate Psoriasis, pink and small spot-like rashes develop over arms and legs. This type of Psoriasis is mostly seen in children.
+                                In Guttate Psoriasis, pink and small spot-like rashes develop over arms and legs. This type of Psoriasis is
+                                mostly seen in children.
                             </p>
                         </div>
                     </div>
@@ -130,7 +138,8 @@
                             <div class="wht-space"></div>
                             <h3>Inverse Psoriasis </h3>
                             <p>
-                                As the name indicates, it is present in folds of skin like under the breast, armpits, groin. In Inverse Psoriasis skin appears red, shiny, and inflamed.
+                                As the name indicates, it is present in folds of skin like under the breast, armpits, groin. In Inverse 
+                                Psoriasis skin appears red, shiny, and inflamed.
                             </p>
                         </div>
                     </div>
@@ -159,34 +168,92 @@
     </div>
 </section>
 
-<section class="our-product" style="background-color:#f3f3f3">
-    <div class="container-fluid cses" >
-        <div class="row cust-product" >
-            <div class="col-xl-6 col-md-6 mb-4">
-                <ul>
-                    <li style="color:#244236">Excessive intake of Alcohol</li>
-                    <li>Stress</li>
-                    <li>Changing Weather conditions</li>
-                    <li>Injury to Skin</li>
-                    <li>Medications</li>
-                </ul>
+<section class="our-product" style="background-color:#f3f3f3" id="symptoms">
+    <div class="container-fluid cses">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Excessive intake of Alcohol
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                High consumption of Alcohol causes Psoriasis to take birth. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Stress
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                A person who is staying under stress all day long is prone to be affected with Psoriasis. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Changing Weather conditions
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Changing Weather i.e. - Chilly Cold and Dry Weather also causes Psoriasis. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-6 col-md-6 mb-4 ndv">
-                <p>
-                    High consumption of Alcohol causes Psoriasis to take birth. 
-                    A person who is staying under stress all day long is prone to be affected with Psoriasis. 
-                    Changing Weather i.e.- Chilly Cold and Dry Weather also causes Psoriasis. 
-                    An Injury caused to the skin such as a cut or scrape, a bug bite. 
-                   Certain medications are considered as Psoriasis trigger for example- High dose of medicines for Blood pressure and antimalarial medications. 
-                </p>
-                <div class="ancr">
-                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                   Injury to Skin
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                An Injury caused to the skin such as a cut or scrape, a bug bite.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Medications
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                               Certain medications are considered as Psoriasis trigger for example- High dose of medicines for Blood pressure and antimalarial medications.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>			
-
+</section>	
 
 <div class="container-fluid" style="background-color: #eeb03f">
     <div class="container">

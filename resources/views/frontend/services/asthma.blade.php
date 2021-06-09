@@ -114,7 +114,10 @@
                         <div class="cont">	
                             <div class="wht-space"></div>
                             <h3>Acute Asthma</h3>
-                            <p>It is a Spantaneous attack caused by on inflammation of the air sacs of the lungs and that further causes the narrowing and contracting of the branchioles causing a restriction of airflow making breathing difficult for a person.</p>
+                            <p>
+                                It is a spontaneous attack caused by an inflammation of the air sacs of the lungs and that further causes the narrowing 
+                                and contraction of the bronchioles causing a restriction of airflow making breathing difficult for a person.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -126,8 +129,7 @@
                             <div class="wht-space"></div>
                             <h3>Chronic Asthma</h3>
                             <p>
-                                Chronic asthma is portryal of frequent asthma attacks which requires medical help to prevent and
-                                minimizeacute attacks. The Airways sometime become inflamed & patients gets addicted to inhalers.
+                                Chronic asthma is portrayal of frequent asthma attacks which requires medical help to prevent and minimize acute attacks.
                             </p>
                         </div>
                     </div>
@@ -140,13 +142,25 @@
                             <div class="wht-space"></div>
                             <h3>Allergic Asthma</h3>
                             <p>
-                                Allergic Asthma is caused due to exposure to an allergen. Such as dust mites, animal fur or pollen from trees & grass. 
-                                it can also be caused due to chemical fumes. Tabacco smoke can also cause allergic asthma 
+                                Allergic Asthma is caused due to exposure to an allergen, for example- dust particles or pollen grains. 
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--<div class="col-xl-4  col-md-6 zfnz mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+                <div class="iba-box box5a">
+                    <div class="xd">
+                        <div class="cont">
+                            <div class="wht-space"></div>
+                            <h3>Non-allergic Asthma</h3>
+                            <p>
+                                Non-allergic Asthma can be caused due to various factors such as stress, exercise, illness, extreme weather, irritants in the air.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -179,17 +193,14 @@
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    0.1 Excessive intaka of Vata
+                                    Excessive intaka of Vata
                                 </button>
                             </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
-                                In Ayurveda, Asthma is known as Thamaka Shvasa Ashtma is a chronic inflammatory diseas which affects the airways. It is symbolized by episodes of frequent nasal allergies, difficulty in breathing and shortness of breath and wheezing mostly in early morning or at mid night which might be due to respiratory origin in Asthma there is a spantaneous attack on patient in which one is unable to breath because of airway blockage
-                                <div class="ancr mb-2 mt-4">
-                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
-                                </div>
+                                Chilled Cold Items highly taken can cause Asthma as it directly affects the lungs tissues.
                             </div>
                         </div>
                     </div>
@@ -197,16 +208,13 @@
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    0.2 Environmental Conditions
+                                    Environmental Conditions
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                                <div class="ancr mb-2 mt-4">
-                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
-                                </div>
+                                Unhealthy environment conditions can cause Asthma.
                             </div>
                         </div>
                     </div>
@@ -214,16 +222,13 @@
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    0.3 Exposure To Unhealthy Air
+                                    Exposure To Unhealthy Air
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                                <div class="ancr mb-2 mt-4">
-                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
-                                </div>
+                                Unhealthy Dust, Smoke and Wind can lead to cough.
                             </div>
                         </div>
                     </div>
@@ -232,37 +237,31 @@
             <div class="col-md-6 mb-4">
                 <div id="accordion">
                     <div class="card">
-                        <div class="card-header" id="headingOne">
+                        <div class="card-header" id="headingFour">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                                    0.4 Genetics
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Genetics
                                 </button>
                             </h5>
                         </div>
 
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                             <div class="card-body">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                                <div class="ancr mb-2 mt-4">
-                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
-                                </div>
+                                Asthma takes it form from heredity too and passes itself.
                             </div>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" id="headingTwo">
+                        <div class="card-header" id="headingFive">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-                                    0.5 Exposute To Cold Climate
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Exposute To Cold Climate
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                             <div class="card-body">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                                <div class="ancr mb-2 mt-4">
-                                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="http://staging.drshardaayurveda.com/front/images/1.png" alt="1.png">
-                                </div>
+                                High exposure to cold and Icy Climate increases the chances of Asthma.
                             </div>
                         </div>
                     </div>
@@ -372,9 +371,12 @@
                                 </li>
                             </ul>
 
-                            <p><span><i class="fa fa-quote-left" aria-hidden="true"></i>
-                                </span>I was suffering from knee pain from the past 10 years. Doctors advised me for Knee transplant, but I was very scared of getting it done. Once I got to know about Dr. Sharda Ayurveda and i visited them in their Muktsar Clinic and started with my Treatment. Within 6 months of treatment my RA Factor report constantly started decreasing and I’m recovering A big Thanks to Dr. Sharda Ayurveda.<span><i class="fa fa-quote-right" aria-hidden="true"></i>
-                                </span></p>
+                            <p>
+                                <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                My grandmother was suffering from Asthma past 10 years and was dependent on Inhaler.  We went to Dr. Sharda Ayurveda 
+                                for treatment of Asthma. Dr. Mukesh Sharda guided us the best and started with Ayurvedic treatment for Asthma. 
+                                <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                            </p>
                         </div>
                     </div>
                     <div class="item">
@@ -393,12 +395,32 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                I was suffering from knee pain from the past 10 years. Doctors advised 
-                                me for Knee transplant, but I was very scared of getting it done. Once 
-                                I got to know about Dr. Sharda Ayurveda and i visited them in their 
-                                Muktsar Clinic and started with my Treatment. Within 6 months of 
-                                treatment my RA Factor report constantly started decreasing and 
-                                I’m recovering A big Thanks to Dr. Sharda Ayurveda.
+                                Dr. Sharda Ayurveda is best for Ayurvedic treatment of Asthma. I used to face breathing issues, sometimes it was quite 
+                                difficult for me to breath at night in winters. After Ayurvedic treatment for Asthma, I am highly satisfied with the 
+                                results and I am recovering from my breathing issues. 
+                                <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <h3 class="usrname">ALEX MARTIN</h3>
+                            <p class="desig">Envato Customer</p>
+                            <ul>
+                                <li>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </li>
+                            </ul>
+                            <p>
+                                <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                                My 17 years old son was totally dependent on Inhaler as he had chronic Asthma. 
+                                We started with Ayurvedic medicines from Dr. Sharda Ayurveda. I cannot thank Dr. Mukesh Sharda enough for treating my
+                                son’s problem and making him healthy. He started breathing healthy without any use of Inhaler. 
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -437,10 +459,10 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            Ayurveda is an ancient form of medicine that began in india. 
-                            It uses all the healthy nutritious herbs to formulate medicines. Ayurveda transforms an individual completely. 
-                            Ayurveda cures a patient naturally with least side-effects. It Causes on restoration of airway passage which is 
-                            the major cause of Asthma. Choose best Ayurvedic Doctor in India Dr. Mukesh Sharda and get relieve from Asthma.  
+                            Ayurveda is the oldest form of medicine that began in India. It uses all the healthy nutritious herbs
+                            to formulate medicines. Ayurveda transforms an Individual completely. Ayurveda cures a patient naturally with least
+                            side-effects. It focuses on restoration of airway passage which is the major cause of Asthma. Choose best Ayurvedic 
+                            Doctor in India Dr. Mukesh Sharda and get relieve from Asthma.
                         </div>
                     </div>
                 </div>
@@ -455,12 +477,9 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon 
-                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon 
-                            tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh 
-                            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
-                            Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them 
-                            accusamus labore sustainable VHS.
+                            Ayurveda works on all the natural methods. By adopting healthy lifestyle, change in diet 
+                            and exercising regularly one can definitely see change in their life. Also with it one needs to consult an
+                            Ayurvedic doctor and follow all his medications to treat Asthma and get rid of it.
                         </div>
                     </div>
                 </div>
@@ -475,12 +494,8 @@
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon 
-                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim 
-                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
-                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                            of them accusamus labore sustainable VHS.
+                            Banana, Citrus Fruits like Oranges and  Maraschino Cherries should be avoided. Always avoid intake of all sour fruits. 
+                            Rest of the Fruits always consume at room temperature.
                         </div>
                     </div>
                 </div>
@@ -495,12 +510,9 @@
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 
-                            3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                            accusamus labore sustainable VHS.
+                            Honey tea- Honey tea can be made by mixing about 2 teaspoons of honey with warm water or tea.Saltwater 
+                            gargles- Saltwater helps in reducing mucus and phlegm from your throat. Steam-Steam helps in clearing mucus 
+                            or phlegm out of your lungs. 
                         </div>
                     </div>
                 </div>
@@ -515,12 +527,8 @@
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua 
-                            put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer 
-                            labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable 
-                            VHS.
+                            Asthma can cause permanent damage to your lungs if not treated early and in right way. Best Ayurvedic treatment 
+                            for Asthma can save you timely and early. 
                         </div>
                     </div>
                 </div>
@@ -529,32 +537,19 @@
         <div class="col-lg-6 col-sm-12">
             <div id="accordion">
                 <div class="card">
-                    <div class="card-header" id="headingSix" style="background-color:transparent;">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                <i class="fa" aria-hidden="true"></i>
-                                Can Ayurveda Permanently Cure Asthma? 
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
                     <div class="card-header" id="headingSeven" style="background-color:transparent;">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 <i class="fa" aria-hidden="true"></i>
-                                Which All Fruits Cannot Be Taken in Asthma? 
+                                What causes Asthma?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            There are several reasons that causes Asthma. It is usually caused by a mixture of hereditary factor i.e.- inherit from
+                            birth and some environmental factors. Certain Allergants from house,dust, mites and pets are the common causes. Other 
+                            allergens, such as pollen can also cause Asthma. 
                         </div>
                     </div>
                 </div>
@@ -563,13 +558,15 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 <i class="fa" aria-hidden="true"></i>
-                                How to remove mucus from lungs at home?
+                                How long does Asthma attack last? 
                             </button>
                         </h5>
                     </div>
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            An Asthma attack can last for several continuous hours if not treated timely. 
+                            Acute Asthma attack last for few minutes but a chronic attack takes several hours and a proper medication is required. 
+                            Medical treatment is mandatory is case of shortness of breath.
                         </div>
                     </div>
                 </div>
@@ -578,13 +575,16 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 <i class="fa" aria-hidden="true"></i>
-                                Can Asthma damage lungs ?
+                                Does Asthma gets worsen by age?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            Yes, poorly treated Asthma obviously gets worsen by age. The lungs start to function less in comparison to 
+                            non- asthmatic persons. Modern medications have temporary treatment for Asthma. They provide treatment to relieve 
+                            the symptoms by giving Inhaler. But in Ayurveda treatment for Asthma has sure results and can be treated at any stage 
+                            of life. 
                         </div>
                     </div>
                 </div>
@@ -593,13 +593,31 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                How to remove mucus from lungs at home?
+                                 Is Asthma a life-long disease?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            Asthma can become a life-long disease if it is not treated in a healthy way. By Ayurvedic treatment it can be vanished. 
+                            Course of Ayurvedic treatment followed by dietary changes and exercises one can easily recover from Asthma without 
+                            any side effects on health. 
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTen" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                <i class="fa" aria-hidden="true"></i>
+                                 Do Asthma triggers more in cold weather?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                        <div class="card-body">
+                            Yes, to some Asthma triggers more in cold weather conditions due to seasonal changes.
+                            It is mandatory to carry your medicines with you specially in changing weather and environmental conditions. 
                         </div>
                     </div>
                 </div>

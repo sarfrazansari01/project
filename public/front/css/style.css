@@ -3262,7 +3262,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 }
 
 #accordion .card-body:before {
-    height: 92px!important;
+    height: 25px!important;
 }
 
 #accordion .btn-link {

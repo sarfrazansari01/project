@@ -104,44 +104,92 @@
     </div>
 </section>
 
-<section class="our-product" style="background-color:#f3f3f3" id="symptoms">
+<section class="our-product" style="background-color:#f3f3f3">
     <div class="container-fluid cses">
         <div class="row">
-            <div class="col-lg-6 mb-4">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Obstruction in Intenstine</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Dietary factor</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Decreased expulsive power due to weakness of abdominal muscles</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Abnormal neurological control</a>
-                    <a class="nav-link" id="v-pills-settingso-tab" data-toggle="pill" href="#v-pills-settingso" role="tab" aria-controls="v-pills-settingso" aria-selected="false">Spinal pelvic surgery</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <p>Presence of Hernia, stricture, TB in small and large intestine causes obstruction.</p>
-                        <div class="ancr">
-                            <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="{{ URL::asset('front/images/1.png') }}" alt="1.png">
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Obstruction in Intenstine
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Presence of Hernia, stricture, TB in small and large intestine causes obstruction. 
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <p>Less intake of fibers and Liquids in diet causes Constipation.</p>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Dietary factor
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Less intake of fibers and Liquids in diet causes Constipation. 
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <p>When movement of Intestine decreases, stool does not passes from small to large intestine and finally rectum.</p>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Decreased expulsive power due to weakness of abdominal muscles
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                When movement of Intestine decreases, stool does not passes from small to large intestine and finally rectum. 
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <p>The nerves which control movement of Intestine are hampered. </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Abnormal neurological control
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                The nerves which control movement of Intestine are hampered. 
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settingso" role="tabpanel" aria-labelledby="v-pills-settingso-tab">
-                        <p>Due to surgery if there is damage to nerve controlling Intestine movements.</p>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Spinal pelvic surgery
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                Due to surgery if there is damage to nerve controlling Intestine movements. 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>			
-
+</section>	
 
 <div class="container-fluid" style="background-color: #eeb03f">
     <div class="container">
@@ -190,11 +238,11 @@
 <div  class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000">
     <div id="hgte" class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Constipation</h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">One of the best ways to get relieve from Constipation is following a religious Vatabalancing diet.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Triphala- Triphala is a magical, most effective herbal remedy to treat Constipation.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Composition of Milk and Ghee before going to bed helps in clearing stomach early inmorning and promotes smooth passing of stool. </p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Engage yourself in maximum 30 minutes of workout that promotes digestion.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Flax seeds and Castor Oil is a remedy that acts a laxative in Constipation</p>
+        <p class="im3">One of the best ways to get relieve from Constipation is following a religious Vatabalancing diet.</p>
+        <p class="im3">Triphala- Triphala is a magical, most effective herbal remedy to treat Constipation.</p>
+        <p class="im3">Composition of Milk and Ghee before going to bed helps in clearing stomach early inmorning and promotes smooth passing of stool. </p>
+        <p class="im3">Engage yourself in maximum 30 minutes of workout that promotes digestion.</p>
+        <p class="im3">Flax seeds and Castor Oil is a remedy that acts a laxative in Constipation</p>
     </div>
     <div   class="moz" >
         <iframe id="hgt"  width="51%"  src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -240,7 +288,7 @@
                     <div class="item">
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
-                            <h3 class="usrname">ALEX MARTIN</h3>
+                            <h3 class="usrname">Nidhi</h3>
                             <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
@@ -253,7 +301,8 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                MyselfNidhi from Ludhiana was suffering from Constipation since few months. I visited Dr. Sharda Ayurveda for my treatment and I am so grateful to them for the amazing treatment. I am all good now without any medications.
+                                Myself Nidhi from Ludhiana was suffering from Constipation since few months. I visited Dr. Sharda Ayurveda 
+                                for my treatment and I am so grateful to them for the amazing treatment. I am all good now without any medications.
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -274,7 +323,8 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                My problem of chronic constipation recovered almost immediately when I started with Ayurvedic treatment for constipation from Dr. Sharda Ayurveda. With slight Dietary changes I could recover from my chronic constipation. 
+                                My problem of chronic constipation recovered almost immediately when I started with Ayurvedic treatment for constipation 
+                                from Dr. Sharda Ayurveda. With slight Dietary changes I could recover from my chronic constipation. 
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>

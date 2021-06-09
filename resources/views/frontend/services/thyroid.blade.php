@@ -156,34 +156,92 @@
     </div>
 </section>
 
-<section class="our-product" style="background-color:#f3f3f3">
-    <div class="container-fluid cses" >
-        <div class="row cust-product" >
-            <div class="col-xl-6 col-md-6 mb-4">
-                <ul>
-                    <li style="color:#244236">Fatigue and Weakness</li>
-                    <li>Weight gain and hard to lose weight</li>
-                    <li>Dry, scaling, flaking skin</li>
-                    <li>Puffiness around eyes and eyelids</li>
-                    <li>Fungal infection</li>
-                </ul>
+<section class="our-product" style="background-color:#f3f3f3" id="symptoms">
+    <div class="container-fluid cses">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Role of Iodine
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                An imbalance of Iodine in the diet can also cause hypothyroidism and in some cases, Goitre.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                   Stress
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                A major cause of Thyroid is stress.From the Ayurvedic perspective, stress contributes to an imbalance of Vatadosha which is involved in all disease processes. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Variation in gland
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Secretion in variations of Thyroid glands is the main cause of Thyroid. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-6 col-md-6 mb-4 ndv">
-                <p>
-                    One suffering from Hypothyroidism suffers from Fatigue and weakness in the body. 
-                    An Individual constantly gains weight and gets very difficult to reduce even after so many efforts. 
-                    Major Skin issues are seen like cracked heels, dry and dull skin. Brittle, splitting, curved, or ridged nails.
-                    Swelling around Eyes and eyelids is common.
-                    Fungal Infection on nails or peeling/splitting of skin between toes also sometimes occur.
-                </p>
-                <div class="ancr">
-                    <a href="#">Book An Apointment</a>&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Inflammation of Thyroid
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                Swelling is seen in the Thyroid gland around the neck.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Pituitary Gland Malfunction
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                               Over and lower secretion of Pituitary gland hormone varies. 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>			
-
+</section>		
 
 <div class="container-fluid" style="background-color: #eeb03f">
     <div class="container">

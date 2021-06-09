@@ -76,10 +76,11 @@
                     Diabetes is a condition called Madhumeha in Ayurveda.
                     Madhumeha (Madhu- sweet; Meha-to flow or urination)
                     It is a condition in which a person passes honey-like urine.
-                    Reduced Insulin production leads to this disease. Dr. Sharda Ayurveda experts says that intake of excess Food like Heavy, Salty, Oily, Sour and new grains, new wine are contributing factors of Madhumeha. It is a metabolic disorder that is due to imbalanced KaphaDosha and increased Fat in the Body. Poor Digestion gives birth to Diabetes.
-                    Diabetes is becoming the biggest Health concern in Today’s era and one in each house is a survivor. The less active you are, the greater risk of being Diabetic. Adopt Ayurveda for Diabetes for Healthy living.
-                    2 types of Diabetes is categorized as -
-
+                    Reduced Insulin production leads to this disease. Dr. Sharda Ayurveda experts says that intake of excess Food like Heavy, Salty, 
+                    Oily, Sour and new grains, new wine are contributing factors of Madhumeha. It is a metabolic disorder that is due to imbalanced
+                    KaphaDosha and increased Fat in the Body. Poor Digestion gives birth to Diabetes.
+                    Diabetes is becoming the biggest Health concern in Today’s era and one in each house is a survivor. 
+                    “The less active you are, the greater risk of being Diabetic”. Adopt Ayurveda for Diabetes for Healthy living.
                 </p>
                 <div class="btn-banner crd">
                     <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
@@ -153,73 +154,92 @@
     </div>
 </section>
 
-<section class="our-product" style="background-color:#f3f3f3">
+<section class="our-product" style="background-color:#f3f3f3" id="symptoms">
     <div class="container-fluid cses">
         <div class="row">
-            <div class="col-lg-6 mb-4">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Excessive intake of Dairy Products</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">High Blood Pressure</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Family history can also cause Diabetes</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Excessive Sleep</a>
-                    <a class="nav-link" id="v-pills-settingso-tab" data-toggle="pill" href="#v-pills-settingso" role="tab" aria-controls="v-pills-settingso" aria-selected="false">Overweight</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <p>
-                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                            If Blood pressure fluctuates and is not stable also causes Diabetes.
-                            Diabetes continues itself through hereditary. 
-                            No work and only Sleep can be the biggest invite to Diabetes. 
-                            More the fatty Tissues, the more resistant cells become to Insulin.  
-                        </p>
-                        <div class="ancr">
-                            <a href="#">Book An Apointment</a>&nbsp;&nbsp;<img src="{{ URL::asset('front/images/1.png') }}" alt="1.png">
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Excessive intake of Dairy Products
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes.
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <p>
-                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                            If Blood pressure fluctuates and is not stable also causes Diabetes.
-                            Diabetes continues itself through hereditary. 
-                            No work and only Sleep can be the biggest invite to Diabetes. 
-                            More the fatty Tissues, the more resistant cells become to Insulin.  
-                        </p>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    High Blood Pressure
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                If Blood pressure fluctuates and is not stable also causes Diabetes. 
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <p>
-                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                            If Blood pressure fluctuates and is not stable also causes Diabetes.
-                            Diabetes continues itself through hereditary. 
-                            No work and only Sleep can be the biggest invite to Diabetes. 
-                            More the fatty Tissues, the more resistant cells become to Insulin.  
-                        </p>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Family history can also cause Diabetes
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Diabetes continues itself through hereditary.
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <p>
-                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                            If Blood pressure fluctuates and is not stable also causes Diabetes.
-                            Diabetes continues itself through hereditary. 
-                            No work and only Sleep can be the biggest invite to Diabetes. 
-                            More the fatty Tissues, the more resistant cells become to Insulin.  
-                        </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Excessive Sleep
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                No work and only Sleep can be the biggest invite to Diabetes.
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settingso" role="tabpanel" aria-labelledby="v-pills-settingso-tab">
-                        <p>
-                            As said “Excess of everything is bad”. So overconsumption of Dairy products can cause Diabetes. 
-                            If Blood pressure fluctuates and is not stable also causes Diabetes.
-                            Diabetes continues itself through hereditary. 
-                            No work and only Sleep can be the biggest invite to Diabetes. 
-                            More the fatty Tissues, the more resistant cells become to Insulin.  
-                        </p>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Overweight
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                More the fatty Tissues, the more resistant cells become to Insulin. 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>	
 
 
 <div class="container-fluid" style="background-color: #eeb03f">
@@ -269,11 +289,11 @@
 <div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000" id="advantages">
     <div class="mz" style="background-color:#eeb03f">
         <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Diabetes </h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Amla and Turmeric help in improving metabolism, therefore reducing cellular resistance.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda focuses on improving metabolism and remove blockages through a special anti-clog detoxifying treatment.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Secondly Ayurveda focuses on the rejuvenation process with Rasayana herbs to improve and strengthen the pancreas functions and renew the cells and tissues. Therefore, restoring the normal functions of all the body organs.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Thirdly Ayurveda focuses on maintaining blood sugar levels naturally under control. Ayurvedic treatment with diet plans is recommended to control blood sugar levels naturally throughout life.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment for Diabetes is so effective that even an Insulin dependent patient can slowly get back to normal Sugar levels.</p>
+        <p class="im3">Natural Ayurvedic Ingredients e.g.- Amla and Turmeric help in improving metabolism, therefore reducing cellular resistance.</p>
+        <p class="im3">Detoxification- Ayurveda focuses on improving metabolism and remove blockages through a special anti-clog detoxifying treatment.</p>
+        <p class="im3">Repairing and Restoring- Secondly Ayurveda focuses on the rejuvenation process with Rasayana herbs to improve and strengthen the pancreas functions and renew the cells and tissues. Therefore, restoring the normal functions of all the body organs.</p>
+        <p class="im3">Maintenance- Thirdly Ayurveda focuses on maintaining blood sugar levels naturally under control. Ayurvedic treatment with diet plans is recommended to control blood sugar levels naturally throughout life.</p>
+        <p class="im3">Ayurvedic treatment for Diabetes is so effective that even an Insulin dependent patient can slowly get back to normal Sugar levels. </p>
     </div>
     <div class="moz" style="background-color:#244236">
         <iframe width="51%" height="315" src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -294,7 +314,7 @@
                     <div class="item">
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
-                            <h3 class="usrname">ALEX MARTIN</h3>
+                            <h3 class="usrname">Gurdeep Singh</h3>
                             <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
@@ -327,7 +347,7 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                I visited Dr. MukeshShardaAyurvedic doctor for diabetes treatment before 2 months. I was impressed by the way she treats her patients with smooth Ayurvedic treatment and diet changes. I took medication for almost 2 months and I am in my healing stage. I am very thankful to her.
+                                I visited Dr. Mukesh Sharda Ayurvedic doctor for diabetes treatment before 2 months. I was impressed by the way she treats her patients with smooth Ayurvedic treatment and diet changes. I took medication for almost 2 months and I am in my healing stage. I am very thankful to her.
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
