@@ -108,59 +108,56 @@
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12 zfnz aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                <div class="iba-box box4">
-                    <div class="xd">
-                        <div class="cont">	
-                            <div class="wht-space"></div>
-                            <h3>Acute Asthma</h3>
-                            <p>
-                                It is a spontaneous attack caused by an inflammation of the air sacs of the lungs and that further causes the narrowing 
-                                and contraction of the bronchioles causing a restriction of airflow making breathing difficult for a person.
+            <div class="owl-carousel owl-theme" >
+                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="card mb-2">
+                        <img src="{{ URL::asset('front/images/serv-1.png') }}" class="card-img-top lazyload" alt="Hair Transplant">
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold pdt10">Acute Asthma </h4>
+                            <p class="card-text">
+                                It is a spontaneous attack caused by an inflammation of the air sacs of the lungs and that further causes the
+                                narrowing and contraction of the bronchioles causing a restriction of airflow making breathing difficult for a person.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 zfnz aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                <div class="iba-box box5">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>Chronic Asthma</h3>
-                            <p>
+
+                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="card mb-2"> 
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-2.png') }}"  alt="Hair Restoration">
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold pdt10">Chronic Asthma </h4>
+                            <p class="card-text">
                                 Chronic asthma is portrayal of frequent asthma attacks which requires medical help to prevent and minimize acute attacks.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-4  col-md-6 zfnz mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                <div class="iba-box box5a">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>Allergic Asthma</h3>
-                            <p>
-                                Allergic Asthma is caused due to exposure to an allergen, for example- dust particles or pollen grains. 
+
+
+                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="card mb-2"> 
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold pdt10">Allergic Asthma</h4>
+                            <p class="card-text">Allergic Asthma is caused due to exposure to an allergen, for example- dust particles or pollen grains.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="card mb-2"> 
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold pdt10">Non-allergic Asthma</h4>
+                            <p class="card-text">
+                                Non-allergic Asthma can be caused due to various factors such as stress, exercise, illness, extreme weather, 
+                                irritants in the air.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--<div class="col-xl-4  col-md-6 zfnz mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                <div class="iba-box box5a">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>Non-allergic Asthma</h3>
-                            <p>
-                                Non-allergic Asthma can be caused due to various factors such as stress, exercise, illness, extreme weather, irritants in the air.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -315,36 +312,40 @@
     </div>
 </div>
 <div class="split"></div>
-<br>
-<div  class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000">
-    <div id="hgte" class="mz" style="background-color:#eeb03f">
-        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Asthma</h3>
-        <p class="im3">
-            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
-            Effective Ayurvedic Medicines help in get rid of inhaler
-        </p>
-        <p class="im3">
-            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
-            Ayurvedic treatment helps in recovering through Breathing Exercises.
-        </p>
-        <p class="im3">
-            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
-            Ayurvedic treatment helps i recovering through dietary and Lifestyle changes
-        </p>
-        <p class="im3">
-            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
-            Ayurvedic Medicines has no adverse side effects on health.
-        </p>
-        <p class="im3">
-            <!--<img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">-->
-            Ayurveda reduces future Health risks.
-        </p>
+<section class="dsa-why-choose" id="advantages">
+    <div class="container-fluid">
+        <div class="row cut-row" >
+            <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
+                <h2 class="client-test-title">Advantages <b>of Ayurvedic Treatment For Asthma</b></h2>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Effective Ayurvedic Medicines help in get rid of inhaler
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurvedic treatment helps in recovering through Breathing Exercises.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurvedic treatment helps i recovering through dietary and Lifestyle changes
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurvedic Medicines has no adverse side effects on health.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurveda reduces future Health risks.
+                </p>
+            </div>
+            <div class="col-xl-6 col-md-12 col-sm-12">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
+                    <iframe src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-    <div   class="moz" >
-        <iframe id="hgt"  width="51%"  src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="split"></div>
+</section>
 
 <section class="client-testimonial" data-aos="zoom-in" data-aos-duration="4000" id="testimonials">
     <div class="container-fluid">
@@ -593,7 +594,7 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                 Is Asthma a life-long disease?
+                                Is Asthma a life-long disease?
                             </button>
                         </h5>
                     </div>
@@ -610,7 +611,7 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                 Do Asthma triggers more in cold weather?
+                                Do Asthma triggers more in cold weather?
                             </button>
                         </h5>
                     </div>
@@ -671,4 +672,59 @@
 </section>
 
 @include('../partials/frontend/form')
+<style>
+    .carousel-inner {position: relative;width: 100%;overflow: hidden;}
+    .carousel-item {position: relative;float: left;width: 100%;margin-right: -100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;transition: -webkit-transform .6s ease-in-out;transition: transform .6s ease-in-out;transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;}
+    .card-body {padding-top: 1.5rem;padding-bottom: 1.5rem;-webkit-border-radius: 0!important;border-radius: 0!important;flex: 1 1 auto;-ms-flex: 1 1 auto;}
+    .card .card-body a h3{font-size: 18px;color: #ff9000;line-height: 1.4;}
+    .card .card-body h3{color: #373433;font-size: 18px;    line-height: 1.4;}
+    .font-weight-bold {font-weight: 700!important;}
+    .card-title {margin-bottom: .75rem;}
+    .card-img-top {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);}
+</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            responsiveClass: !0,
+            navigation : true,
+            autoplay: true,
+            loop: true,
+            smartSpeed: 2500,
+            singleItem : true,
+            navigationText: ["<i class='fa fa-angle-left fa-2'></i>", "<i class='fa fa-angle-right fa-2'></i>"],
+            items: 2,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: !1
+                },
+                480: {
+                    items: 1,
+                    nav: !1
+                },
+                768: {
+                    items: 2,
+                    nav: !1
+                },
+                1000: {
+                    items: 2,
+                    nav: !1,
+                    loop: !1,
+                    margin: 20
+                },
+                1024: {
+                    items: 3,
+                    nav: !1,
+                    loop: !1,
+                    margin: 20
+                },
+                1366: {
+                    items: 3,
+                    nav: !1
+                }
+            }
+        })
+    });
+
+</script>
 @stop

@@ -1688,6 +1688,13 @@ button.btn.btn-link.collapsed:hover {
     float: left;
     padding: 27px;
 }
+.wrp .mz-adv{
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    height: 336px;
+}
 .wrp {
     width: 100%;
 }
