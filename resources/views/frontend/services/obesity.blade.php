@@ -40,9 +40,6 @@
                         <a href="#treatment">TREATMENT <span class="sr-only">(current)</span></a><span class="ln">&#124;</span>
                     </li>
                     <li>
-                        <a  href="#types">TYPES</a><span class="ln">&#124;</span>
-                    </li>
-                    <li>
                         <a href="#causes">CAUSES</a><span class="ln">&#124;</span>
                     </li>
                     <li>
@@ -83,83 +80,19 @@
                 </p>
                 <p>
                     Obesity, in turn, causes several metabolic disturbances in the body such as hypertension, diabetes, 
-                    irregular digestion, etc. It affects social life too. Overweight, if not controlled timely leads to obesity. According to
-                    Ayurveda, being overweight involves an excess of KaphaDosha in the body. Kapha and excess weight share many of the same qualities;
-                    they are both heavy, slow, cool, oily, smooth, dense, soft, and stable. Ayurveda is a storehouse of the best medicines in Ayurveda 
-                    for obesity. 
+                    irregular digestion, etc. It affects social life too. Overweight, if not controlled timely leads to obesity.  <span id="dots" data-aos="fade-up" data-aos-duration="3000">............</span>
                 </p>
-                <div class="btn-banner crd">
-                    <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="dsa-india-ayurvedic-sec" id="types"> 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 data-aos="fade-up" data-aos-duration="4000" class="aos-init aos-animate">Type's of <b>Asthma</b></h2>
-            </div>
-        </div>
-        <div class="row cust-iba">
-            <div class="owl-carousel owl-theme" >
-                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                    <div class="card mb-2">
-                        <img src="{{ URL::asset('front/images/serv-1.png') }}" class="card-img-top lazyload" alt="Hair Transplant">
-                        <div class="card-body">
-                            <h4 class="card-title font-weight-bold pdt10">Acute Asthma </h4>
-                            <p class="card-text">
-                                It is a spontaneous attack caused by an inflammation of the air sacs of the lungs and that further causes the
-                                narrowing and contraction of the bronchioles causing a restriction of airflow making breathing difficult for a person.
-                            </p>
-                        </div>
+                <span id="more-content">
+                    <p>
+                        According to Ayurveda, being overweight involves an excess of kapha dosha in the body.
+                        Kapha and excess weight share many of the same qualities; they are both heavy, slow, cool, oily, smooth, dense, soft, and stable. 
+                        Ayurveda is a storehouse of the best medicines in Ayurveda for obesity. 
+                    </p>
+                    <div class="btn-banner crd">
+                        <a href="#" class="btn-appointment">BOOK AN APPOINTMENT</a>
                     </div>
-                </div>
-
-                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                    <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-2.png') }}"  alt="Hair Restoration">
-                        <div class="card-body">
-                            <h4 class="card-title font-weight-bold pdt10">Chronic Asthma </h4>
-                            <p class="card-text">
-                                Chronic asthma is portrayal of frequent asthma attacks which requires medical help to prevent and minimize acute attacks.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                    <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
-                        <div class="card-body">
-                            <h4 class="card-title font-weight-bold pdt10">Allergic Asthma</h4>
-                            <p class="card-text">Allergic Asthma is caused due to exposure to an allergen, for example- dust particles or pollen grains.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
-                    <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
-                        <div class="card-body">
-                            <h4 class="card-title font-weight-bold pdt10">Non-allergic Asthma</h4>
-                            <p class="card-text">
-                                Non-allergic Asthma can be caused due to various factors such as stress, exercise, illness, extreme weather, 
-                                irritants in the air.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="btn-ayurvedic">
-                    <a href="#" class="btn-appointment">Find More Treatment</a>
-                </div>
+                </span>
+                <button class="btn-gen mt-2" onclick="readMoreReadLess()" id="myBtn" data-aos="fade-up" data-aos-duration="3000">Read more</button>
             </div>
         </div>
     </div>
@@ -170,7 +103,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="prod-tp-content aos-init aos-animate" data-aos="zoom-in" data-aos-duration="4000">
-                    <h2>Causes of <b>Asthma</b></h2>
+                    <h2>Causes of <b>Obesity</b></h2>
                 </div>
             </div>
         </div>
@@ -186,14 +119,14 @@
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Excessive intaka of Vata
+                                    High Frequency of Eating
                                 </button>
                             </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
-                                Chilled Cold Items highly taken can cause Asthma as it directly affects the lungs tissues.
+                                person feels like eating anything anytime. 
                             </div>
                         </div>
                     </div>
@@ -201,13 +134,13 @@
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Environmental Conditions
+                                    Day Sleeping
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                Unhealthy environment conditions can cause Asthma.
+                                Often sleeping in the daytime causes Obesity.
                             </div>
                         </div>
                     </div>
@@ -215,13 +148,13 @@
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Exposure To Unhealthy Air
+                                    Lack of Exercising
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
-                                Unhealthy Dust, Smoke and Wind can lead to cough.
+                                No workout routine with binge eating causes obesity. 
                             </div>
                         </div>
                     </div>
@@ -240,7 +173,7 @@
 
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                             <div class="card-body">
-                                Asthma takes it form from heredity too and passes itself.
+                                Sometimes it passes itself from heredity too and gets hard to lose weight. 
                             </div>
                         </div>
                     </div>
@@ -248,13 +181,13 @@
                         <div class="card-header" id="headingFive">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Exposute To Cold Climate
+                                    Eating More Calories than Burning
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                             <div class="card-body">
-                                High exposure to cold and Icy Climate increases the chances of Asthma.
+                                Excess of everything is bad. So always eating more than burning will make one obese. 
                             </div>
                         </div>
                     </div>
@@ -290,21 +223,21 @@
         <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
-        <h3><span>Symptoms</span> of Asthma</h3>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Shortness of Breath</p>
-        <p>On feels problem in breathing as normal breathing process hinders.</p>
+        <h3><span>Symptoms</span> of Obesity</h3>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Increase in body mass index (BMI)-</p>
+        <p>It is mandatory to weigh according to your height to balance your BMI. </p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Pain And Tightness in Chest</p>
-        <p>Tightness and pain in chest takes their place in body one being affected by Asthma</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Slower in activities</p>
+        <p>Reduced ability to perform activities on daily basis</p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Whistling Sound While Breathing</p>
-        <p>Some Whistling sounds automatically occurs one Who is prone to Asthma</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Increased sweating</p>
+        <p>When a person starts sweating in excess. </p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Chest Pain</p>
-        <p>A patient also feels pain in Chest when it severe Asthma attack</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Shortness in breath in physical activity</p>
+        <p>one easily gets tired doing minor physical activity too.</p>
         <br>
-        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Thick Mucus Sputum</p>
-        <p>In Asthma consistency of sputum (saliva) gets thick</p>
+        <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Snoring</p>
+        <p>Losing weight will help one in reduced Snoring.</p>
     </div>
 </div>
 <div class="split"></div>
@@ -312,26 +245,26 @@
     <div class="container-fluid">
         <div class="row cut-row" >
             <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
-                <h2 class="client-test-title">Advantages <b>of Ayurvedic Treatment For Asthma</b></h2>
+                <h2 class="client-test-title">Advantages <b>of Ayurvedic Treatment For Obesity</b></h2>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Effective Ayurvedic Medicines help in get rid of inhaler
+                    Follow a Healthy hygienic Diet
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Ayurvedic treatment helps in recovering through Breathing Exercises.
+                    Ayurvedic Herbs help in monitoring the weight on regular basis. 
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Ayurvedic treatment helps i recovering through dietary and Lifestyle changes
+                    Eat only when you are hungry and stop eating anytime anywhere at odd timings that will only lead to weight gain.
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Ayurvedic Medicines has no adverse side effects on health.
+                    Sound and deep sleep at night will help increase metabolism.
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Ayurveda reduces future Health risks.
+                    Following a Healthy workout routine i.e. not missing on exercises.
                 </p>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12">
@@ -357,7 +290,6 @@
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
                             <h3 class="usrname">ALEX MARTIN</h3>
-                            <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
                                     <span class="fa fa-star checked"></span>
@@ -370,8 +302,10 @@
 
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                My grandmother was suffering from Asthma past 10 years and was dependent on Inhaler.  We went to Dr. Sharda Ayurveda 
-                                for treatment of Asthma. Dr. Mukesh Sharda guided us the best and started with Ayurvedic treatment for Asthma. 
+                                My 17 years old son was constantly gaining weight due to his sedentary lifestyle and eating habits. Being a mother,
+                                I was quite worried seeing him becoming fatty. I thought of getting his treatment for weight loss in Ayurveda. 
+                                We started with Ayurvedic treatment for Obesity from Dr. Sharda Ayurveda. Within 20 days of treatment, 
+                                I could see the difference in my son.
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -380,7 +314,6 @@
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
                             <h3 class="usrname">ALEX MARTIN</h3>
-                            <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
                                     <span class="fa fa-star checked"></span>
@@ -392,9 +325,9 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                Dr. Sharda Ayurveda is best for Ayurvedic treatment of Asthma. I used to face breathing issues, sometimes it was quite 
-                                difficult for me to breath at night in winters. After Ayurvedic treatment for Asthma, I am highly satisfied with the 
-                                results and I am recovering from my breathing issues. 
+                                Dr. Sharda Ayurveda is the Best Ayurvedic clinic for obesity treatment in India. 
+                                I was worried about my health due to excessive weight at the age of 42. I got my treatment done from here. 
+                                With few dietary changes and Ayurvedic medicines, my weight started decreasing and I am very thankful to them. 
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -403,7 +336,6 @@
                         <div class="testimonial-content">
                             <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
                             <h3 class="usrname">ALEX MARTIN</h3>
-                            <p class="desig">Envato Customer</p>
                             <ul>
                                 <li>
                                     <span class="fa fa-star checked"></span>
@@ -415,9 +347,9 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                My 17 years old son was totally dependent on Inhaler as he had chronic Asthma. 
-                                We started with Ayurvedic medicines from Dr. Sharda Ayurveda. I cannot thank Dr. Mukesh Sharda enough for treating my
-                                son’s problem and making him healthy. He started breathing healthy without any use of Inhaler. 
+                               I started my weight loss Ayurvedic treatment from Dr. Sharda Ayurveda in August. Within 3 months of treatment,
+                               I could see a drastic change in my weight loss journey. Thanks to Dr. Sharda Ayurveda for helping me maintain my 
+                               weight without any side effects on my health. 
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -449,17 +381,15 @@
                     <div class="card-header" id="headingOne" style="background-color:transparent;">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">               <i class="fa" aria-hidden="true"></i>
-                                Can One Opt For Ayurvedic Treatment For Asthma? 
+                                Can Obesity shorten Life Expectancy? 
                             </button>
                         </h5>
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            Ayurveda is the oldest form of medicine that began in India. It uses all the healthy nutritious herbs
-                            to formulate medicines. Ayurveda transforms an Individual completely. Ayurveda cures a patient naturally with least
-                            side-effects. It focuses on restoration of airway passage which is the major cause of Asthma. Choose best Ayurvedic 
-                            Doctor in India Dr. Mukesh Sharda and get relieve from Asthma.
+                            Yes, Obesity does impact Life expectancy. So Healthy and balanced eating increase Life Expectancy.
+                            The best Ayurvedic treatment for Obesity has the best Results.  
                         </div>
                     </div>
                 </div>
@@ -468,15 +398,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="fa" aria-hidden="true"></i>
-                                Can Ayurveda Permanentely Cure Asthma ?
+                                Is being Overweight and Obese two different things?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                            Ayurveda works on all the natural methods. By adopting healthy lifestyle, change in diet 
-                            and exercising regularly one can definitely see change in their life. Also with it one needs to consult an
-                            Ayurvedic doctor and follow all his medications to treat Asthma and get rid of it.
+                            Yes, being overweight means weighing more than what is considered to be healthy, and being obese means having excess body fat.
+                            So some people are overweight and some are obese.
                         </div>
                     </div>
                 </div>
@@ -485,14 +414,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <i class="fa" aria-hidden="true"></i>
-                                Which All Fruits Cannot be Taken i Asthma? 
+                                I am on Dieting for the past 4 months still not able to reduce my weight, what else can I do? 
                             </button>
                         </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                            Banana, Citrus Fruits like Oranges and  Maraschino Cherries should be avoided. Always avoid intake of all sour fruits. 
-                            Rest of the Fruits always consume at room temperature.
+                            It is a Myth that dieting will help in reducing weight and will help you in reaching your weight goal.
+                            For many people diet only may not be enough to achieve the desired weight loss goal.
                         </div>
                     </div>
                 </div>
@@ -501,15 +430,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 <i class="fa" aria-hidden="true"></i>
-                                How to remove mucus from lungs at home? 
+                                What happens if I do not treat my Obesity timely?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                            Honey tea- Honey tea can be made by mixing about 2 teaspoons of honey with warm water or tea.Saltwater 
-                            gargles- Saltwater helps in reducing mucus and phlegm from your throat. Steam-Steam helps in clearing mucus 
-                            or phlegm out of your lungs. 
+                            Obesity invites several serious health disorders like Heart disease, Diabetes, High Blood pressure, Kidney disease, 
+                            Sleep disorders, Bone and Joint problems. Most important it affects an Individual’s Personality. 
                         </div>
                     </div>
                 </div>
@@ -518,14 +446,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 <i class="fa" aria-hidden="true"></i>
-                                Can Asthma damage lungs? 
+                                Is Ayurvedic treatment for Obesity beneficial?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
-                            Asthma can cause permanent damage to your lungs if not treated early and in right way. Best Ayurvedic treatment 
-                            for Asthma can save you timely and early. 
+                            Treatment from Dr. Sharda Ayurveda for obesity is done with some Dietary changes that will help you reducing weight at the earliest.
+                            One can see the amazing results within few days of treatment.
                         </div>
                     </div>
                 </div>
@@ -538,15 +466,15 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 <i class="fa" aria-hidden="true"></i>
-                                What causes Asthma?
+                                Why Ayurvedic treatment for weight loss?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                         <div class="card-body">
-                            There are several reasons that causes Asthma. It is usually caused by a mixture of hereditary factor i.e.- inherit from
-                            birth and some environmental factors. Certain Allergants from house,dust, mites and pets are the common causes. Other 
-                            allergens, such as pollen can also cause Asthma. 
+                            For an effective weight loss program, Ayurveda is best. It helps you in maintaining your optimal weight. 
+                            An expert Ayurvedic doctor will help one find out the best Ayurvedic treatment suitable according to body type and helps 
+                            in achieving desired weight.
                         </div>
                     </div>
                 </div>
@@ -555,15 +483,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 <i class="fa" aria-hidden="true"></i>
-                                How long does Asthma attack last? 
+                                Can teenagers follow an Ayurvedic diet for weight loss? 
                             </button>
                         </h5>
                     </div>
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                         <div class="card-body">
-                            An Asthma attack can last for several continuous hours if not treated timely. 
-                            Acute Asthma attack last for few minutes but a chronic attack takes several hours and a proper medication is required. 
-                            Medical treatment is mandatory is case of shortness of breath.
+                            An Ayurvedic diet is quite beneficial for teenagers too as they are away from unhealthy meals. The 
+                            ayurvedic diet consists of all the nutritional elements required for body functioning
                         </div>
                     </div>
                 </div>
@@ -572,16 +499,18 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 <i class="fa" aria-hidden="true"></i>
-                                Does Asthma gets worsen by age?
+                                How to overcome Obesity?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                         <div class="card-body">
-                            Yes, poorly treated Asthma obviously gets worsen by age. The lungs start to function less in comparison to 
-                            non- asthmatic persons. Modern medications have temporary treatment for Asthma. They provide treatment to relieve 
-                            the symptoms by giving Inhaler. But in Ayurveda treatment for Asthma has sure results and can be treated at any stage 
-                            of life. 
+                            <ul>
+                                <li>Regular physical activity</li>
+                                <li>Cutting the amount of saturated fat intake </li>
+                                <li>Eliminating Sugar consumption</li>
+                                <li>Increasing Liquid intake and consumption of more fruits and vegetables. </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -590,15 +519,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                Is Asthma a life-long disease?
+                                Can Obesity be cured?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                         <div class="card-body">
-                            Asthma can become a life-long disease if it is not treated in a healthy way. By Ayurvedic treatment it can be vanished. 
-                            Course of Ayurvedic treatment followed by dietary changes and exercises one can easily recover from Asthma without 
-                            any side effects on health. 
+                            Yes, Obesity is treatable at any stage of life with a proper Ayurvedic course of treatment followed by some dietary
+                            changes and proper exercises for weight management 
                         </div>
                     </div>
                 </div>
@@ -607,14 +535,14 @@
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 <i class="fa" aria-hidden="true"></i>
-                                Do Asthma triggers more in cold weather?
+                                Is Obesity genetic?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                         <div class="card-body">
-                            Yes, to some Asthma triggers more in cold weather conditions due to seasonal changes.
-                            It is mandatory to carry your medicines with you specially in changing weather and environmental conditions. 
+                            There is a strong link between Obesity with genetics. There is mostly a history of someone suffering from Obesity due 
+                            to genetics. Obesity is also linked with a family history of other lifestyle diseases like- Blood pressure and Diabetes
                         </div>
                     </div>
                 </div>

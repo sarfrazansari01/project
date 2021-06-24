@@ -66,6 +66,9 @@
                                         <a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a>
                                         <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
                                         <a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a>
+                                        <a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a>
+                                        <a class="dropdown-item" href="{{ route('rheumatoid_arthritis') }}">Rheumatoid Arthritis</a>
+                                        <a class="dropdown-item" href="{{ route('ibs') }}">Irritable Bowel Syndrome</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

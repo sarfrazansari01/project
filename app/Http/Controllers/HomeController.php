@@ -159,4 +159,14 @@ class HomeController extends Controller
         $home_page = Home::findOrFail(HOME_PAGE)->toArray();
         return view('frontend/services/constipation');
     }
+    /**
+     * Show the application rheumatoid_arthritis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function rheumatoid_arthritis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/rheumatoid_arthritis');
+    }
 }
