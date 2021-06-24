@@ -3307,4 +3307,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 #accordion .btn-link {
     color: #fff !important;
 }
+
+.pl-tp-content{
+    margin: 0 auto;
+}
 /* End CSS Added By Mohit*/

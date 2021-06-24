@@ -18,19 +18,19 @@
             </div>
             <div class="col-md-3 caso">
                 <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Mohali</p>	
                     <p class="csr">Infront of army canteen,,<br>Sco 105, Phase 10, Sector 64, Sahibzada Ajit Singh Nagar,<br>Punjab 160062</p>
                 </div>
             </div>
             <div class="col-md-3 caso">
                 <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Bathinda</p>	
                     <p class="csr">Opposite Sepal Hotel,<br>Gate No.1, Near Tinkoni Chowk<br>Bathinda , Punjab 151001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
-                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
+                    <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Muktsar</p>	
                     <p class="csr">Mansa colony,<br>Abohar Road,Near Bus stand Muktsar Sri Muktsar Sahib,<br>Punjab 141001</p>
                 </div>
             </div>

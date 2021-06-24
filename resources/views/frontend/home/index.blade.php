@@ -20,7 +20,7 @@
                     <h2 class="dsa-title">Ayurvedic Clinic for <br>Chronic Diseases</h2>
                     <p>Every day only Ayurveda!</p>
                     <div class="btn-banner">
-                        <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
+                        <a href="#" class="btn-appointment">BOOK AN APPOINTMENT</a>
                     </div>
                 </div>
             </div>
@@ -56,9 +56,9 @@
                         <li>PITTA for DIGESTION</li>
                         <li>KAPHA for NOURISHMENT</li>
                     </ul>
-                    <span data-aos="fade-up" data-aos-duration="3000">
+                    <p data-aos="fade-up" data-aos-duration="3000">
                         Ayurveda gives a holistic approach to treat and cure disease.
-                    </span>
+                    </p>
                     <span id="dots" data-aos="fade-up" data-aos-duration="3000">............</span>
                     <span id="more-content">
                             In such circumstance Ayurveda plays an important role in ones’s life by:
@@ -136,8 +136,7 @@
             <div class="pl-tp-content" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Steps to Get Your <b>Personalised Ayurvedic</b> Treatment</h2>
                 <p>
-                    No two individuals are alike. Jiva Ayurveda follows “Ayunique”. It examines the patient and disease with an aim
-                    Dr. Sharda Ayurveda works on root cause treatment and offers totally customized treatment. 
+                    Dr. Sharda Ayurveda works on root cause treatment and offers totally customized treatment
                 </p>
             </div>
         </div>
@@ -146,14 +145,14 @@
                 <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000" >
                     <img src="{{ URL::asset('front/images/icon11.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Reach us</h3>
-                    <p>Call, Message <br> Or Chat</p>
+                    <p>by Call, Or Chat</p>
                 </div>
 
 
                 <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon12.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Appointment</h3>
-                    <p>Book Appointment with <br>our Specialist</p>
+                    <p>Appointment with <br>our Specialist</p>
                 </div>
 
 
@@ -167,13 +166,13 @@
                 <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon14.png') }}" class="treatment-img" alt="treatment icon">
                     <h3>Specialised</h3>
-                    <p>Specialised Doctor <br>will assist you</p>
+                    <p>will assist you</p>
                 </div>
 
                 <div class="treatment-box" data-aos="flip-left" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/icon15.png') }}" class="treatment-img" alt="treatment icon">
-                    <h3>Specialised</h3>
-                    <p>Specialised Doctor <br>will assist you</p>
+                    <h3>Get your personalized</h3>
+                    <p>Ayurvedic treatment <br>will diet plan</p>
                 </div>
             </div>
 
@@ -330,7 +329,7 @@
                 <div id="client-test" class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="testimonial-content">
-                            <img src="{{ URL::asset('front/images/Ellipse.png') }}" class="img-fluid" alt="Testimonial" >
+                            <img src="{{ URL::asset('front/images/Mrs. Seema.jpeg') }}" class="img-fluid" alt="Testimonial" >
                             <h3 class="usrname">Mrs. Seema</h3>
                             <ul>
                                 <li>
@@ -409,7 +408,6 @@
             <div class="col-xl-12 col-md-12 mb-4">
                 <div class="lp-content">
                     <h2>Latest <b>Post</b></h2>
-                    <p>Once You Choose Dr. Sharda Ayurvedic Hospital In</p>
                 </div>
             </div>
         </div>
