@@ -4,7 +4,7 @@
             <div class="row cust-new">
                 <div class="col-md-12">
                     <div class="top-bar">
-                        <p><marquee>Dr Sharda Ayurweda</marquee></p>
+                        <p><marquee>Authentic effective Ayurvedic Medicines- Dr. Sharda Ayurveda</marquee></p>
                     </div>
                 </div>
             </div> 

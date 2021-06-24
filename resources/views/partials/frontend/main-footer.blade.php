@@ -13,25 +13,25 @@
             <div class="col-md-3 caso">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>				
-                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="csr">562-L, Opp Suman Hospital,<br>Model Town, Central,<br>Ludhiana, Punjab 141002</p>
                 </div>
             </div>
             <div class="col-md-3 caso">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
-                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="csr">Infront of army canteen,,<br>Sco 105, Phase 10, Sector 64, Sahibzada Ajit Singh Nagar,<br>Punjab 160062</p>
                 </div>
             </div>
             <div class="col-md-3 caso">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
-                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="csr">Opposite Sepal Hotel,<br>Gate No.1, Near Tinkoni Chowk<br>Bathinda , Punjab 151001</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>	
-                    <p class="csr">Opp. Suman Hospital,<br>Model Town, Ludhiana,<br>Punjab 141001</p>
+                    <p class="csr">Mansa colony,<br>Abohar Road,Near Bus stand Muktsar Sri Muktsar Sahib,<br>Punjab 141001</p>
                 </div>
             </div>
         </div>
@@ -124,6 +124,22 @@
             return false;
         } else {
             return true;
+        }
+    }
+
+    function readMoreReadLess() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more-content");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
         }
     }
 </script>
