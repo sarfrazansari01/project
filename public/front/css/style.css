@@ -148,6 +148,13 @@
     font-weight: 400;
 }
 
+.ser-heading-min {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
 
 
 small:before {
@@ -1702,15 +1709,15 @@ button.btn.btn-link.collapsed:hover {
     color: #fff;
 }
 .mz p {
-    color: #fff;
-    margin-left: 23px;
-    font-family: 'Poppins';
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #201d1d;
     font-weight: 300;
+    font-family: "Poppins";
 }
 .mz h3 {
-    font-size: 37px;
-    color: #fff;
+    font-size: 26px;
+    color: #244236;
     font-family: 'Poppins';
     font-weight: 300;
     margin-bottom:24px;
@@ -1755,7 +1762,7 @@ iframe {
 
 
 .sym h3 {
-    font-size: 38px;
+    font-size: 32px;
     color: #244236;
     font-weight: 400;
     font-family: "Poppins";
