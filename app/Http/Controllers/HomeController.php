@@ -169,4 +169,36 @@ class HomeController extends Controller
         $home_page = Home::findOrFail(HOME_PAGE)->toArray();
         return view('frontend/services/rheumatoid_arthritis');
     }
+    /**
+     * Show the application gout page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function gout()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/gout');
+    }
+    
+    /**
+     * Show the application osteoarthritis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function osteoarthritis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/osteoarthritis');
+    }
+    
+    /**
+     * Show the application psoriatic_arthritis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function psoriatic_arthritis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/psoriatic_arthritis');
+    }
 }

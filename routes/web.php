@@ -30,6 +30,9 @@ Route::get('/diabetes', [App\Http\Controllers\HomeController::class, 'diabetes']
 Route::get('/constipation', [App\Http\Controllers\HomeController::class, 'constipation'])->name('constipation');
 Route::get('/thyroid', [App\Http\Controllers\HomeController::class, 'thyroid'])->name('thyroid');
 Route::get('/rheumatoid_arthritis', [App\Http\Controllers\HomeController::class, 'rheumatoid_arthritis'])->name('rheumatoid_arthritis');
+Route::get('/gout', [App\Http\Controllers\HomeController::class, 'gout'])->name('gout');
+Route::get('/osteoarthritis', [App\Http\Controllers\HomeController::class, 'osteoarthritis'])->name('osteoarthritis');
+Route::get('/psoriatic_arthritis', [App\Http\Controllers\HomeController::class, 'psoriatic_arthritis'])->name('psoriatic_arthritis');
 
 //Digestive
 Route::get('/digestive', [App\Http\Controllers\HomeController::class, 'digestive'])->name('digestive');

@@ -3311,7 +3311,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     height: 25px!important;
 }
 
-#accordion .btn-link {
+#accordion .btn-link, #accordion1 .btn-link, #accordion2 .btn-link, #accordion3 .btn-link, #accordion4 .btn-link, #accordion5 .btn-link {
     color: #fff !important;
 }
 
