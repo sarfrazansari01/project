@@ -72,6 +72,9 @@
                                         <a class="dropdown-item" href="{{ route('gout') }}">Gout</a>
                                         <a class="dropdown-item" href="{{ route('osteoarthritis') }}">Osteoarthritis</a>
                                         <a class="dropdown-item" href="{{ route('psoriatic_arthritis') }}">Psoriatic Arthritis</a>
+                                        <a class="dropdown-item" href="{{ route('chronic_fatigue_syndrome') }}">Chronic Fatigue Syndrome</a>
+                                        <a class="dropdown-item" href="{{ route('reactive_arthritis') }}">Reactive Arthritis</a>
+                                        <a class="dropdown-item" href="{{ route('ankylosing_spondylitis') }}">Ankylosing Spondylitis</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

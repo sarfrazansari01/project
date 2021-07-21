@@ -201,4 +201,34 @@ class HomeController extends Controller
         $home_page = Home::findOrFail(HOME_PAGE)->toArray();
         return view('frontend/services/psoriatic_arthritis');
     }
+    /**
+     * Show the application chronic_fatigue_syndrome page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function chronic_fatigue_syndrome()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/chronic_fatigue_syndrome');
+    }
+    /**
+     * Show the application reactive_arthritis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function reactive_arthritis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/reactive_arthritis');
+    }
+    /**
+     * Show the application ankylosing_spondylitis page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function ankylosing_spondylitis()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/ankylosing_spondylitis');
+    }
 }
