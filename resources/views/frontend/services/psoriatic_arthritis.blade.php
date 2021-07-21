@@ -70,23 +70,25 @@
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="4000">
                 <h2>Psoriatic Arthritis Ayurvedic <b>Treatment</b></h2>
                 <p>
-                    It is a type of life-long arthritis that affects people suffering from Psoriasis. It is categorized as a chronic condition that when it 
-                    becomes severe, sometimes even leads to permanent damage to joints. The severity of pain and damage varies from person to person. 
-                    Some people face severe problems i.e. their several joints are affected and some have mild problems in 1-2 joints. It is seen that
-                    out of 3 patients with psoriasis 1patient suffers from Psoriatic arthritis. Usually, Psoriatic arthritis develops after 5-10 years 
-                    of suffering from psoriasis and sometimes a person develops psoriatic arthritis within a few months of getting psoriasis or decades
-                    later too. Psoriatic arthritis is also an autoimmune disorder. Usually, Psoriatic arthritis will never be detected through blood 
-                    investigations. Psoriatic arthritis affects large joints especially of lower limbs i.e. joints of finger and toe, back, or sacroiliac
-                    joint of the pelvis. Psoriatic arthritis appears in people between the age of 30 -50 but can begin in childhood too.
+                    It is a type of life-long arthritis that affects people suffering from Psoriasis. It is categorized as a chronic condition that 
+                    when it becomes severe, sometimes even leads to permanent damage to joints. The severity of pain and damage varies from person 
+                    to person. Some people face severe problems i.e. their several joints are affected and some have mild problems in 1-2 joints. 
+                    It is seen that out of 3 patients with psoriasis 1patient suffers from Psoriatic arthritis. Usually, Psoriatic arthritis develops
+                    after 5-10 years of suffering from psoriasis and sometimes a person develops psoriatic arthritis within a few months of getting
+                    psoriasis or decades later too. Psoriatic arthritis is also an autoimmune disorder. Usually, Psoriatic arthritis will never be 
+                    detected through blood investigations. Psoriatic arthritis affects large joints especially of lower limbs i.e. joints of finger
+                    and toe, back, or sacroiliac joint of the pelvis. Psoriatic arthritis appears in people between the age of 30 -50 but can begin
+                    in childhood too. 
                     <span id="dots" data-aos="fade-up" data-aos-duration="3000">............</span>
                 </p>
                 <span id="more-content">
                     <p>
-                        Men, Women, and children are equally at risk of developing Psoriatic arthritis. It is seen that children with Psoriatic
-                        arthritis also uveitis. It can begin at any age group. Psoriatic arthritis causes inflammation of the spine or inflammation
-                        of tendons, cartilage, eye, and lung. In rare cases, people have psoriatic arthritis and never have any noticeable patches of
-                        psoriasis. Many people with this condition show the symptoms of morning stiffness and even mild skin psoriasis can be a 
-                        significant degree of arthritis. Ayurvedic Medicines for psoriatic arthritis work wonders and is treatable at any stage.
+                        Men, Women, and children are equally at risk of developing Psoriatic arthritis. It is seen that children with Psoriatic 
+                        arthritis also uveitis. It can begin at any age group. Psoriatic arthritis causes inflammation of the spine or 
+                        inflammation of tendons, cartilage, eye, and lung. In rare cases, people have psoriatic arthritis and never have any
+                        noticeable patches of psoriasis. Many people with this condition show the symptoms of morning stiffness and even mild
+                        skin psoriasis can be a significant degree of arthritis. Ayurvedic Medicines for psoriatic arthritis work wonders and is
+                        treatable at any stage. 
                     </p>
                     <div class="btn-banner crd">
                         <a href="#" class="btn-appointment">BOOK AN APPOINTMENT</a>
@@ -126,8 +128,8 @@
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
-                                Many people with psoriatic arthritis have a family history of either psoriasis or psoriatic arthritis.
-                                It is 4 times more common in children whose parents are suffering from psoriasis. 
+                                Many people with psoriatic arthritis have a family history of either psoriasis or psoriatic arthritis. 
+                                It is 4 times more common in children whose parents are suffering from psoriasi.
                             </div>
                         </div>
                     </div>
@@ -230,7 +232,7 @@
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Eyes redness</p>
         <p>Eyes get red due to inflammation around the pupil of the eye.</p>
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Nail weakness</p>
-        <p>Nail pitting is seen in 80 percent of patients with onycholysis in the nail. </p>
+        <p>Nail pitting is seen in 80 percent of patients with onycholysis in the nail </p>
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Fatigue</p>
         <p>A person feels restless all day long.</p>
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Bone Weakness</p>
@@ -243,21 +245,20 @@
     <div class="container-fluid">
         <div class="row cut-row" >
             <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
-                <h2 class="client-test-title" style="font-size: 24px !important;">Benefits of Ayurvedic<b>Treatment for for Psoriatic Arthritis  </b></h2>
+                <h2 class="client-test-title" style="font-size: 24px !important;">Benefits of Ayurvedic<b>Treatment for Psoriatic Arthritis  </b></h2>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
                     Ayurveda suggests avoiding acidic foods. It is mandatory to keep 75% of the diet alkaline.
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Panchkarma is advised for the detoxification of toxins. Blood purifiers are also given to the patients to reduce
+                    Panchkarma is advised for the detoxification of toxins. Blood purifiers are also given to the patients to reduce 
                     increased toxins inside the body
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
                     Psoriatic arthritis can be treated in Ayurveda by following Shodhan and Shaman chikitsa. Shaodhan includes the Virechna 
-                    procedure to remove
-                    toxic waste materials from the body and boost the immune system. 
+                    procedure to remove toxic waste materials from the body and boost the immune system. 
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
@@ -302,11 +303,11 @@
                             </ul>
                             <p>
                                 <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
-                                I was suffering from Psoriasis for many years. I used to apply some cream to get relief. Few days it went all 
-                                okay but it used to reoccur. I also started having pain in my body after few months. I got to know about 
-                                Dr. Sharda Ayurveda treatment for Psoriasis. Doctors told me that pain in my joint is due to Psoriatic 
-                                arthritis which I was unaware of. They began with psoriatic arthritis Ayurvedic treatment of mine and added
-                                with some medications of Psoriasis too. I have good relief and recovering.
+                                I was suffering from Psoriasis for many years. I used to apply some cream to get relief. Few days it went all okay but 
+                                it used to reoccur. I also started having pain in my body after few months. I got to know about Dr. Sharda Ayurveda
+                                treatment for Psoriasis. Doctors told me that pain in my joint is due to Psoriatic arthritis which I was unaware of. 
+                                They began with psoriatic arthritis Ayurvedic treatment of mine and added with some medications of Psoriasis too. 
+                                I have good relief and recovering
                                 <span><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                             </p>
                         </div>
@@ -390,9 +391,9 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion3">
                         <div class="card-body">
-                            According to Ayurveda, Psoriatic arthritis is deliberated as the increase of Kapha, Vata, and Pithadosha. 
-                            Other factors responsible are Irregular food habits, excessive intake of black grams, yogurt, sour and salted food, 
-                            and Seafood. Stress also triggers pathogenesis. Consumption of alcohol and tobacco are also the cause of it. 
+                            According to Ayurveda, Psoriatic arthritis is deliberated as the increase of Kapha, Vata, and Pitta dosha. Other 
+                            factors responsible are Irregular food habits, excessive intake of black grams, yogurt, sour and salted food, and 
+                            Seafood. Stress also triggers pathogenesis. Consumption of alcohol and tobacco are also the cause of it. 
                         </div>
                     </div>
                 </div>
@@ -439,7 +440,25 @@
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion3">
                         <div class="card-body">
-                            Both men and women are equally affected by psoriatic arthritis. Its progress varies differently in men and women. Men may more likely develop joint damage while women suffer from more severe symptoms. 
+                            Both men and women are equally affected by psoriatic arthritis. Its progress varies differently in men and women. 
+                            Men may more likely develop joint damage while women suffer from more severe symptoms. 
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSeven" style="background-color:transparent;">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <i class="fa" aria-hidden="true"></i>
+                                For treating psoriatic arthritis does one need to take medicines for life long?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion3">
+                        <div class="card-body">
+                            With Ayurvedic medicines, one need not take medicines for life-long. Ayurveda cures it completely and
+                            patients do not have to take medicine for a long time. Also if a patient follows all the guidelines one 
+                            recovers easily and early. 
                         </div>
                     </div>
                 </div>
@@ -479,23 +498,6 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header" id="headingSeven" style="background-color:transparent;">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                <i class="fa" aria-hidden="true"></i>
-                                For treating psoriatic arthritis does one need to take medicines for life long?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion4">
-                        <div class="card-body">
-                            With Ayurvedic medicines, one need not take medicines for life-long. Ayurveda cures it completely and
-                            patients do not have to take medicine for a long time. Also if a patient follows all the guidelines one 
-                            recovers easily and early. 
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
                     <div class="card-header" id="headingEight" style="background-color:transparent;">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -506,9 +508,7 @@
                     </div>
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion4">
                         <div class="card-body">
-                            If psoriatic arthritis is left untreated then it causes permanent joint damage and also causes inflammation in respiratory, 
-                            digestive, cardiovascular anomalies. Psoriatic arthritis also affects the immunity of the body and patients complain
-                            of many systemic disorders.
+                            If psoriatic arthritis is left untreated then it causes permanent joint damage and also causes inflammation in respiratory, digestive, cardiovascular system. Psoriatic arthritis also affects the immunity of the body and patients complain of many systemic disorders.
                         </div>
                     </div>
                 </div>
@@ -538,8 +538,7 @@
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion4">
                         <div class="card-body">
-                            Stiff, puffy, sausage-like fingers or toes with joint pains tenderness are clinical symptoms. Other symptoms of psoriasis
-                            are dry, red skin patches with silvery-white scales are also present.
+                            Stiff, puffy, sausage-like fingers or toes with joint pains tenderness are clinical symptoms. Other symptoms of psoriasis are dry, red skin patches with silvery-white scales are also present.
                         </div>
                     </div>
                 </div>
