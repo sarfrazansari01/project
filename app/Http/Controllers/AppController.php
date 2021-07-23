@@ -94,10 +94,10 @@ class AppController extends Controller {
      */
     public function add_record($route = NULL) {
         //Use laravel Validator helper and $this->rule is represented the which input field you have to mandatory and numaric
-        $validator = Validator::make(Input::all(), $this->rules);
+        $validator = Validator::make(request()->all(), $this->rules);
 
         //Get a model name and set
-        $modelClass = "App\\" . $this->modelName;
+        $modelClass = "App\\Models\\" . $this->modelName;
 
         //Create a model object
         $model = new $modelClass();
@@ -111,7 +111,7 @@ class AppController extends Controller {
         }
 
         // Return Failure response
-        return back()->withFailure("$this->modelName Failed to save record")->withErrors($validator)->withInput(Input::all());
+        return back()->withFailure("$this->modelName Failed to save record")->withErrors($validator)->withInput(request()->all());
     }
 
     /**
@@ -134,7 +134,7 @@ class AppController extends Controller {
         }
 
         // Return Failure response
-        return back()->withFailure("Failed to update record")->withErrors($validator)->withInput(Input::all());
+        return back()->withFailure("Failed to update record")->withErrors($validator)->withInput(request()->all());
     }
 
     /**
