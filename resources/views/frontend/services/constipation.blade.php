@@ -65,7 +65,7 @@
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
-                    <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+                    <img src="{{ URL::asset('front/images/constipation 1.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
             <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
@@ -213,7 +213,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="advantages">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/constipation 5.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Constipation</h3>

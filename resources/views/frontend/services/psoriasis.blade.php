@@ -67,7 +67,7 @@
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
-                    <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+                    <img src="{{ URL::asset('front/images/psoraises.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
@@ -104,7 +104,7 @@
         </div>
         <div class="row cust-iba">
             <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box1">
+                <div class="iba-box box1 psor1">
                     <div class="xd">
                         <div class="cont">	
                             <div class="wht-space"></div>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box2">
+                <div class="iba-box box2 psor2">
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="col-xl-4 col-md-6 mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box3">
+                <div class="iba-box box3 psor3">
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
@@ -277,7 +277,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="symptoms">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/psoriasias.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Psoriasis </h3>
@@ -298,21 +298,41 @@
     </div>
 </div>
 <div class="split"></div>
-<br>
-<div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000" id="advantages">
-    <div class="mz" style="background-color:#eeb03f">
-        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Psoriasis </h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda works on treating the disease from its root cause</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurveda does not work on treating symptoms, it heals an Individual within.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Psoriasis can never be cured with Steroid based creams. It demands a proper Ayurvedic treatment for lifelong healing.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Rasayanachikitsa (immunomodulation) is advised for boosting immunity. </p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Garlic and Onions are used to purify the blood.</p>
+
+<section class="dsa-why-choose" id="advantages">
+    <div class="container-fluid">
+        <div class="row cut-row" >
+            <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
+                <h2 class="client-test-title" style="font-size: 24px !important;">Advantages of Ayurvedic<b> Treatment For Psoriasis</b></h2>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurveda works on treating the disease from its root cause
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurveda does not work on treating symptoms, it heals an Individual within.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Psoriasis can never be cured with Steroid based creams. It demands a proper Ayurvedic treatment for lifelong healing.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Rasayanachikitsa (immunomodulation) is advised for boosting immunity.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Garlic and Onions are used to purify the blood.
+                </p>
+            </div>
+            <div class="col-xl-6 col-md-12 col-sm-12">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
+                    <iframe src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="moz" style="background-color:#244236">
-        <iframe width="51%" height="315" src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="split"></div>
+</section>
 
 <section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000" id="testimonials">
     <div class="container-fluid">

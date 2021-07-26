@@ -111,7 +111,7 @@
             <div class="owl-carousel owl-theme" >
                 <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                     <div class="card mb-2">
-                        <img src="{{ URL::asset('front/images/serv-1.png') }}" class="card-img-top lazyload" alt="Hair Transplant">
+                        <img src="{{ URL::asset('front/images/Acute Asthma.webp') }}" class="card-img-top lazyload" alt="Hair Transplant">
                         <div class="card-body">
                             <h4 class="card-title font-weight-bold pdt10">Acute Asthma </h4>
                             <p class="card-text">
@@ -124,7 +124,7 @@
 
                 <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                     <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-2.png') }}"  alt="Hair Restoration">
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/Chronic Asthma.webp') }}"  alt="Hair Restoration">
                         <div class="card-body">
                             <h4 class="card-title font-weight-bold pdt10">Chronic Asthma </h4>
                             <p class="card-text">
@@ -137,7 +137,7 @@
 
                 <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                     <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/Allergic Asthma.webp') }}"  alt="Cosmetic Surgery">
                         <div class="card-body">
                             <h4 class="card-title font-weight-bold pdt10">Allergic Asthma</h4>
                             <p class="card-text">Allergic Asthma is caused due to exposure to an allergen, for example- dust particles or pollen grains.</p>
@@ -147,7 +147,7 @@
 
                 <div class="item col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                     <div class="card mb-2"> 
-                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/serv-3.png') }}"  alt="Cosmetic Surgery">
+                        <img class="card-img-top lazyload" src="{{ URL::asset('front/images/Non-allergic Asthma.webp') }}"  alt="Cosmetic Surgery">
                         <div class="card-body">
                             <h4 class="card-title font-weight-bold pdt10">Non-allergic Asthma</h4>
                             <p class="card-text">

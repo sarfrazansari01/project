@@ -750,7 +750,6 @@ small:after {
 }
 
 
-
 .dsa-india-ayurvedic-sec .cust-iba .box4{
     background-image: url(../images/serv-1.png);
     background-size: cover;
@@ -3317,5 +3316,25 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 
 .pl-tp-content{
     margin: 0 auto;
+}
+
+.dsa-india-ayurvedic-sec .cust-iba .dib1{
+    background-image: url(../images/wbps.webp);
+}
+
+.dsa-india-ayurvedic-sec .cust-iba .dib2{
+    background-image: url(../images/wbps2.webp);
+}
+
+.dsa-india-ayurvedic-sec .cust-iba .psor1{
+    background-image: url(../images/psoraisess_2.webp);
+}
+
+.dsa-india-ayurvedic-sec .cust-iba .psor2{
+    background-image: url(../images/psoraises_3.webp);
+}
+
+.dsa-india-ayurvedic-sec .cust-iba .psor3{
+    background-image: url(../images/psoraises_4.webp);
 }
 /* End CSS Added By Mohit*/

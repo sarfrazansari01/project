@@ -61,20 +61,29 @@
                                         Our Services
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a>
+                                        <!--Endocrine-->
+                                        <a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a>
                                         <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
                                         <a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a>
-                                        <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
-                                        <a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a>
-                                        <a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a>
-                                        <a class="dropdown-item" href="{{ route('rheumatoid_arthritis') }}">Rheumatoid Arthritis</a>
+                                        
+                                        <!--Digestive-->
                                         <a class="dropdown-item" href="{{ route('ibs') }}">Irritable Bowel Syndrome</a>
-                                        <a class="dropdown-item" href="{{ route('gout') }}">Gout</a>
-                                        <a class="dropdown-item" href="{{ route('osteoarthritis') }}">Osteoarthritis</a>
-                                        <a class="dropdown-item" href="{{ route('psoriatic_arthritis') }}">Psoriatic Arthritis</a>
+                                        <a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a>
                                         <a class="dropdown-item" href="{{ route('chronic_fatigue_syndrome') }}">Chronic Fatigue Syndrome</a>
+                                        
+                                        <!--Skin-->
+                                        <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
+                                        
+                                        <!--Joint Pain-->
+                                        <a class="dropdown-item" href="{{ route('rheumatoid_arthritis') }}">Rheumatoid Arthritis</a>
+                                        <a class="dropdown-item" href="{{ route('osteoarthritis') }}">Osteoarthritis</a>
+                                        <a class="dropdown-item" href="{{ route('gout') }}">Gout</a>
+                                        <a class="dropdown-item" href="{{ route('psoriatic_arthritis') }}">Psoriatic Arthritis</a>
                                         <a class="dropdown-item" href="{{ route('reactive_arthritis') }}">Reactive Arthritis</a>
                                         <a class="dropdown-item" href="{{ route('ankylosing_spondylitis') }}">Ankylosing Spondylitis</a>
+                                        
+                                        <!--Respiratory-->
+                                        <a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
