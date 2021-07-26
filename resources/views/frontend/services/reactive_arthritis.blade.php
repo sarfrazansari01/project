@@ -354,7 +354,7 @@
                     </div>
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion4">
                         <div class="card-body">
-                            Most people with reactive arthritis findthat the symptoms will disappear completely within 6–12 months with Ayurvedic treatment for reactive arthritis from Dr. Sharda Ayurveda.
+                            Most people with reactive arthritis findthat the symptoms will disappear completely within 6ï¿½12 months with Ayurvedic treatment for reactive arthritis from Dr. Sharda Ayurveda.
                         </div>
                     </div>
                 </div>
@@ -402,12 +402,8 @@
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion4">
                         <div class="card-body">
-                            <ul>
-                                <li>Stop Alcohol and smoking. </li>
-                                <li>Avoid stress for many reasons.</li>
-                                <li>Eat a nutritious diet. Include more nuts and fruits in your meals. </li>
-                                <li>Follow a regular sleep schedule. </li>
-                            </ul>
+                            Inflammation in joints can be reduced by having more of fruits ,vegetables, whole grains which maintain and manage
+                            inflammation and controls weight .The weight loss helps in relieving stress hence is helpful.
                         </div>
                     </div>
                 </div>
@@ -431,7 +427,7 @@
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
                         <h3>Your Medical Records are safe</h3>
-                        <p>Asthma Is Categorized As â€œshwas Rogâ€? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <p>Asthma Is Categorized As â€œshwas Rogï¿½? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
                         <a href="#" class="ptn-post">Read more...</a>
                     </div>
                 </div>
@@ -441,7 +437,7 @@
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
                         <h3>Your Medical Records are safe</h3>
-                        <p>Asthma Is Categorized As â€œshwas Rogâ€? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <p>Asthma Is Categorized As â€œshwas Rogï¿½? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
                         <a href="#" class="ptn-post">Read more...</a>
                     </div>
                 </div>
@@ -451,7 +447,7 @@
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
                         <h3>Your Medical Records are safe</h3>
-                        <p>Asthma Is Categorized As â€œshwas Rogâ€? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
+                        <p>Asthma Is Categorized As â€œshwas Rogï¿½? In Ayurveda. A Condition In Which A Person Faces Regular Breathing Difficulty. By Ayurvedic Treatment We Treat A Patient By Only Ayurvedic Medicines Without Any Inhalers.</p>
                         <a href="#" class="ptn-post">Read more...</a>
                     </div>
                 </div>

@@ -119,20 +119,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 mt-2 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box3">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>Allergic Asthma</h3>
-                            <p>
-                                Allergic Asthma is caused due to exposure to an allergen. Such as dust mites, animal fur or pollen from trees & grass. 
-                                it can also be caused due to chemical fumes. Tabacco smoke can also cause allergic asthma 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
