@@ -67,7 +67,7 @@
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
-                    <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+                    <img src="{{ URL::asset('front/images/thyroid1.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
@@ -93,7 +93,7 @@
         </div>
         <div class="row cust-iba">
             <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box1">
+                <div class="iba-box box1 thyr1">
                     <div class="xd">
                         <div class="cont">	
                             <div class="wht-space"></div>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box2">
+                <div class="iba-box box2 thyr2">
                     <div class="xd">
                         <div class="cont">
                             <div class="wht-space"></div>
@@ -166,7 +166,7 @@
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                   Stress
+                                    Stress
                                 </button>
                             </h5>
                         </div>
@@ -219,7 +219,7 @@
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                             <div class="card-body">
-                               Over and lower secretion of Pituitary gland hormone varies. 
+                                Over and lower secretion of Pituitary gland hormone varies. 
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="symptoms">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/thyroid4.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Thyroid </h3>
@@ -272,21 +272,43 @@
     </div>
 </div>
 <div class="split"></div>
-<br>
-<div class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="3000" id="advantages">
-    <div class="mz" style="background-color:#eeb03f">
-        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Thyroid </h3>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">In Western medicine one will be required to take medications for life once one has been diagnosed with Thyroid. In Ayurveda by Ayurvedic treatment, management of diet, lifestyle, and Ayurvedic herbs can stop this disease from progressing further.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Ayurvedic treatment assist with the proper secretion of hormones and at the same time encouraging the proper absorption of nutrients.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">Pranayama and Yoga create calm and relaxation and Ayurvedic treatment help relieve and control stress, which is the major contributor to Thyroid dysfunction. </p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">The Ayurvedic treatment boosts the immune system and opens the body channels that control healthy metabolism.</p>
-        <p class="im3"><img src="{{ URL::asset('front/images/3.png') }}" alt="3.png">All the Ayurvedic Medicines at Dr. Sharda Ayurveda are Nature extracted and works on treating the root cause of disease.</p>
+
+<section class="dsa-why-choose" id="advantages">
+    <div class="container-fluid">
+        <div class="row cut-row" >
+            <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
+                <h2 class="client-test-title" style="font-size: 24px !important;">Advantages <b>of Ayurvedic Treatment For Thyroid</b></h2>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    In Western medicine one will be required to take medications for life once one has been diagnosed with Thyroid. 
+                    In Ayurveda by Ayurvedic treatment, management of diet, lifestyle, and Ayurvedic herbs can stop this disease from progressing further.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Ayurvedic treatment assist with the proper secretion of hormones and at the same time encouraging the proper absorption of nutrients.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    Pranayama and Yoga create calm and relaxation and Ayurvedic treatment help relieve and control stress, which is the major contributor 
+                    to Thyroid dysfunction. 
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    The Ayurvedic treatment boosts the immune system and opens the body channels that control healthy metabolism.
+                </p>
+                <p class="im3">
+                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
+                    All the Ayurvedic Medicines at Dr. Sharda Ayurveda are Nature extracted and works on treating the root cause of disease.
+                </p>
+            </div>
+            <div class="col-xl-6 col-md-12 col-sm-12">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
+                    <iframe src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="moz" style="background-color:#244236">
-        <iframe width="51%" height="315" src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="split"></div>
+</section>
 
 <section class="client-testimonial" data-aos="zoom-in" data-aos-duration="3000" id="testimonials">
     <div class="container-fluid">
@@ -489,7 +511,7 @@
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                         <div class="card-body">
                             . Is Coriander water good for the Thyroid?
-Yes, it is quite effective due to its mineral content i.e.- It is rich in Vitamin B1,vit.B2,vit.B3. Consume it daily in the morning. 
+                            Yes, it is quite effective due to its mineral content i.e.- It is rich in Vitamin B1,vit.B2,vit.B3. Consume it daily in the morning. 
 
                         </div>
                     </div>

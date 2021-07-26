@@ -17,11 +17,11 @@
             <div class="col-md-12" dalta-aos="zoom-in" data-aos-duration="4000">
                 <div class="service">
                     <small>POWER TO HEAL</small>
-                    <h3 class="ser-heading-min mt-4" >IRRITABLE BOWEL SYNDROME</h3>
+                    <h3 class="ser-heading-min mt-4" >IBS</h3>
                     <p style="font-size: 24px;">Easy Bowel Movements with Ayurveda <br /> Not just symptomatic, Get Root cause treatment for IBS</p>
                     <ul class="bread">
                         <li class="breadcrumb-item active" aria-current="page">Home&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
-                        <li ><a href="https://www.drshardaayurveda.com/ibs/">Irritable Bowel Syndrome</a></li>
+                        <li ><a href="https://www.drshardaayurveda.com/ibs/">IBS</a></li>
                     </ul>
                 </div>
             </div>

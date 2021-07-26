@@ -64,7 +64,7 @@
         <div class="row cut-row">
             <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="4000">
-                    <img src="{{ URL::asset('front/images/asthma.webp') }}" class="why-choose-us img-fluid" alt="why choose">
+                    <img src="{{ URL::asset('front/images/Ra.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="4000">
@@ -219,7 +219,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="symptoms">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/symptoms-of-asthma.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/ra2.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Rheumatoid Arthritis </h3>
@@ -243,8 +243,8 @@
     <div class="container-fluid">
         <div class="row cut-row" >
             <div id="hgte2" class="col-xl-6 col-md-12 col-sm-12 " data-aos="fade-up" data-aos-duration="4000">
-                <h2 class="client-test-title" style="font-size: 24px !important;">Advantages <b>of Ayurvedic  Rheumatoid Arthritis</b></h2>
-                <p class="im3">
+                <h2 class="client-test-title" style="font-size: 24px !important;">Benefits of Ayurvedic <b>Treatment for Rheumatoid Arthritis</b></h2>
+                <p class="im3"> 
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
                     Ayurvedic treatment for Rheumatoid arthritis does not provide symptomatic treatment for pain and inflammation rather it works on 
                     treating the root cause so that there are least chances of its reversal.
@@ -256,10 +256,6 @@
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
                     Ayurvedic medicines are loaded with benefits with no side effects on health.
-                </p>
-                <p class="im3">
-                    <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
-                    Ayurvedic Medicines has no adverse side effects on health.
                 </p>
                 <p class="im3">
                     <img src="{{ URL::asset('front/images/2.png') }}" alt="3.png">
@@ -444,7 +440,7 @@
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                            What time of day is RA worsens itself?
+                            It gets worsens during the morning with stiffness in joints. Sometimes it becomes difficult to even perform daily tasks. In gout pain is more in the evening and fibromyalgia, it is more intense after a poor night sleep.
                         </div>
                     </div>
                 </div>
