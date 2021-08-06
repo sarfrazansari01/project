@@ -73,8 +73,12 @@
             <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Thyroid Ayurvedic <b>Treatment </b></h2>
                 <p>
-                    Thyroid occurs due to inadequate production of Thyroid hormone. Any structural or functional defect of the Thyroid gland leads to a decrease in the secretion of the hormone. Thyroid in Ayurveda cannot be considered as a single disease but is a syndrome, where an increase in pitta dosha leads to hypofunction of thyroid, Agni dusti, stress contributes to the imbalance of Vattadosha and therefore weight gain, heaviness, coldness are a sign of Kapha imbalance. In conclusion, we could say that imbalance of Vata Pitta Kapha leads to Thyroid. The thyroid gland is one of the most important and sensitive endocrine glands. It easily responds to stress. 
-                    There are 2 types of Thyroid glands which are classified as- 
+                    Thyroid occurs due to inadequate production of Thyroid hormone. Any structural or functional defect of the 
+                    Thyroid gland leads to a decrease in the secretion of the hormone. Thyroid in Ayurveda cannot be considered as a single 
+                    disease but is a syndrome, where an increase in pitta dosha leads to hypofunction of thyroid, Agni dusti, stress contributes 
+                    to the imbalance of Vattadosha and therefore weight gain, heaviness, coldness are a sign of Kapha imbalance. In conclusion, 
+                    we could say that imbalance of Vata Pitta Kapha leads to Thyroid. The thyroid gland is one of the most important and sensitive 
+                    endocrine glands. 
                 </p>
                 <div class="btn-banner crd">
                     <a href="#" class="btn-appointment">BOOK an APPOINTMENT</a>
@@ -89,35 +93,39 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 data-aos="fade-up" data-aos-duration="3000" class="aos-init aos-animate">Type's of <b>Thyroid</b></h2>
+                <p class="text-center">It easily responds to stress. There are 2 types of Thyroid glands which are classified as-</p>
             </div>
         </div>
-        <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box1 thyr1">
-                    <div class="xd">
-                        <div class="cont">	
-                            <div class="wht-space"></div>
-                            <h3>HYPOTHYROIDISM</h3>
-                            <p>
-                                It is an Autoimmune disorder with less production of Thyroid hormone which causes Hypothyroidism
-                                Hypothyroidism is the most common thyroid disorder, and it affects around 6-10% of women. According to Ayurveda hypothyroidism can be considered as a condition that results due to Agni Dushti.  
-                            </p>
-                        </div>
-                    </div>
+        <div class="row cut-row">
+            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+                <h2>Hypothyroidism</h2>
+                <p>
+                    It is an Autoimmune disorder with less production of Thyroid hormone which causes Hypothyroidism
+                    Hypothyroidism is the most common thyroid disorder, and it affects around 6-10% of women. According to 
+                    Ayurveda hypothyroidism can be considered as a condition that results due to Agni Dushti. 
+                </p>
+            </div>
+            <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
+                    <img src="{{ URL::asset('front/images/thyroid2.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
-                <div class="iba-box box2 thyr2">
-                    <div class="xd">
-                        <div class="cont">
-                            <div class="wht-space"></div>
-                            <h3>HYPERTHYROIDISM</h3>
-                            <p>
-                                It is also an autoimmune disorder. In Ayurveda, it is termed, BHASMAK Rog.  Approximately 1% of the population suffers from hyperthyroidism. Hyperthyroidism is an excess secretion of thyroid hormones in the body. It includes many conditions such as GRAVE’S diseases, Goiter and Thyroiditis. In Ayurveda, hyperthyroidism is a condition due to increased PITTA in the body. Due to this increased pitta, the digestive fire also increases further imbalances the metabolism of the body.
-                            </p>
-                        </div>
-                    </div>
+        </div>
+        
+        <div class="row cut-row">
+            <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
+                <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
+                    <img src="{{ URL::asset('front/images/thyroid3.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
+            </div>
+            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+                <h2>Hyperthyroidism</h2>
+                <p>
+                    It is also an autoimmune disorder. In Ayurveda, it is termed, BHASMAK Rog.  Approximately 1% of the population 
+                    suffers from hyperthyroidism. Hyperthyroidism is an excess secretion of thyroid hormones in the body. It includes many 
+                    conditions such as GRAVE’S diseases, Goiter and Thyroiditis. In Ayurveda, hyperthyroidism is a condition due to increased 
+                    PITTA in the body. Due to this increased pitta, the digestive fire also increases further imbalances the metabolism of the body.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -176,6 +184,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div id="accordion3">
                     <div class="card">
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
@@ -184,16 +196,12 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion3">
                             <div class="card-body">
                                 Secretion in variations of Thyroid glands is the main cause of Thyroid. 
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingFour">
                             <h5 class="mb-0">
@@ -203,7 +211,7 @@
                             </h5>
                         </div>
 
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion3">
                             <div class="card-body">
                                 Swelling is seen in the Thyroid gland around the neck.
                             </div>
@@ -217,7 +225,7 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion3">
                             <div class="card-body">
                                 Over and lower secretion of Pituitary gland hormone varies. 
                             </div>
@@ -251,7 +259,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="symptoms">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/thyroid4.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/thyroid_Symtoms.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Thyroid </h3>

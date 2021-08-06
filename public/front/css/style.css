@@ -727,7 +727,12 @@ small:after {
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.dsa-india-ayurvedic-sec .cut-row {
+    width: calc(90% - 0px);
+    margin: 0 auto;
 }
 .dsa-india-ayurvedic-sec .cust-iba {
     width: calc(90% - 20px);

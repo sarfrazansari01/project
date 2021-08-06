@@ -213,7 +213,7 @@
 
 <div class="wrp pt-5 mt-5 pb-5" id="advantages">
     <div class="kmoz" >
-        <img src="{{ URL::asset('front/images/constipation 5.webp') }}" class=" w-100 ima">
+        <img src="{{ URL::asset('front/images/Constipation_Symtoms.webp') }}" class=" w-100 ima">
     </div>
     <div class="cvn sym" >
         <h3><span>Symptoms</span> of Constipation</h3>
