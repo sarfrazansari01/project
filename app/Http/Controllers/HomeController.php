@@ -231,4 +231,24 @@ class HomeController extends Controller
         $home_page = Home::findOrFail(HOME_PAGE)->toArray();
         return view('frontend/services/ankylosing_spondylitis');
     }
+    /**
+     * Show the application erectile_dysfunction page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function erectile_dysfunction()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/erectile_dysfunction');
+    }
+    /**
+     * Show the application neck_pain page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function neck_pain()
+    {
+        $home_page = Home::findOrFail(HOME_PAGE)->toArray();
+        return view('frontend/services/neck_pain');
+    }
 }

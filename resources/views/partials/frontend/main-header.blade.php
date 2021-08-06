@@ -57,34 +57,55 @@
                                     <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="{{ route('services') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Our Services
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <!--Endocrine-->
-                                        <a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a>
-                                        <a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a>
-                                        <a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a>
-                                        
-                                        <!--Digestive-->
-                                        <a class="dropdown-item" href="{{ route('ibs') }}">Irritable Bowel Syndrome</a>
-                                        <a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a>
-                                        <a class="dropdown-item" href="{{ route('chronic_fatigue_syndrome') }}">Chronic Fatigue Syndrome</a>
-                                        
-                                        <!--Skin-->
-                                        <a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a>
-                                        
-                                        <!--Joint Pain-->
-                                        <a class="dropdown-item" href="{{ route('rheumatoid_arthritis') }}">Rheumatoid Arthritis</a>
-                                        <a class="dropdown-item" href="{{ route('osteoarthritis') }}">Osteoarthritis</a>
-                                        <a class="dropdown-item" href="{{ route('gout') }}">Gout</a>
-                                        <a class="dropdown-item" href="{{ route('psoriatic_arthritis') }}">Psoriatic Arthritis</a>
-                                        <a class="dropdown-item" href="{{ route('reactive_arthritis') }}">Reactive Arthritis</a>
-                                        <a class="dropdown-item" href="{{ route('ankylosing_spondylitis') }}">Ankylosing Spondylitis</a>
-                                        
-                                        <!--Respiratory-->
-                                        <a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a>
-                                    </div>
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Endocrine &raquo</a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('obesity') }}">Obesity</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('diabetes') }}">Diabetes</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('thyroid') }}">Thyroid</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Digestive &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('ibs') }}">Irritable Bowel Syndrome</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('constipation') }}">Constipation</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('chronic_fatigue_syndrome') }}">Chronic Fatigue Syndrome</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Skin &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('psoriasis') }}">Psoriasis</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Joint Pain &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('rheumatoid_arthritis') }}">Rheumatoid Arthritis</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('osteoarthritis') }}">Osteoarthritis</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('gout') }}">Gout</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('psoriatic_arthritis') }}">Psoriatic Arthritis</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('reactive_arthritis') }}">Reactive Arthritis</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('ankylosing_spondylitis') }}">Ankylosing Spondylitis</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('neck_pain') }}">Neck Pain</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Respiratory &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('asthma') }}">Asthma</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Sexual Disorders &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('erectile_dysfunction') }}">Erectile Dysfunction</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="javascript:void(0);">Gallery</a>

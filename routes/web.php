@@ -33,6 +33,8 @@ Route::get('/rheumatoid_arthritis', [App\Http\Controllers\HomeController::class,
 Route::get('/gout', [App\Http\Controllers\HomeController::class, 'gout'])->name('gout');
 Route::get('/osteoarthritis', [App\Http\Controllers\HomeController::class, 'osteoarthritis'])->name('osteoarthritis');
 Route::get('/psoriatic_arthritis', [App\Http\Controllers\HomeController::class, 'psoriatic_arthritis'])->name('psoriatic_arthritis');
+Route::get('/erectile_dysfunction', [App\Http\Controllers\HomeController::class, 'erectile_dysfunction'])->name('erectile_dysfunction');
+Route::get('/neck_pain', [App\Http\Controllers\HomeController::class, 'neck_pain'])->name('neck_pain');
 
 Route::get('/chronic_fatigue_syndrome', [App\Http\Controllers\HomeController::class, 'chronic_fatigue_syndrome'])->name('chronic_fatigue_syndrome');
 Route::get('/reactive_arthritis', [App\Http\Controllers\HomeController::class, 'reactive_arthritis'])->name('reactive_arthritis');
