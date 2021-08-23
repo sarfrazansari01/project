@@ -212,10 +212,10 @@
 </div>
 
 <div class="wrp pt-5 mt-5 pb-5" id="advantages">
-    <div class="kmoz" >
+    <div class="kmoz px-4" >
         <img src="{{ URL::asset('front/images/Constipation_Symtoms.webp') }}" class=" w-100 ima">
     </div>
-    <div class="cvn sym" >
+    <div class="cvn sym px-4" >
         <h3><span>Symptoms</span> of Constipation</h3>
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Increased difficulty in bowel movement</p>
         <p>It gets very hard to pass stool and is quite painful. </p>
@@ -235,16 +235,18 @@
 </div>
 <div class="split"></div>
 <br>
-<div  class="wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000">
-    <div id="hgte" class="mz" style="background-color:#eeb03f">
-        <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Constipation</h3>
-        <p class="im3">One of the best ways to get relieve from Constipation is following a religious Vatabalancing diet.</p>
-        <p class="im3">Triphala- Triphala is a magical, most effective herbal remedy to treat Constipation.</p>
-        <p class="im3">Composition of Milk and Ghee before going to bed helps in clearing stomach early inmorning and promotes smooth passing of stool. </p>
-        <p class="im3">Engage yourself in maximum 30 minutes of workout that promotes digestion.</p>
-        <p class="im3">Flax seeds and Castor Oil is a remedy that acts a laxative in Constipation</p>
+<div  class="row mx-0 wrp pt-5 mt-5" data-aos="zoom-in" data-aos-duration="4000">
+    <div id="hgte" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="row mx-0 p-4 mb-4" style="background-color:#eeb03f">
+            <h3><span>Advantages</span> of Ayurvedic<br> Treatment For Constipation</h3>
+            <p class="im3">One of the best ways to get relieve from Constipation is following a religious Vatabalancing diet.</p>
+            <p class="im3">Triphala- Triphala is a magical, most effective herbal remedy to treat Constipation.</p>
+            <p class="im3">Composition of Milk and Ghee before going to bed helps in clearing stomach early inmorning and promotes smooth passing of stool. </p>
+            <p class="im3">Engage yourself in maximum 30 minutes of workout that promotes digestion.</p>
+            <p class="im3">Flax seeds and Castor Oil is a remedy that acts a laxative in Constipation</p>
+        </div>
     </div>
-    <div   class="moz" >
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
         <iframe id="hgt"  width="51%"  src="https://www.youtube.com/embed/_-4_fagZucU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
@@ -549,7 +551,7 @@
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -559,7 +561,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -569,7 +571,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">

@@ -1,8 +1,8 @@
 <div class="btFooterWrap btDarkSkin">
     <section class="boldSection btSiteFooterWidgets gutter topSpaced bottomSemiSpaced btDoubleRowPadding">
         <div class="port">
-            <div class="boldRow" id="boldSiteFooterWidgetsRow">
-                <div class="btBox widget_bt_text_image">
+            <div class="row mx-0">
+                <div class="btBox widget_bt_text_image col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="btImage">
                         <img src="{{ URL::asset('admin/dist/img/white-logo.png') }}" alt="drshardaayurveda-logo-white">
                     </div>
@@ -12,7 +12,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="btBox widget_bt_recent_posts">
+                <div class="btBox widget_bt_recent_posts col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                     <h4><span>Recent Posts</span></h4>
                     <div class="popularPosts">
                         <ul>
@@ -55,7 +55,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="btBox woocommerce widget_products">
+                <div class="btBox woocommerce widget_products col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                     <h4><span>Products</span></h4>
                     <ul class="product_list_widget">
                         <li>
@@ -108,7 +108,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="btBox widget_nav_menu">
+                <div class="btBox widget_nav_menu col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                     <h4><span>Our services</span></h4>
                     <div class="menu-footer-menu-container">
                         <ul id="menu-footer-menu" class="menu">
@@ -135,13 +135,15 @@
                 </div>	
             </div>
         </div>
-    </section>	<section class="boldSection gutter btSiteFooter btGutter">
+    </section>	
+    <section class="boldSection gutter btSiteFooter btGutter">
         <div class="port">
-            <div class="boldRow">
-                <div class="rowItem btFooterCopy col-lg-6 btTextLeft">
+            <div class="row mx-0">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 c-right">
                     <p class="copyLine">Copyright by BoldThemes 2018. All rights reserved.</p>				
                 </div><!-- /copy -->
-                <div class="rowItem btFooterMenu col-lg-6 col-sm-12 btTextRight">
+                <!-- Social Icons List -->
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12">
                     <div class="fooWidgets">
                         <div class="btTopBox widget_search">
                             <div class="btSearch">
@@ -176,6 +178,8 @@
                             </span>
                         </a>
                     </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
                     <ul id="menu-sub-footer-menu" class="menu">
                         <li id="menu-item-991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-991">
                             <a href="http://medicare.bold-themes.com/clinic/about-us/">About us</a>

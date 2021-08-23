@@ -6,7 +6,7 @@ $routeName = \Route::currentRouteName();
 <section class="get-in-touch-sec">
     <div class="container-fluid">
         <div class="row custom-get">
-            <div class=" col-xl-6 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <h2 class="mb-4">Get in Touch</h2>
                 <div class="phone-consult">
                     <span><a href="tel:+919876035500" class="consult-ico"><img src="{{ URL::asset('front/images/6.png') }}"></span>Phone Consultation</a>
@@ -18,13 +18,13 @@ $routeName = \Route::currentRouteName();
                     <span><a href="tel:+919876035500" class="consult-ico"><img src="{{ URL::asset('front/images/8.png') }}"></span>Clinic Consultation</a>
                 </div>
                 <div class="email crsem">
-                    <a href="#" class="email-icon"><i class="fa fa-envelope" aria-hidden="true"></i> dr.shardaayurveda@gmail.com</a>
+                  <span><a href="#" class="email-icon"><i class="fa fa-envelope consult-ico" aria-hidden="true"></i></span> dr.shardaayurveda@gmail.com</a>
                 </div>
                 <div class="phone">
-                    <a href="tel:+919876035500" class="phone-icon"><i class="fa fa-phone" aria-hidden="true"></i> +91 9876035500</a>
+                   <span><a href="tel:+919876035500" class="phone-icon consult-ico"><i class="fa fa-phone" aria-hidden="true"></i></span> +91 9876035500</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="get-form" data-aos="zoom-in" data-aos-duration="3000">
                     <h3>Let’s Talk</h3>
                     <span class="error-form display-none">Failed !! please check required fields&#8230;.</span> <br/>

@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                 <div class="iba-box box1 dib1">
                     <div class="xd">
                         <div class="cont">	
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="4000">
                 <div class="iba-box box2 dib2">
                     <div class="xd">
                         <div class="cont">
@@ -588,7 +588,7 @@
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -598,7 +598,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -608,7 +608,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="4000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="4000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">

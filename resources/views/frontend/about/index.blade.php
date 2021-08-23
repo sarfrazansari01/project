@@ -48,118 +48,98 @@
                                 <div class="boldRowInner">
                                     <div class="rowItem col-md-12 col-ms-12  btTextLeft animate animate-fadein animate-moveright inherit"  >
                                         <div class="rowItemContent" >
-                                            <div class="btClear btSeparator bottomSmallSpaced noBorder" ><hr></div>
                                             <header class="header btClear large btDash topDash  btAccentDash" >
                                                 <div class="btSuperTitle">What we stand for</div>
-                                                <div class="dash"><h2><span class="headline">OUR VALUES</span></h2></div>
+                                                <hr class="home-hr">
+                                                <div class="dash1"><h2><span class="headline">OUR VALUES</span></h2></div>
                                             </header>
                                             <div class="btClear btSeparator bottomSemiSpaced noBorder" ><hr></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                <div class="sIcon">
-                                                    <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
-                                                        <span  data-ico-cs="&#xe9de;" class="btIcoHolder"><em></em></span>
-                                                    </span>
-                                                </div>
-                                                <div class="sTxt">
-                                                    <header class="header btClear small" >
-                                                        <div class="dash"><h4><span class="headline">DOCTOR YOU CHOOSE</span></h4></div>
-                                                    </header>
-                                                    <p>
-                                                        A best Doctor is a Guiding Light to save you from a Disease. An experienced, well-qualified expertise team of Ayurvedic Doctors at Dr. Sharda Ayurveda aims to treat a patient by empowering them to Improve their Health by Ayurvedic treatment with no adverse effects on Health. 
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSemiSpaced noBorder" ><hr></div>
+                            <div class="row mx-0 ">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="row mx-0">
+                                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                                            <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
+                                                <span data-ico-cs="&#xe9de;" class="btIcoHolder"><em></em></span>
+                                            </span>
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-6 col-12">
+                                            <h4><span class="headline">DOCTOR YOU CHOOSE</span></h4>
+                                            <p class="">
+                                                A best Doctor is a Guiding Light to save you from a Disease. An experienced, well-qualified expertise team of Ayurvedic Doctors at Dr. Sharda Ayurveda aims to treat a patient by empowering them to Improve their Health by Ayurvedic treatment with no adverse effects on Health. 
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                <div class="sIcon">
-                                                    <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
-                                                        <span  data-ico-cs="&#xe921;" class="btIcoHolder"><em></em></span>
-                                                    </span>
-                                                </div>
-                                                <div class="sTxt">
-                                                    <header class="header btClear small" >
-                                                        <div class="dash"><h4><span class="headline">YOUR HEALTHCARE</span></h4></div>
-                                                    </header>
-                                                    <p>Keeping you Healthy is our Priority by usage of effective Ayurvedic Medicines for your Ailment. Dr. Sharda Ayurveda commits at providing Clear, Accurate and Honest information about the quality of Ayurvedic treatment we offer to our patients.</p>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSemiSpaced noBorder" ><hr></div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="row mx-0">
+                                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                                            <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
+                                                <span  data-ico-cs="&#xe921;" class="btIcoHolder"><em></em></span>
+                                            </span>                                            
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-6 col-12">
+                                            <h4><span class="headline">YOUR HEALTHCARE</span></h4>
+                                            <p class="">
+                                            Keeping you Healthy is our Priority by usage of effective Ayurvedic Medicines for your Ailment. Dr. Sharda Ayurveda commits at providing Clear, Accurate and Honest information about the quality of Ayurvedic treatment we offer to our patients.
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                <div class="sIcon">
-                                                    <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
-                                                        <span  data-ico-cs="&#xe942;" class="btIcoHolder"><em></em></span>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="row mx-0">
+                                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                                            <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
+                                                <span  data-ico-cs="&#xe942;" class="btIcoHolder"><em></em></span>
+                                            </span>
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-6 col-12">
+                                            <h4><span class="headline">WORLDWIDE DELIVERY OF MEDICINES</span></h4>
+                                            <p class="">
+                                            We never want you to skip a day without Ayurvedic Medicines on your ongoing treatment with us. And Dr. Sharda Ayurveda aims for Healthy well-being of everyone around the Globe. We provide easy Door step delivery of Ayurvedic Medicines across the Globe.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="row mx-0">
+                                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                                        <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
+                                                        <span  data-ico-cs="&#xe990;" class="btIcoHolder"><em></em></span>
                                                     </span>
-                                                </div>
-                                                <div class="sTxt">
-                                                    <header class="header btClear small" >
-                                                        <div class="dash"><h4><span class="headline">WORLDWIDE DELIVERY OF MEDICINES</span></h4></div>
-                                                    </header>
-                                                    <p> 
-                                                        We never want you to skip a day without Ayurvedic Medicines on your ongoing treatment with us. And Dr. Sharda Ayurveda aims for Healthy well-being of everyone around the Globe. We provide easy Door step delivery of Ayurvedic Medicines across the Globe.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSemiSpaced noBorder" ><hr></div>
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-6 col-12">
+                                            <h4><span class="headline">PREMIUM QUALITY OF MEDICINES</span></h4>
+                                            <p class="">
+                                            Ayurvedic Medicines of Dr. Sharda Ayurveda are prepared with all the Natural beneficial Herbs grabbed from Mother Nature with no side-effects on Health. All the Medicines are prepared under supervision with no use of any Chemicals in them.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="row mx-0">
+                                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                                        <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
+                                                        <span  data-ico-cs="&#xe920;" class="btIcoHolder"><em></em></span>
+                                                    </span>
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-6 col-12">
+                                            <h4><span class="headline">PREMIUM FACILITIES</span></h4>
+                                            <p class="">
+                                            Dr. Sharda Ayurveda has made its position among the most well-known best Clinic in Punjab. Our Patients receive exclusive benefits with a relaxing hustle free  environmentand appointments that suit your lifestyle.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="boldRow  " >
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                <div class="sIcon">
-                                                    <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
-                                                        <span  data-ico-cs="&#xe990;" class="btIcoHolder"><em></em></span>
-                                                    </span>
-                                                </div>
-                                                <div class="sTxt">
-                                                    <header class="header btClear small" >
-                                                        <div class="dash"><h4><span class="headline">PREMIUM QUALITY OF MEDICINES</span></h4></div>
-                                                    </header>
-                                                    <p>
-                                                        Ayurvedic Medicines of Dr. Sharda Ayurveda are prepared with all the Natural beneficial Herbs grabbed from Mother Nature with no side-effects on Health. All the Medicines are prepared under supervision with no use of any Chemicals in them.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSpaced noBorder" ><hr></div>
-                                        </div>
-                                    </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
-                                        <div class="rowItemContent" >
-                                            <div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                <div class="sIcon">
-                                                    <span class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor" >
-                                                        <span  data-ico-cs="&#xe920;" class="btIcoHolder"><em></em></span>
-                                                    </span>
-                                                </div>
-                                                <div class="sTxt">
-                                                    <header class="header btClear small" >
-                                                        <div class="dash"><h4><span class="headline">PREMIUM FACILITIES</span></h4></div>
-                                                    </header>
-                                                    <p>Dr. Sharda Ayurveda has made its position among the most well-known best Clinic in Punjab. Our Patients receive exclusive benefits with a relaxing hustle free  environmentand appointments that suit your lifestyle.</p>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSpaced noBorder" ><hr></div>
-                                        </div>
-                                    </div>
+                            </div>
+                            </div>
+                                   
+                            
+                                   
 <!--                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit"  >
                                         <div class="rowItemContent" ><div class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
                                                 <div class="sIcon">
@@ -237,17 +217,17 @@
                     <div class="boldCell">
                         <div class="boldCellInner">
                             <div class="boldRow  ">
-                                <div class="boldRowInner btTableRow">
-                                    <div class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein animate-moveright btBottomVertical animated">
+                                <div class="boldRowInner btTableRow row mx-0">
+                                    <div class="rowItem col-xl-4 col-lg-4 col-md-12 col-ms-12 btTextLeft animate animate-fadein animate-moveright btBottomVertical animated">
                                         <div class="rowItemContent">
                                             <div class="bpgPhoto btTextCenter in-right">
                                                 <div class="btImage">
-                                                    <img src="{{ URL::asset('frontend/img/Webpage-png1.png') }}" alt="">
+                                                    <img src="{{ URL::asset('frontend/img/Webpage-png1.png') }}" alt="" class="img-50">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextCenter animate animate-fadein inherit animated">
+                                    <div class="rowItem col-xl-4 col-lg-4 col-md-6 col-ms-12 btTextCenter animate animate-fadein inherit animated">
                                         <div class="rowItemContent">
                                             <div class="btClear btSeparator bottomSmallSpaced noBorder"><hr></div>
                                             <div class="btCounterHolder ">
@@ -268,7 +248,7 @@
                                                     <span class="onedigit p1 d2" data-digit="2">
                                                         <span class="n0">0</span>
                                                         <span class="n1">1</span>
-                                                        <span class="n2">2</span>
+                                                        <span class="n2 ns-2">2</span>
                                                         <span class="n3">3</span>
                                                         <span class="n4">4</span>
                                                         <span class="n5">5</span>
@@ -281,7 +261,7 @@
                                                 </span>
                                             </div>
                                             <div class="btClear btSeparator topSmallSpaced noBorder"><hr></div>
-                                            <header class="header btClear medium  ">
+                                            <header class="header btClear medium">
                                                 <div class="dash"><h3><span class="headline">YEARS WITH YOU</span></h3></div>
                                             </header>
                                             <div class="btText">
@@ -332,7 +312,7 @@
                                             <div class="btClear btSeparator bottomSemiSpaced noBorder"><hr></div>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextCenter animate animate-fadein inherit animated">
+                                    <div class="rowItem col-xl-4 col-lg-4 col-md-6 col-ms-12 btTextCenter animate animate-fadein inherit animated">
                                         <div class="rowItemContent">
                                             <div class="btClear btSeparator bottomSmallSpaced noBorder"><hr></div>
                                             <div class="btCounterHolder ">
@@ -393,7 +373,7 @@
                             </div>
                             <div class="boldRow  " >
                                 <div class="boldRowInner">
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
+                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 mb-10 btTextLeft animate animate-fadein btTextIndent inherit"  >
                                         <div class="rowItemContent" style = "background-color:#ffffff;">
                                             <div class="bpgPhoto btTextCenter" > 
                                                 <!--<a href="http://medicare.bold-themes.com/clinic/about-us/doctors-profile/" target="_self"></a>-->
@@ -412,7 +392,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="btIconImageRow btIconsHalfHoverPosition" >
+                                            <div class="btIconImageRow btIconsHalfHoverPosition d-flex justify-content-center">
                                                 <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline " >
                                                     <a href="https://www.linkedin.com/company/dr-sharda-ayurveda"  target = "_blank" data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -424,11 +404,11 @@
                                                 </span>
                                             </div>
                                             <div class="btClear btSeparator topExtraSmallSpaced noBorder" ><hr></div>
-                                            <header class="header btClear medium  " style="margin-bottom: 0;">
+                                            <header class="header btClear medium text-center" style="margin-bottom: 0;">
                                                 <div class="btSuperTitle">Medical Consultant</div>
                                                 <div class="dash"><h4><span class="headline">Dr. Ramanjeet Kaur (BAMS)</span></h4></div>
                                             </header>
-                                            <div class="btIconImageRow btTextRight" >
+                                            <div class="btIconImageRow btTextRight d-flex justify-content-center">
                                                 <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor   " >
                                                     <a href="https://www.facebook.com/DrShardaAyurveda"  target = "_blank" data-ico-fa="&#xf09a;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -442,7 +422,7 @@
                                             <div class="btClear btSeparator topSmallSpaced noBorder" ><hr></div>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
+                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 mb-10 btTextLeft animate animate-fadein btTextIndent inherit"  >
                                         <div class="rowItemContent" style = "background-color:#ffffff;">
                                             <div class="bpgPhoto btTextCenter" > 
                                                 <!--<a href="http://medicare.bold-themes.com/clinic/about-us/doctors-profile/" target="_self"></a>-->
@@ -462,7 +442,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="btIconImageRow btIconsHalfHoverPosition" >
+                                            <div class="btIconImageRow btIconsHalfHoverPosition d-flex justify-content-center">
                                                 <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline " >
                                                     <a href="https://www.linkedin.com/company/dr-sharda-ayurveda"  target = "_blank" data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -474,11 +454,11 @@
                                                 </span>
                                             </div>
                                             <div class="btClear btSeparator topExtraSmallSpaced noBorder" ><hr></div>
-                                            <header class="header btClear medium  " style="margin-bottom: 0;">
+                                            <header class="header btClear medium text-center" style="margin-bottom: 0;">
                                                 <div class="btSuperTitle">Medical Consultant</div>
                                                 <div class="dash"><h4><span class="headline">Dr. Vandana Sharma (BAMS)</span></h4></div>
                                             </header>
-                                            <div class="btIconImageRow btTextRight" >
+                                            <div class="btIconImageRow btTextRight d-flex justify-content-center">
                                                 <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor   " >
                                                     <a href="https://www.facebook.com/DrShardaAyurveda"  target = "_blank" data-ico-fa="&#xf09a;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -492,7 +472,7 @@
                                             <div class="btClear btSeparator topSmallSpaced noBorder" ><hr></div>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
+                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 mb-10 btTextLeft animate animate-fadein btTextIndent inherit"  >
                                         <div class="rowItemContent" style = "background-color:#ffffff;">
                                             <div class="bpgPhoto btTextCenter" > 
                                                 <!--<a href="http://medicare.bold-themes.com/clinic/about-us/doctors-profile/" target="_self"></a>-->
@@ -512,7 +492,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="btIconImageRow btIconsHalfHoverPosition" >
+                                            <div class="btIconImageRow btIconsHalfHoverPosition d-flex justify-content-center">
                                                 <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline " >
                                                     <a href="https://www.linkedin.com/company/dr-sharda-ayurveda"  target = "_blank" data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -524,12 +504,12 @@
                                                 </span>
                                             </div>
                                             <div class="btClear btSeparator topExtraSmallSpaced noBorder" ><hr></div>
-                                            <header class="header btClear medium  " style="margin-bottom: 0;">
+                                            <header class="header btClear medium text-center" style="margin-bottom: 0;">
                                                 <div class="btSuperTitle">Medical Consultant</div>
                                                 <div class="dash"><h4><span class="headline">Dr. Sunil Chhabra (BAMS)</span></h4></div>
                                             </header>
-                                            <div class="btIconImageRow btTextRight" >
-                                                <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor   " >
+                                            <div class="btIconImageRow btTextRight d-flex justify-content-center">
+                                                <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor">
                                                     <a href="https://www.facebook.com/DrShardaAyurveda"  target = "_blank" data-ico-fa="&#xf09a;" class="btIcoHolder"><em></em></a>
                                                 </span>
                                                 <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor   " >
@@ -542,7 +522,7 @@
                                             <div class="btClear btSeparator topSmallSpaced noBorder" ><hr></div>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
+                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 mb-10 btTextLeft animate animate-fadein btTextIndent inherit"  >
                                         <div class="rowItemContent" style = "background-color:#ffffff;">
                                             <div class="bpgPhoto btTextCenter" > 
                                                 <!--<a href="http://medicare.bold-themes.com/clinic/about-us/doctors-profile/" target="_self"></a>-->
@@ -562,8 +542,8 @@
                                                 </div>
 
                                             </div>
-                                            <div class="btIconImageRow btIconsHalfHoverPosition" >
-                                                <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline " >
+                                            <div class="btIconImageRow btIconsHalfHoverPosition d-flex justify-content-center">
+                                                <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline">
                                                     <a href="https://www.linkedin.com/company/dr-sharda-ayurveda"  target = "_blank" data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a>
                                                 </span>
                                                 <span class="btIco btIcoFilledType btIcoSmallSize btIcoAlterColor  btIcoOutline " >
@@ -574,11 +554,11 @@
                                                 </span>
                                             </div>
                                             <div class="btClear btSeparator topExtraSmallSpaced noBorder" ><hr></div>
-                                            <header class="header btClear medium  " style="margin-bottom: 0;">
+                                            <header class="header btClear medium text-center" style="margin-bottom: 0;">
                                                 <div class="btSuperTitle">Medical Consultant</div>
                                                 <div class="dash"><h4><span class="headline">Dr. Jeevan Jyoti (BAMS)</span></h4></div>
                                             </header>
-                                            <div class="btIconImageRow btTextRight" >
+                                            <div class="btIconImageRow btTextRight d-flex justify-content-center">
                                                 <span class="btIco btIcoOutlineType btIcoSmallSize btIcoDefaultColor   " >
                                                     <a href="https://www.facebook.com/DrShardaAyurveda"  target = "_blank" data-ico-fa="&#xf09a;" class="btIcoHolder"><em></em></a>
                                                 </span>
@@ -605,17 +585,16 @@
                         <div class="boldCellInner">
                             <div class="boldRow  " >
                                 <div class="boldRowInner">
-                                    <div class="rowItem col-md-8 col-ms-12 btTextLeft animate animate-fadein animate-moveup btMiddleVertical"  >
-                                        <div class="rowItemContent" >
-                                            <header class="header btClear medium  " >
-                                                <!--<div class="btSuperTitle">We are always looking for good and talented people</div>-->
+                                    <div class="rowItem col-xl-8 col-lg-8 col-md-6 col-sm-6 col-12 btTextLeft animate animate-fadein animate-moveup btMiddleVertical"  >
+                                        <div class="rowItemContent b-m-10">
+                                            <header class="header btClear medium">
                                                 <div class="dash">
                                                     <h3><span class="headline">BOOK YOUR CONSULTATION</span></h3>
                                                 </div>
                                             </header>
                                         </div>
                                     </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextRight animate animate-fadein animate-moveup btMiddleVertical"  >
+                                    <div class="rowItem col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 btTextRight animate animate-fadein animate-moveup btMiddleVertical"  >
                                         <div class="rowItemContent" >
                                             <a href="#" class="btBtn btBtn btnOutlineStyle btnLightColor btnSmall btnNormalWidth btnRightPosition btnNoIcon" >
                                                 <span class="btnInnerText">GET FREE CONSULTATION</span>

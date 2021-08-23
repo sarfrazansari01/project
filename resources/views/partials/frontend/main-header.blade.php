@@ -13,7 +13,7 @@
     <div class="logo-sec">
         <div class="container-fluid">
             <div class="row custom-logo-sec">
-                <div class="col-md-3" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="3000">
                     <div class="tp-social-icon">
                         <a href="https://www.facebook.com/DrShardaAyurveda" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/shardaayurveda" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -22,12 +22,12 @@
                         <a href="https://www.instagram.com/DrShardaAyurveda/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="logo-img">
                         <a href="/"><img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="logo"></a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 px-0">
                     <div class="search-container" data-aos="zoom-out-down" data-aos-duration="3000">
                         <form action="/action_page.php">
                             <input type="text" placeholder="Search Products.." name="search">
@@ -41,7 +41,7 @@
     <div class="navbar-menu">
         <div class="container-fluid">
             <div class="row cut-nav-row">
-                <div class="col-md-12">
+                <div class="col-md-12 px-0">
                     <nav class="navbar navbar-expand-lg navbar-light ">
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

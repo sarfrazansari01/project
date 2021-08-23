@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="row cut-row">
-            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Hypothyroidism</h2>
                 <p>
                     It is an Autoimmune disorder with less production of Thyroid hormone which causes Hypothyroidism
@@ -105,7 +105,7 @@
                     Ayurveda hypothyroidism can be considered as a condition that results due to Agni Dushti. 
                 </p>
             </div>
-            <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
+            <div class="col-xl-6 col-lg-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/thyroid2.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
@@ -113,12 +113,12 @@
         </div>
         
         <div class="row cut-row">
-            <div class="col-xl-6 col-md-12 mb-5 col-sm-12 mb-2">
+            <div class="col-xl-6 col-lg-6 col-md-12 mb-5 col-sm-12 mb-2">
                 <div class="left-img crc" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/thyroid3.webp') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
-            <div class="col-xl-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                 <h2>Hyperthyroidism</h2>
                 <p>
                     It is also an autoimmune disorder. In Ayurveda, it is termed, BHASMAK Rog.  Approximately 1% of the population 
@@ -258,10 +258,10 @@
 </div>
 
 <div class="wrp pt-5 mt-5 pb-5" id="symptoms">
-    <div class="kmoz" >
+    <div class="kmoz px-4" >
         <img src="{{ URL::asset('front/images/thyroid_Symtoms.webp') }}" class=" w-100 ima">
     </div>
-    <div class="cvn sym" >
+    <div class="cvn sym px-4" >
         <h3><span>Symptoms</span> of Thyroid </h3>
         <p class="sub"><img src="{{ URL::asset('front/images/2.png') }}" alt="2.png">Excessive sweating</p>
         <p>Excessive Sweating and intolerance to heat is a big symptom.</p>
@@ -584,7 +584,7 @@
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -594,7 +594,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -604,7 +604,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">

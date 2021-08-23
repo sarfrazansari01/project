@@ -237,6 +237,25 @@ All HTML/CSS/JAVASCRIPT code is released under Envato's Regular/Extended License
 /* Soft border radius */
 /* Aliases */
 /* Reset */
+
+/* Sarfraz Custome CSS start here */
+.text-center{
+    text-align: center;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.home-hr{
+    width: 60px; 
+    height:4px; 
+    background:#98a77c; 
+    margin-bottom:10px;
+}
+.px-15{
+    padding: 0px 15px;
+}
+/* Sarfraz Custome CSS end here */
+
 article,
 aside,
 details,
@@ -903,6 +922,37 @@ input {
     }
 }
 
+@media screen and (max-width: 425px) {
+    .rowItemContent{
+        text-align: center;
+    }
+    .sicon{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: block !important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .home-hr{
+        margin: 0px auto !important;
+        margin-bottom: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .ns-2{
+        transform: translateY(-87px);
+    }
+    .port{
+        text-align: center !important;
+    }
+    .btIcoHolder{
+        margin-bottom: 10px !important;
+    }
+}
+
 @media screen and (min-width: 480px) and (max-width:767px) {
 .visible-ms {
     display: block !important;
@@ -957,6 +1007,10 @@ input {
     }
 }
 
+.b-m-10{
+    margin-top: 10px;
+}
+
 /* Grid elements base */
 .gutter .port {
     max-width: 1160px;
@@ -978,7 +1032,8 @@ input {
     }
 .rowItemContent {
     position: relative;
-    }
+}
+
 .btDoubleRowPadding .boldRow {
     display: block;
     margin: 0 -30px;
@@ -3704,6 +3759,7 @@ html[data-useragent*='MSIE 10.0'] body.btMenuHorizontal .menuPort ul > li:hover 
     }
 .fooWidgets {
     line-height: 1.2;
+    text-align: center;
     }
 .topBarInMenu .btSearch .btIco,
 .topTools.btTextRight .btSearch .btIco {
@@ -3854,6 +3910,27 @@ html[data-useragent*='MSIE 10.0'] body.btMenuHorizontal .menuPort ul > li:hover 
 @media (min-width: 993px) {
 .infoToggler {
     display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .c-right {
+        text-align: center;
+    }
+    .fooWidgets {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .btSiteFooter .menu {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+    .btImage .img-50{
+        width: 50% !important;
+        margin: 0 auto;
+    }
+    .port{
+        text-align: center !important;
     }
 }
 
@@ -4506,7 +4583,7 @@ p.reply:before {
 .btBox > h4:after {
     content: ' ';
     clear: both;
-    width: 30px;
+    /* width: 10px; */
     display: block;
     height: 2px;
     margin: 10px 0 0;
@@ -7427,7 +7504,7 @@ a.btContinueReading:hover {
     line-height: 46px !important;
     }
 .btCounterHolder {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     }
 .btCounterHolder .btCounter {
     display: block;
@@ -8230,18 +8307,7 @@ html.touch .btShowTitle {
 .btTextRight .sTxt {
     position: relative;
     float: right;
-    }
-.btTextLeft .sIcon {
-    float: left;
-    display: block;
-    position: relative;
-    z-index: 2;
-    margin: 0 -100% 0 0;
-    }
-.btTextLeft .sTxt {
-    position: relative;
-    float: left;
-    }
+}
 .sTxt h1,
 .sTxt h2,
 .sTxt h3,
@@ -8263,12 +8329,9 @@ html.touch .btShowTitle {
 .btTextLeft .btIcoSmallSizeIcon .sTxt {
     margin-left: 45px;
     }
-.btTextLeft .btIcoMediumSizeIcon .sTxt {
-    margin-left: 57px;
-    }
 .btTextRight .btIcoMediumSizeIcon .sTxt {
     margin-right: 57px;
-    }
+}
 .btTextLeft .btIcoBigSizeIcon .sTxt {
     margin-left: 95px;
     }
@@ -8326,7 +8389,7 @@ html.touch .btShowTitle {
     margin: 0;
     }
 .header .btSuperTitle {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-size: 13px;
     line-height: 1.55;
     clear: both;
@@ -8334,7 +8397,7 @@ html.touch .btShowTitle {
     }
 .header .btSubTitle {
 /*    font-family: Source Serif Pro;*/
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-size: 13px;
     line-height: 1.55;
     clear: both;
@@ -9365,7 +9428,7 @@ html.touch .btShowTitle {
     }
 .btCatFilter {
     padding: 20px 0;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-size: 14px;
     }
 .btCatFilter .btCatFilterItem {
@@ -9516,8 +9579,15 @@ html.touch .btShowTitle {
     float: right;
     }
 @media (max-width: 992px) {
-.rtl .btNextPrevRow .rowItem {
-    width: 100%;
+    .rtl .btNextPrevRow .rowItem {
+        width: 100%;
+    }
+    .header {
+        text-align: center;
+    }
+    .home-hr{
+        margin: 0px auto;
+        margin-bottom: 10px;
     }
 }
 
@@ -10971,7 +11041,7 @@ input[type="tel"],
 textarea,
 .fancy-select .trigger,
 .select2-container .select2-choice {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     }
 .fancy-select .trigger {
     padding: 0 28px 0 20px;
@@ -11379,7 +11449,7 @@ div.wpcf7-validation-errors {
 /* jQuery date picker style */
 .ui-datepicker.ui-widget,
 .btDatePicker#ui-datepicker-div {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     border-radius: 0;
     padding: 10px !important;
     border: 0 !important;
@@ -12134,7 +12204,7 @@ button.slick-arrow.slick-next:hover:before {
     }
 .wpcf7-form input:not([type='checkbox']):not([type='radio']).wpcf7-submit {
     border: none;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     color: #fff;
     cursor: pointer;
     padding: 1em 2em 1em 2em;
@@ -12336,7 +12406,7 @@ div.wpcf7 .btSubscribe .wpcf7-form-control-wrap {
     }
 .bt_bb_progress_bar_advanced > p {
     margin: 15px 0 0;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-weight: 700;
     }
 .bt_bb_progress_bar_advanced .progressbar-text {
@@ -12761,7 +12831,7 @@ div.wpcf7 .btSubscribe .wpcf7-form-control-wrap {
 
 .bt_bb_post_grid_filter {
     padding: 20px 0;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-size: 14px;
     }
 .bt_bb_post_grid_filter .bt_bb_post_grid_filter_item {
@@ -13766,7 +13836,7 @@ div.wpcf7 .btSubscribe .wpcf7-form-control-wrap {
     justify-content: center;
     }
 .btSidebar .btIconWidget .btIconWidgetContent .btIconWidgetTitle {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-weight: 700;
     font-size: 14px;
     margin: 0 0 10px;
@@ -13917,7 +13987,7 @@ div.wpcf7 .btSubscribe .wpcf7-form-control-wrap {
     right: 0;
     }
 .bt_bb_before_after_image .bt_bb_before_after_image_block .bt_bb_before_after_image_headline {
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-weight: 700;
     display: block;
     font-size: 35px;
@@ -14306,7 +14376,7 @@ body.btPageTransitions .btSiteFooter {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 0 -.1.em;
+    margin: 0 0 -.1em;
     background-color: #444;
     -webkit-transform: scale3d(0,1,1);
     -moz-transform: scale3d(0,1,1);
@@ -20823,9 +20893,9 @@ form.woocommerce-product-search {
     line-height: 42px;
     font-weight: 300;
     border: 0;
-    -webkit-box-shadow: 0 0 0 2px transparent: inset;
     box-shadow: 0 0 0 2px transparent: inset;
-    font-family: 'Poppins',sans-serif!important
+    -webkit-box-shadow: 0 0 0 2px transparent: inset;
+    font-family: 'Poppins',sans-serif!important;
     }
 .btDarkSkin.woocommerce form.woocommerce-product-search .search-field {
     background-color: rgba(255,255,255,.075);
@@ -21345,7 +21415,7 @@ form fieldset {
     }
 form fieldset legend {
     font-size: 1.875em;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     padding: 1em 0;
     }
 
@@ -21608,7 +21678,7 @@ form fieldset legend {
     height: 44px;
     width: 100%;
     display: block;
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     font-size: 15px;
     line-height: initial;
     font-weight: 300;
@@ -21653,7 +21723,7 @@ form fieldset legend {
     padding: 20px;
     resize: vertical;
     /*font-family: Montserrat;*/
-    font-family: 'Poppins',sans-serif!important
+    font-family: 'Poppins',sans-serif!important;
     min-height: 160px;
     }
 .btHardRoundedButtons .btQuoteBooking .btQuoteItem textarea {

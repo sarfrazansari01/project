@@ -14,11 +14,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Home;
-use Artesaos\SEOTools\Facades\SEOMeta;
-use Artesaos\SEOTools\Facades\OpenGraph;
-use Artesaos\SEOTools\Facades\TwitterCard;
-use Artesaos\SEOTools\Facades\JsonLd;
-use Artesaos\SEOTools\Facades\SEOTools;
+
+
 
 class HomeController extends Controller
 {
@@ -37,6 +34,7 @@ class HomeController extends Controller
     */
     function paging_meta_data($meta_data)
     {
+		return true;
         SEOMeta::setTitle($meta_data['meta_title']);
         SEOMeta::setDescription($meta_data['meta_description']);
         if($meta_data['meta_keywords'] != '')
@@ -314,5 +312,165 @@ class HomeController extends Controller
         $neck_pain = Home::findOrFail(HOME_PAGE)->toArray();
         $this->paging_meta_data($neck_pain);
         return view('frontend/services/neck_pain');
+    }
+    /**
+     * Show the application acidity page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function acidity()
+    {
+        $acidity = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($acidity);
+        return view('frontend/services/acidity');
+    }
+    /**
+     * Show the application anemia page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function anemia()
+    {
+        $anemia = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($anemia);
+        return view('frontend/services/anemia');
+    }
+    /**
+     * Show the application back_pain page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function back_pain()
+    {
+        $back_pain = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($back_pain);
+        return view('frontend/services/back_pain');
+    }
+    /**
+     * Show the application back_pain page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function cervical_sponylosis()
+    {
+        $cervical_sponylosis = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($cervical_sponylosis);
+        return view('frontend/services/cervical_sponylosis');
+    }
+    /**
+     * Show the application de_aaddiction_alcohol page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function de_aaddiction_alcohol()
+    {
+        $de_aaddiction_alcohol = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($de_aaddiction_alcohol);
+        return view('frontend/services/de_aaddiction_alcohol');
+    }
+    /**
+     * Show the application drug_de_addiction page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function drug_de_addiction()
+    {
+        $drug_de_addiction = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($drug_de_addiction);
+        return view('frontend/services/drug_de_addiction');
+    }
+    /**
+     * Show the application fibro myalagia page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function fibro_myalagia()
+    {
+        $fibro_myalagia = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($fibro_myalagia);
+        return view('frontend/services/fibro_myalagia');
+    }
+    /**
+    * Show the application flatulence page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function flatulence()
+    {
+        $flatulence = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($flatulence);
+        return view('frontend/services/flatulence');
+    }
+    
+    /**
+    * Show the application kidney failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function kidney_failure()
+    {
+        $kidney_failure = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($kidney_failure);
+        return view('frontend/services/kidney_failure');
+    }
+    
+    /**
+    * Show the application lumbar_spondylosis failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function lumbar_spondylosis()
+    {
+        $lumbar_spondylosis = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($lumbar_spondylosis);
+        return view('frontend/services/lumbar_spondylosis');
+    }
+    
+    /**
+    * Show the application osteoporosis failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function osteoporosis()
+    {
+        $osteoporosis = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($osteoporosis);
+        return view('frontend/services/osteoporosis');
+    }
+    
+    /**
+    * Show the application pre_mature_ejaculation failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function pre_mature_ejaculation()
+    {
+        $pre_mature_ejaculation = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($pre_mature_ejaculation);
+        return view('frontend/services/pre_mature_ejaculation');
+    }
+    
+    /**
+    * Show the application sciatica pain failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function sciatica_pain()
+    {
+        $sciatica_pain = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($sciatica_pain);
+        return view('frontend/services/sciatica_pain');
+    }
+    
+    /**
+    * Show the application uric_acid failure page.
+    *
+    * @return \Illuminate\Contracts\Support\Renderable
+    */
+    public function uric_acid()
+    {
+        $uric_acid = Home::findOrFail(HOME_PAGE)->toArray();
+        $this->paging_meta_data($uric_acid);
+        return view('frontend/services/uric_acid');
     }
 }

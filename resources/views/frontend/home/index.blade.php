@@ -36,14 +36,14 @@
 <section class="dsa-why-choose">
     <div class="container-fluid">
         <div class="row cut-row">
-            <div class="col-xl-7 col-md-12 mb-5 col-sm-12 mb-2">
+            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 mb-2">
                 <div class="left-img" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="{{ URL::asset('front/images/why-choose.jpg') }}" class="why-choose-us img-fluid" alt="why choose">
                 </div>
             </div>
-            <div class="col-xl-5 col-md-12 col-sm-12 ">
+            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="adj-height">
-                    <h2>Why Choose <b>Ayurveda</b></h2>
+                    <h2 class="">Why Choose <b>Ayurveda</b></h2>
                     <p data-aos="fade-up" data-aos-duration="3000">THE WOUND IS THE PLACE WHERE THE LIGHT ENTERS YOU!</p>
                     <p data-aos="fade-up" data-aos-duration="3000">
                         In this materialistic world AYURVEDA is new LIGHT although it is the oldest healing of science. In Sanskrit, Ayurveda means 
@@ -51,7 +51,7 @@
                         Ayurveda works on three principles of energies i.e. VATA PITTA and KAPHA. Which are present in all human beings and works to 
                         control the various system of human anatomy and physiology.
                     </p>
-                    <ul data-aos="fade-up" data-aos-duration="3000">
+                    <ul data-aos="fade-up" data-aos-duration="3000" style="display: inline-block; margin: 0px auto;">
                         <li>VATA for MOVEMENTS</li>
                         <li>PITTA for DIGESTION</li>
                         <li>KAPHA for NOURISHMENT</li>
@@ -59,7 +59,7 @@
                     <p data-aos="fade-up" data-aos-duration="3000">
                         Ayurveda gives a holistic approach to treat and cure disease.
                     </p>
-                    <span id="dots" data-aos="fade-up" data-aos-duration="3000">............</span>
+                    <span id="dots" data-aos="fade-up" data-aos-duration="3000"></span>
                     <span id="more-content">
                             In such circumstance Ayurveda plays an important role in ones’s life by:
                         <ul>
@@ -83,11 +83,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h2 data-aos="fade-up" data-aos-duration="3000">Diseases & <b>Ayurvedic Treatments</b></h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000" style="line-height: 30px;">Diseases & <b>Ayurvedic Treatments</b></h2>
             </div>
         </div>
         <div class="row cust-iba">
-            <div class="col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box1">
                     <div class="xd">
                         <div class="cont">	
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box2">
                     <div class="xd">
                         <div class="cont">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 mt-2 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 mt-2 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iba-box box3">
                     <div class="xd">
                         <div class="cont">
@@ -185,15 +185,15 @@
             <div class="col-md-12">
                 <div class="tp-abt-content">
                     <h2>Welcome to Dr. <b>Sharda Ayurveda</b></h2>
-                    <p>Once You Choose Dr. Sharda Ayurvedic Hospital in Punjab, India, Anything is Possible</p>
+                    <p class="tp-abt-lh">Once You Choose Dr. Sharda Ayurvedic Hospital in Punjab, India, Anything is Possible</p>
                 </div>
             </div>
         </div>
         <div class="row custum-row">
-            <div class="col-xl-6 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-6 col-lg-6 col-md-12 colsm-12 col-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <iframe width="620" height="450" src="https://www.youtube.com/embed/w8UaP6U1H18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-xl-6 col-md-12">
+            <div class="col-xl-6 col-lg-6 col-md-12 colsm-12 col-12">
                 <div class="about-right-content" data-aos="zoom-in" data-aos-duration="3000">
                     <p><strong>DR. SHARDA AYURVEDA</strong> is renowned for the treatment of auto-immune diseases over the years in the world.</p>
                     <p>We have immerged as a leading centres in Punjab and have treated thousands of patients worldwide.</p>
@@ -232,7 +232,7 @@
         </div>
         <div class="row cust-dr">
             <div class="col-xl-4 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="3000">
-                <div class="dr-img-left" >
+                <div class="dr-img-left dr-img-center" >
                     <img src="{{ URL::asset('front/images/Dr-Mukesh-Sharda.png') }}" class="img-fluid" alt="Dr Mukesh Sharda">
                 </div>
             </div>
@@ -405,14 +405,14 @@
 <section class="latest-post-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-12 col-md-12 mb-4">
+            <div class="col-xl-12 col-md-12">
                 <div class="lp-content">
                     <h2>Latest <b>Post</b></h2>
                 </div>
             </div>
         </div>
         <div class="row custom-lp">
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -422,7 +422,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">
@@ -432,7 +432,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4" data-aos="zoom-in" data-aos-duration="3000">
                 <div class="lp-post">
                     <img src="{{ URL::asset('front/images/latest-ps.jpg') }}" class="img-fluid" alt="Testimonial" >
                     <div class="post-content">

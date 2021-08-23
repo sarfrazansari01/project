@@ -3,32 +3,32 @@
         <div class="row">
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="foo-logo">
                     <img src="{{ URL::asset('front/images/dr-sharda-logo.png') }}" class="cp-logo" alt="footer logo">
                 </div>
             </div>
         </div>
         <div class="row cust-address">
-            <div class="col-md-3 caso">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 caso">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Ludhiana(Head Office)</p>				
                     <p class="csr">562-L, Opp Suman Hospital,<br>Model Town, Central,<br>Ludhiana, Punjab 141002</p>
                 </div>
             </div>
-            <div class="col-md-3 caso">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 caso">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Mohali</p>	
                     <p class="csr">Infront of army canteen,,<br>Sco 105, Phase 10, Sector 64, Sahibzada Ajit Singh Nagar,<br>Punjab 160062</p>
                 </div>
             </div>
-            <div class="col-md-3 caso">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 caso caso-1">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Bathinda</p>	
                     <p class="csr">Opposite Sepal Hotel,<br>Gate No.1, Near Tinkoni Chowk<br>Bathinda , Punjab 151001</p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
                 <div class="foo-address-box">
                     <p class="fp"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Muktsar</p>	
                     <p class="csr">Mansa colony,<br>Abohar Road,Near Bus stand Muktsar Sri Muktsar Sahib,<br>Punjab 141001</p>
@@ -39,10 +39,10 @@
             <div class="col-lg-12">
                 <div class="brd"></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-lg-5 col-md-6 col-sm-12 col-12">
                 <p class="text-white copy">Copyright  2021 Beauty Supply Outlet. All Rights Reserved</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-lg-7 col-md-6 col-sm-12 col-12 list-1">
                 <ul class="listing">
                     <li>
                         <a href="/">Home <span class="sr-only">(current)</span></a><span class="ln">&#124;</span>

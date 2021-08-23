@@ -1,18 +1,14 @@
-*{
+* {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
-.top-bar-sec{
+.top-bar-sec {
     background-color: #d49925;
     padding: 15px;
     text-align: center;
 }
 
-
-
 /*///////carousel//////*/
-
-
 
 .slider {
     width: 50%;
@@ -32,33 +28,22 @@
     color: black;
 }
 
-
 .slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: .2;
+    transition: all ease-in-out 0.3s;
+    opacity: 0.2;
 }
 
 .slick-active {
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .slick-current {
     opacity: 1;
 }
 
-
 /*carousel end////////*/
 
-
-
-
-
-
-
-
-
-
-.top-bar-sec p{
+.top-bar-sec p {
     font-size: 16px;
     line-height: 14px;
     color: #ffffff;
@@ -74,12 +59,14 @@
     text-align: left;
 }
 
-#more-content {display: none;}
+#more-content {
+    display: none;
+}
 
 .btn-gen {
     font-size: 15px;
     color: #ffffff;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -99,15 +86,13 @@
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     z-index: 2;
     position: relative;
 }
 .xd:hover {
     opacity: 0.8;
-    background-image: linear-gradient(
-        45deg
-        , #d49925, transparent);
+    background-image: linear-gradient(45deg, #d49925, transparent);
 
     min-height: 555px;
 }
@@ -116,46 +101,47 @@
     border-radius: 0px 50px 0px 50px;
 }
 
+.zfnz .xd {
+    border-radius: 0px 50px 0px 34px;
+}
 
-.zfnz .xd{border-radius: 0px 50px 0px 34px;}
-
-.bread li a{color:#fff; text-decoration: none;}
+.bread li a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .bread li {
     display: inline-block;
     padding: 2px 5px;
-    color:#fff;
+    color: #fff;
 }
 .bread {
     list-style: none;
 }
 .breadcrumb-item.active {
-    color: #ccc!important;
+    color: #ccc !important;
     font-weight: 100;
 }
 
 .service p {
     font-size: 37px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     color: #fff;
 }
-
 
 .ser-heading {
     font-size: 50px;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 400;
 }
 
 .ser-heading-min {
     font-size: 22px;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 400;
 }
-
-
 
 small:before {
     content: "";
@@ -182,39 +168,28 @@ small:after {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     position: relative;
 }
 
-
-
 /*slick slider start//////*/
 
-
-
-
-
-
 /*slick slider end///////*/
-
-
-
-
 
 .service {
     padding-top: 68px;
     padding-bottom: 50px;
 }
 
+.service {
+    text-align: center;
+}
 
-.service{text-align: center;}
-
-
-.top-bar-sec .cust-new{
+.top-bar-sec .cust-new {
     width: calc(90% - 0px);
     margin: 0 auto;
 }
-.logo-sec{
+.logo-sec {
     background-color: #fff;
     padding: 15px 0px;
 }
@@ -229,7 +204,7 @@ small:after {
     align-items: center;
     justify-content: start;
 }
-.logo-sec .custom-logo-sec .tp-social-icon a i{
+.logo-sec .custom-logo-sec .tp-social-icon a i {
     font-size: 20px;
     color: #234336;
     border: 1px solid;
@@ -241,11 +216,11 @@ small:after {
     align-items: center;
     margin-right: 5px;
 }
-.logo-sec .custom-logo-sec .tp-social-icon a{
+.logo-sec .custom-logo-sec .tp-social-icon a {
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.logo-sec .custom-logo-sec .tp-social-icon a:hover i{
+.logo-sec .custom-logo-sec .tp-social-icon a:hover i {
     color: #d39923;
 }
 .logo-sec .custom-logo-sec .logo-img {
@@ -294,7 +269,7 @@ small:after {
     border-bottom-right-radius: 25px;
 }
 
-.navbar-menu{
+.navbar-menu {
     background-color: #d49925;
     transition-delay: all 0.5s ease;
 }
@@ -302,7 +277,6 @@ small:after {
 .navbar-menu .phone-btn:hover {
     background-color: #234537;
 }
-
 
 .nvi {
     width: 28%;
@@ -344,11 +318,11 @@ small:after {
     /*left: 44px;*/
     top: 14px;
 }
-.nvi button{
+.nvi button {
     border: none;
     background-color: transparent;
-    font-size: 25px;}
-
+    font-size: 25px;
+}
 
 .navbar-menu .phone-btn {
     display: flex;
@@ -365,7 +339,7 @@ small:after {
     font-family: "Poppins";
     text-decoration: none;
     cursor: pointer;
-    transition:all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .navbar-menu .nav-item {
@@ -391,14 +365,14 @@ small:after {
     font-weight: 400;
     font-family: "Poppins";
     text-transform: uppercase;
-    transition:all 0.5s ease;
+    transition: all 0.5s ease;
 }
-.navbar-menu .navbar-expand-lg .navbar-nav .active .nav-link{
+.navbar-menu .navbar-expand-lg .navbar-nav .active .nav-link {
     font-weight: 600 !important;
 }
 .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu {
     background-color: #d49925 !important;
-    color:#fff;
+    color: #fff;
 }
 .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
     font-size: 18px;
@@ -409,7 +383,8 @@ small:after {
     transition: all 0.5s ease;
     text-align: left;
 }
-.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar-menu .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
     text-decoration: none;
     background-color: #eeb03f;
 }
@@ -419,7 +394,7 @@ small:after {
     top: 0;
     z-index: 9999;
 }
-@media(min-width: 992px){
+@media (min-width: 992px) {
     .navbar-menu .navbar-expand-lg .navbar-nav {
         display: flex;
         justify-content: center;
@@ -438,31 +413,32 @@ small:after {
     }
 }
 
-@media screen and (max-width: 1400px){
-    .wrp .mz{height:421px; margin-bottom: 20px}
-
-}
-
-
-@media screen and (max-width:1440px){
-    .wrp .mz{
-        height:421px;
+@media screen and (max-width: 1400px) {
+    .wrp .mz {
+        height: 421px;
         margin-bottom: 20px;
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .wrp .mz {
+        height: 421px;
+        margin-bottom: 20px;
+    }
+}
 
-@media(max-width: 1366px){
+@media (max-width: 1366px) {
     .navbar-menu .navbar {
         padding: 0px;
-        width: 80%;
+        width: 78%;
         float: left;
     }
 
-
-    .wrp .mz{height:auto;}
+    .wrp .mz {
+        height: auto;
+    }
     .navbar-menu .dsa-phone {
-        width: 20%;
+        width: 22%;
         float: left;
         display: flex;
         justify-content: end;
@@ -472,16 +448,15 @@ small:after {
         /*justify-content: start;*/
         align-content: center;
     }
-
 }
 
-
-@media screen and (max-width:1200px){
-    .navbar-menu .dsa-phone{width:auto;}
+@media screen and (max-width: 1200px) {
+    .navbar-menu .dsa-phone {
+        width: auto;
+    }
 }
 
-
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
     .navbar-menu .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 4px;
         padding-left: 4px;
@@ -490,8 +465,9 @@ small:after {
         width: 90%;
     }
 
-
-    .dr-mukesh-sharda-sec .dr-img-left img{position: inherit;}
+    .dr-mukesh-sharda-sec .dr-img-left img {
+        position: inherit;
+    }
 
     .treatment-box h3 {
         font-size: 20px;
@@ -500,7 +476,6 @@ small:after {
     .treatment-box {
         margin-left: 12px;
     }
-
 
     .dsa-banner-sec .cust-dsa-banner {
         width: calc(95% - 0px);
@@ -512,7 +487,10 @@ small:after {
     .dsa-india-ayurvedic-sec {
         padding-bottom: 50px;
     }
-    .pl-ayurvedic-treatment-sec, .about-us-sec, .our-product, .client-testimonial {
+    .pl-ayurvedic-treatment-sec,
+    .about-us-sec,
+    .our-product,
+    .client-testimonial {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -524,49 +502,56 @@ small:after {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .latest-post-sec {
-        bottom: -50px;
-    }
     .get-in-touch-sec {
         padding-top: 130px;
         padding-bottom: 50px;
     }
-    .dsa-why-choose .cut-row,.dsa-india-ayurvedic-sec .cust-iba, .pl-ayurvedic-treatment-sec .cst-pl-row, .about-us-sec .custum-row, .our-product .cust-product, .latest-post-sec .custom-lp, .dr-mukesh-sharda-sec .cust-dr {
+    .dsa-why-choose .cut-row,
+    .dsa-india-ayurvedic-sec .cust-iba,
+    .pl-ayurvedic-treatment-sec .cst-pl-row,
+    .about-us-sec .custum-row,
+    .our-product .cust-product,
+    .latest-post-sec .custom-lp,
+    .dr-mukesh-sharda-sec .cust-dr {
         width: calc(100% - 0px);
     }
     .get-in-touch-sec .custom-get {
         width: calc(98% - 0px);
     }
-    .dsa-foo-sec .foo-address-box p, .dsa-foo-sec .foo-logo p {
+    .dsa-foo-sec .foo-address-box p,
+    .dsa-foo-sec .foo-logo p {
         font-size: 16px;
         line-height: 25px;
     }
     nav.foo-navbar .navbar-nav .nav-link {
-        font-size: 16px;		
+        font-size: 16px;
     }
-    .get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+    .get-in-touch-sec .custom-get .email .email-icon,
+    .get-in-touch-sec .custom-get .phone-icon {
         font-size: 18px;
     }
-
-
-
 
     .navbar-menu .phone-btn {
         font-size: 16px;
     }
-    .top-bar-sec .cust-new, .logo-sec .custom-logo-sec, .logo-sec .custom-logo-sec, .navbar-menu .cut-nav-row {
+    .top-bar-sec .cust-new,
+    .logo-sec .custom-logo-sec,
+    .logo-sec .custom-logo-sec,
+    .navbar-menu .cut-nav-row {
         width: calc(100% - 0px);
         margin: 0 auto;
     }
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
     .logo-sec .custom-logo-sec .tp-social-icon {
         justify-content: center;
         margin-bottom: 20px;
     }
 
-    .dsa-banner-sec2{background-size: cover!important;}
+    .dsa-banner-sec2 {
+        background-size: cover !important;
+    }
 
     .logo-sec .custom-logo-sec .search-container {
         margin-top: 20px;
@@ -583,8 +568,6 @@ small:after {
     padding-top: 50px;
 }
 
-
-
 .dsa-banner-sec2 {
     background-image: url(../images/ban.jpg);
     background-repeat: no-repeat;
@@ -597,7 +580,7 @@ small:after {
     width: calc(92% - 0px);
     margin: 0 auto;
 }
-.dsa-banner-sec .dsa-content{
+.dsa-banner-sec .dsa-content {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -631,7 +614,7 @@ small:after {
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -671,12 +654,9 @@ small:after {
          align-items: center;*/
 }
 
-
 .adj-height p:nth-child(2) {
     margin-bottom: 0px;
 }
-
-
 
 .dsa-why-choose .why-choose-us {
     width: 98%;
@@ -687,17 +667,17 @@ small:after {
     font-weight: 400;
     font-family: "Poppins";
 }
-.dsa-why-choose p{
+.dsa-why-choose p {
     font-size: 16px;
     line-height: 30px;
     color: #201d1d;
     font-weight: 300;
     font-family: "Poppins";
 }
-.dsa-why-choose ul{
+.dsa-why-choose ul {
     margin-bottom: 0px;
 }
-.dsa-why-choose ul li{
+.dsa-why-choose ul li {
     font-size: 16px;
     line-height: 35px;
     color: #201d1d;
@@ -720,14 +700,14 @@ small:after {
 .dsa-india-ayurvedic-sec {
     padding-bottom: 2rem;
 }
-.dsa-india-ayurvedic-sec h2{
+.dsa-india-ayurvedic-sec h2 {
     font-size: 40px;
     line-height: 55px;
     color: #244236;
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .dsa-india-ayurvedic-sec .cut-row {
@@ -741,39 +721,34 @@ small:after {
 .dsa-india-ayurvedic-sec .cust-iba .iba-box {
     padding: 0px;
     min-height: 555px;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 .dsa-india-ayurvedic-sec .cust-iba .iba-box:hover {
-    transition: all .5s ease;
-    transform: translate(0,-10px);
+    transition: all 0.5s ease;
+    transform: translate(0, -10px);
 }
-.dsa-india-ayurvedic-sec .cust-iba .box1{
+.dsa-india-ayurvedic-sec .cust-iba .box1 {
     background-image: url(../images/iba-bg1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-.dsa-india-ayurvedic-sec .cust-iba .box4{
+.dsa-india-ayurvedic-sec .cust-iba .box4 {
     background-image: url(../images/serv-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-
-.dsa-india-ayurvedic-sec .cust-iba .box5{
+.dsa-india-ayurvedic-sec .cust-iba .box5 {
     background-image: url(../images/serv-2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-
-.dsa-india-ayurvedic-sec .cust-iba .box5a{
+.dsa-india-ayurvedic-sec .cust-iba .box5a {
     background-image: url(../images/serv-3.png);
     background-size: cover;
     background-position: center;
@@ -794,38 +769,38 @@ small:after {
 .dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
     height: 229px;
 }
-.dsa-india-ayurvedic-sec .cust-iba .iba-box h3{
+.dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
     font-size: 30px;
     line-height: 40px;
     color: #ffffff;
     font-weight: 600;
     font-family: "Poppins";
 }
-.dsa-india-ayurvedic-sec .cust-iba .iba-box p{
+.dsa-india-ayurvedic-sec .cust-iba .iba-box p {
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Poppins";
 }
-.dsa-india-ayurvedic-sec .btn-ayurvedic{
+.dsa-india-ayurvedic-sec .btn-ayurvedic {
     text-align: center;
     margin-top: 50px;
 }
-.dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment{
-    font-size: 20px;
+.dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment {
+    font-size: 16px;
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid #e4a732;
-    width: 300px;
-    height: 64px;
+    width: 280px;
+    height: 55px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -839,10 +814,10 @@ small:after {
 /*Personalised Ayurvedic Treatment section style here*/
 .pl-ayurvedic-treatment-sec {
     background-color: #f7f7f7;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.pl-ayurvedic-treatment-sec .pl-tp-content h2{
+.pl-ayurvedic-treatment-sec .pl-tp-content h2 {
     font-size: 35px;
     line-height: 55px;
     color: #244236;
@@ -873,7 +848,7 @@ small:after {
     text-align: center;
 }
 
-.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3{
+.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box h3 {
     font-size: 24px;
     line-height: 30px;
     color: #244236;
@@ -887,7 +862,7 @@ small:after {
     object-fit: cover;
 }
 
-.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p{
+.pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p {
     font-size: 17px;
     line-height: 30px;
     color: #181616;
@@ -897,8 +872,8 @@ small:after {
 }
 /*About us section style here*/
 .about-us-sec {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .about-us-sec iframe {
     border: 0px;
@@ -909,9 +884,6 @@ small:after {
     width: calc(90% - 0px);
     margin: 0 auto;
 }
-.about-us-sec .tp-abt-content{
-    margin-bottom: 50px;
-}
 .about-us-sec .tp-abt-content h2 {
     font-size: 40px;
     line-height: 55px;
@@ -920,13 +892,13 @@ small:after {
     font-family: "Poppins";
     text-align: center;
 }
-.about-us-sec .tp-abt-content p{
+.about-us-sec .tp-abt-content p {
     font-size: 16px;
     line-height: 35px;
     color: #201d1d;
     font-weight: 300;
     font-family: "Poppins";
-    text-align: center;	
+    text-align: center;
 }
 .about-us-sec .about-right-content p {
     font-size: 18px;
@@ -940,19 +912,19 @@ small:after {
     margin-top: 30px;
 }
 .about-us-sec .btn-about .btn-aboutus {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid #e4a732;
-    width: 216px;
-    height: 75px;
+    width: 180px;
+    height: 50px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -975,7 +947,7 @@ small:after {
 .happy-world-sec .hw-content {
     text-align: center;
 }
-.happy-world-sec .hw-content h2{
+.happy-world-sec .hw-content h2 {
     font-size: 60px;
     color: #ffffff;
     font-weight: 600;
@@ -983,7 +955,7 @@ small:after {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.happy-world-sec .hw-content p{
+.happy-world-sec .hw-content p {
     font-size: 35px;
     color: #ffffff;
     font-weight: 400;
@@ -991,7 +963,6 @@ small:after {
     text-align: center;
     margin-bottom: 0px;
 }
-
 
 .tab-content p::before {
     content: "";
@@ -1001,31 +972,26 @@ small:after {
     right: 10px;
 }
 
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: transparent!important;
-    color: #244236!important;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: transparent !important;
+    color: #244236 !important;
     font-size: 16px;
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
-.nav-pills a{
-    color: #212529!important;
-
+.nav-pills a {
+    color: #212529 !important;
 }
 
 #v-pills-tab a {
     line-height: 46px;
 }
 
-
-
-
-
 /*dr mukesh sharda section style here*/
 
 .dr-mukesh-sharda-sec {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #f7f7f7;
 }
 .dr-mukesh-sharda-sec .cust-dr {
@@ -1040,14 +1006,14 @@ small:after {
     font-family: "Poppins";
     margin-bottom: 30px;
 }
-.dr-mukesh-sharda-sec .dr-img-left img{
+.dr-mukesh-sharda-sec .dr-img-left img {
     /*position: absolute;*/
     bottom: 0px;
 }
 .dr-mukesh-sharda-sec .sign-area {
     float: right;
 }
-.dr-mukesh-sharda-sec .sign-area p{
+.dr-mukesh-sharda-sec .sign-area p {
     font-style: italic;
 }
 /*Our Product section style here*/
@@ -1055,7 +1021,7 @@ small:after {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.prod-tp-content{
+.prod-tp-content {
     margin-bottom: 50px;
 }
 .our-product .prod-tp-content h2 {
@@ -1066,7 +1032,7 @@ small:after {
     font-family: "Poppins";
     text-align: center;
 }
-.our-product .prod-tp-content p{
+.our-product .prod-tp-content p {
     font-size: 16px;
     line-height: 35px;
     color: #201d1d;
@@ -1084,11 +1050,11 @@ small:after {
     padding: 40px;
     box-shadow: 1px 2px 14px #eee;
     text-align: center;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 .our-product .cust-product .prod-box:hover {
-    transition: all .5s ease;
-    transform: translate(0,-10px);
+    transition: all 0.5s ease;
+    transform: translate(0, -10px);
 }
 .our-product .cust-product .prod-box .price {
     padding: 35px 18px;
@@ -1114,11 +1080,10 @@ small:after {
 }
 
 .phone-consult img {
-    position: relative;
-    bottom: 11px;
     width: 40px;
     padding: 3px;
-    left: -5px;
+    position: relative;
+    top: -5px;
 }
 
 .phone-consult {
@@ -1131,43 +1096,39 @@ small:after {
     margin-right: 5px;
 }
 
-
 .im3 img {
     width: 18px;
     margin-left: -28px;
     margin-right: 13px;
 }
 
-
-.consult-ico{ font-size: 20px;
-              line-height: 33px;
-              color: #244236;
-              font-weight: 500;
-              font-family: "Poppins";
+.consult-ico {
+    font-size: 20px;
+    line-height: 33px;
+    color: #244236;
+    font-weight: 500;
+    font-family: "Poppins";
 }
 
-
-
-.consult-ico:hover{
+.consult-ico:hover {
     color: #244236;
 }
-
 
 .crsem {
     margin-top: -42px;
 }
 
-.phone-consult span{
+.phone-consult span {
     font-size: 35px;
     border: 1px solid;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    padding-left: 15px;
-    padding-top: 14px;
     margin-right: 10px;
     position: relative;
     top: 13px;
+    display: inline-block;
+    text-align: center;
 }
 
 .our-product .cust-product .prod-box .price .rate {
@@ -1177,7 +1138,7 @@ small:after {
     font-weight: 600;
     font-family: "Poppins";
 }
-.our-product .cust-product .prod-box .price .rating{
+.our-product .cust-product .prod-box .price .rating {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1189,7 +1150,7 @@ small:after {
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -1215,7 +1176,7 @@ small:after {
     /*background-color: #f7f7f7;*/
     overflow: hidden;
 }
-.cl-test{
+.cl-test {
     position: relative;
     width: 100%;
 }
@@ -1261,14 +1222,14 @@ small:after {
     font-size: 25px;
     padding-top: 20px;
 }
-.testimonial-content h3{
+.testimonial-content h3 {
     font-size: 40px;
     line-height: 55px;
     color: #244236;
     font-weight: 600;
     font-family: "Poppins";
 }
-.testimonial-content p{
+.testimonial-content p {
     font-size: 20px;
     line-height: 35px;
     color: #244236;
@@ -1283,18 +1244,13 @@ small:after {
     border-radius: 0px 50px 0px 50px;
 }
 
-
 .iba-box.box2 {
     border-radius: 0px 50px 0px 50px;
 }
 
-
 .iba-box.box3 {
     border-radius: 0px 50px 0px 50px;
 }
-
-
-
 
 #client-test .owl-dots {
     text-align: center;
@@ -1303,7 +1259,7 @@ small:after {
 #client-test .owl-dot {
     background: #d4992559;
     margin-right: 4px;
-    padding: 1px 25px!important;
+    padding: 1px 25px !important;
 }
 #client-test .owl-dot.active {
     background: #d49925;
@@ -1312,12 +1268,11 @@ small:after {
 /*Latest post section style here*/
 .latest-post-sec {
     position: relative;
-    bottom: -120px;
 }
-.latest-post-sec .lp-content{
-    margin-bottom: 50px;
+.latest-post-sec .lp-content {
+    margin-bottom: 20px;
 }
-.latest-post-sec .lp-content  h2{
+.latest-post-sec .lp-content h2 {
     font-size: 40px;
     line-height: 55px;
     color: #244236;
@@ -1325,7 +1280,7 @@ small:after {
     font-family: "Poppins";
     text-align: center;
 }
-.latest-post-sec .lp-content p{
+.latest-post-sec .lp-content p {
     font-size: 18px;
     line-height: 35px;
     color: #201d1d;
@@ -1337,20 +1292,20 @@ small:after {
     width: calc(90% - 0px);
     margin: 0 auto;
 }
-.latest-post-sec .custom-lp img{
+.latest-post-sec .custom-lp img {
     width: 100%;
 }
 .latest-post-sec .lp-post {
     background-color: #244236;
     width: calc(100% - 20px);
     margin: 0 auto;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     border-radius: 0px 0px 0px 42px;
 }
 .latest-post-sec .lp-post:hover {
     background-color: #e4a732;
-    transition: all .5s ease;
-    transform: translate(0,-10px);
+    transition: all 0.5s ease;
+    transform: translate(0, -10px);
 }
 .latest-post-sec .lp-post .post-content {
     padding: 23px;
@@ -1392,8 +1347,8 @@ small:after {
 }
 /*Get in touch section here*/
 .get-in-touch-sec {
-    padding-top: 220px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     background: #f7f7f7;
 }
 .get-in-touch-sec .custom-get {
@@ -1410,7 +1365,7 @@ small:after {
     font-family: "Poppins";
     text-align: left;
 }
-.get-in-touch-sec .custom-get p{
+.get-in-touch-sec .custom-get p {
     font-size: 20px;
     line-height: 33px;
     color: #211f1f;
@@ -1425,15 +1380,16 @@ small:after {
     font-weight: 500;
     font-family: "Poppins";
 }
-.get-in-touch-sec .custom-get .email .email-icon .fa-envelope, .get-in-touch-sec .custom-get .phone-icon .fa-phone {
-    font-size: 30px;
+.get-in-touch-sec .custom-get .email .email-icon .fa-envelope,
+.get-in-touch-sec .custom-get .phone-icon .fa-phone {
+    font-size: 35px;
     border: 1px solid;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    padding-left: 15px;
     padding-top: 14px;
     margin-right: 10px;
+    text-align: center;
 }
 .get-in-touch-sec .custom-get .phone-icon {
     font-size: 20px;
@@ -1458,7 +1414,9 @@ small:after {
     font-weight: 600;
     font-family: "Poppins";
 }
-.get-in-touch-sec .get-form #name, .get-in-touch-sec .get-form #phone, .get-in-touch-sec .get-form #email {
+.get-in-touch-sec .get-form #name,
+.get-in-touch-sec .get-form #phone,
+.get-in-touch-sec .get-form #email {
     font-size: 20px;
     line-height: 19px;
     color: #244236;
@@ -1487,13 +1445,6 @@ small:after {
     align-items: center;
 }
 
-
-
-
-
-
-
-
 .brd {
     height: 1px;
     background-color: #ccc;
@@ -1506,7 +1457,7 @@ small:after {
 
 .fa-map-marker {
     color: #d49925;
-    font-size: 21px!important;
+    font-size: 21px !important;
     position: relative;
     right: 6px;
 }
@@ -1516,26 +1467,38 @@ small:after {
     left: 9px;
 }
 
-.caso::after {
+/* .caso::after {
     content: "";
     position: absolute;
     width: 0.3px;
     height: 132px;
-    background-color: #f3f3f3!important;
+    background-color: #f3f3f3 !important;
     top: 19px;
     bottom: 4px;
-    left: 253px;
+    left: 251px;
     right: 0px;
     opacity: 0.1;
 }
 
+.caso-1::after {
+    content: "";
+    position: absolute;
+    width: 0.3px;
+    height: 132px;
+    background-color: #f3f3f3 !important;
+    top: 19px;
+    bottom: 4px;
+    left: 273px !important;
+    right: 0px;
+    opacity: 0.1;
+} */
 
 .crd a {
     font-size: 20px;
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -1546,9 +1509,8 @@ small:after {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding:8px 10px;
+    padding: 8px 10px;
 }
-
 
 .cses li {
     color: #666;
@@ -1556,7 +1518,9 @@ small:after {
     font-weight: 500;
 }
 
-.cses ul li{list-style: none;}
+.cses ul li {
+    list-style: none;
+}
 
 .causes {
     padding-top: 2rem;
@@ -1568,7 +1532,7 @@ small:after {
 }
 
 .sub {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     margin-bottom: 1px;
     font-size: 17px;
     font-weight: 500;
@@ -1580,13 +1544,11 @@ small:after {
     margin-right: 4px;
 }
 
-
-.kmoz{float: left;
-      width: 51%;
-      /*height: 396px;*/
+.kmoz {
+    float: left;
+    width: 51%;
+    /*height: 396px;*/
 }
-
-
 
 /*.costa iframe {
     width: 809px;
@@ -1596,46 +1558,40 @@ small:after {
 .wrp .moz {
     float: right;
     width: 51%;
-    height:421px;
+    height: 421px;
 }
 
-
-#accordion  .card-header{
-    border-bottom: 0px solid rgba(0,0,0,.125)!important;
+#accordion .card-header {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.125) !important;
 }
 
 button.btn.btn-link:focus-visible {
-    outline: none!important;
+    outline: none !important;
 }
 
 button.btn.btn-link:focus {
-    border: 0px solid!important;
-    outline: none!important;
-    box-shadow: none!important;
+    border: 0px solid !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
-#accordion .card
-{
-    border: 0px solid transparent!important;
-
+#accordion .card {
+    border: 0px solid transparent !important;
 }
 
 button.btn.btn-link:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 button.btn.btn-link.collapsed:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
-
-
-
-.btn-link {   
-    color: #212529!important;
+.btn-link {
+    color: #212529 !important;
     text-decoration: none;
-    font-family: 'Poppins'!important;
-    font-size: 16px!important;
+    font-family: "Poppins" !important;
+    font-size: 16px !important;
 }
 
 #accordion .fa {
@@ -1647,9 +1603,7 @@ button.btn.btn-link.collapsed:hover {
     border-radius: 50%;
 }
 
-
-
-.provider img{
+.provider img {
     border: 1px solid;
     border-radius: 50%;
     width: 60px;
@@ -1659,44 +1613,34 @@ button.btn.btn-link.collapsed:hover {
     margin-right: 10px;
 }
 
-[data-toggle="collapse"] .fa:before {  
-    content: "\f107"!important;
+[data-toggle="collapse"] .fa:before {
+    content: "\f107" !important;
 }
 
 [data-toggle="collapse"].collapsed .fa:before {
     content: "\f106";
 }
 
-
-[data-toggle="collapse"] .fa:before {  
+[data-toggle="collapse"] .fa:before {
     content: "\f107";
-
 }
 
 [data-toggle="collapse"].collapsed .fa:before {
-
-    content: "\f106"!important;
+    content: "\f106" !important;
 }
-
-
-
-
 
 #accordion .card-body:before {
     content: "";
-    position: absolute!important;
-    width: 2px!important;
-    height: 155px!important;
-    background-color: #eeb03f!important;
-    left: 44px!important;
+    position: absolute !important;
+    width: 2px !important;
+    height: 155px !important;
+    background-color: #eeb03f !important;
+    left: 44px !important;
 }
 #accordion .card-body {
-    position: relative!important;
-    padding-left: 77px!important;
+    position: relative !important;
+    padding-left: 77px !important;
 }
-
-
-
 
 .wrp .mz {
     padding: 41px;
@@ -1707,7 +1651,6 @@ button.btn.btn-link.collapsed:hover {
     height: 421px;
     opacity: 0.4;
 }
-
 
 .mz i {
     color: #fff;
@@ -1722,16 +1665,16 @@ button.btn.btn-link.collapsed:hover {
 .mz h3 {
     font-size: 26px;
     color: #244236;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 300;
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
 .wrp .mz {
     width: 49%;
     float: left;
     padding: 27px;
 }
-.wrp .mz-adv{
+.wrp .mz-adv {
     width: 100%;
 }
 iframe {
@@ -1758,12 +1701,9 @@ iframe {
     align-items: center;
 }
 
-
-
-
-.mob-nav{display: none;}
-
-
+.mob-nav {
+    display: none;
+}
 
 .sym h3 {
     font-size: 32px;
@@ -1774,20 +1714,27 @@ iframe {
 
 .ancr a {
     color: #244236;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 500;
     border-bottom: 1px solid #244236;
-    text-decoration:none!important;
+    text-decoration: none !important;
 }
 .costa img {
     max-width: 687px;
 }
 
-.cot{width:49%; float: left;}
-.mcot{width:49%; float: right;}
+.cot {
+    width: 49%;
+    float: left;
+}
+.mcot {
+    width: 49%;
+    float: right;
+}
 
-.split{clear:both;}
-
+.split {
+    clear: both;
+}
 
 .apn a {
     color: #fff;
@@ -1800,18 +1747,18 @@ iframe {
     padding-bottom: 35px;
 }
 
-
 .acc {
     text-align: end;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 21px;
     font-weight: 400;
     padding-top: 35px;
     padding-bottom: 35px;
 }
-.fa-arrow-right{color: #244236;}
-
+.fa-arrow-right {
+    color: #244236;
+}
 
 .ndv::after {
     content: "";
@@ -1827,7 +1774,7 @@ iframe {
 }
 
 .cses p {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     line-height: 31px;
     font-size: 16px;
     position: relative;
@@ -1845,46 +1792,35 @@ iframe {
     font-size: 17px;
 }
 
-.serlisting li a:hover
-{	color:#d49925;
-
+.serlisting li a:hover {
+    color: #d49925;
 }
 
 .serlisting li {
     list-style: none;
     display: inline-block;
-    font-size:13px;
+    font-size: 13px;
 }
-
 
 .serlisting {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 .listing li a {
     color: #fff;
     padding: 8px 11px;
     font-size: 13px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-
-.listing li a:hover
-{font-weight:500;}
+.listing li a:hover {
+    font-weight: 500;
+}
 
 .listing li {
     list-style: none;
     display: inline-block;
-    font-size:13px;
+    font-size: 13px;
 }
 
 .get-in-touch-sec .get-form #story {
@@ -1898,7 +1834,7 @@ iframe {
     height: 150px;
     margin-bottom: 20px;
     border: 1px solid #c7c7c7;
-    resize:none;
+    resize: none;
 }
 .get-in-touch-sec .get-form .submit {
     font-size: 30px;
@@ -1922,15 +1858,14 @@ iframe {
     font-size: 13px;
 }
 
-
 /*Footer content style here*/
-footer.dsa-foo-sec{
+footer.dsa-foo-sec {
     background-image: url(../images/world-happy-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position:center;	
+    background-position: center;
     background-attachment: fixed;
-    padding-top:50px;
+    padding-top: 50px;
 }
 .dsa-foo-sec .foo-social-icon {
     text-align: right;
@@ -1941,7 +1876,7 @@ footer.dsa-foo-sec{
     width: calc(90% - 0px);
     margin: 0 auto;
 }
-.dsa-foo-sec .foo-social-icon a i{
+.dsa-foo-sec .foo-social-icon a i {
     font-size: 20px;
     color: #fff;
     border: 1px solid;
@@ -1953,11 +1888,11 @@ footer.dsa-foo-sec{
     align-items: center;
     margin-right: 5px;
 }
-.dsa-foo-sec .foo-social-icon a{
+.dsa-foo-sec .foo-social-icon a {
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.dsa-foo-sec .foo-social-icon a:hover i{
+.dsa-foo-sec .foo-social-icon a:hover i {
     color: #d39923;
 }
 
@@ -1967,7 +1902,7 @@ footer.dsa-foo-sec{
 .dsa-foo-sec .foo-logo .cp-logo {
     width: 175px;
 }
-.dsa-foo-sec .foo-logo p{
+.dsa-foo-sec .foo-logo p {
     text-align: center;
     font-size: 18px;
     line-height: 33px;
@@ -1978,11 +1913,9 @@ footer.dsa-foo-sec{
     margin-top: 20px;
 }
 
-
 header .navbar-nav .nav-item .nav-link:hover {
-    color: #233f35!important;
+    color: #233f35 !important;
 }
-
 
 .dsa-foo-sec .cust-address {
     padding-top: 30px;
@@ -1990,10 +1923,10 @@ header .navbar-nav .nav-item .nav-link:hover {
     width: calc(90% - 0px);
     margin: 0 auto;
 }
-.dsa-foo-sec .foo-address-box{
+.dsa-foo-sec .foo-address-box {
     text-align: center;
 }
-.dsa-foo-sec .foo-address-box p{
+.dsa-foo-sec .foo-address-box p {
     font-size: 16px;
     line-height: 33px;
     color: #ffffff;
@@ -2012,7 +1945,7 @@ nav.foo-navbar .navbar-nav {
     padding-bottom: 0px;
 }
 nav.foo-navbar .navbar-nav .nav-link {
-    padding:15px;
+    padding: 15px;
     font-size: 18px;
     line-height: 14px;
     color: #ffffff !important;
@@ -2025,7 +1958,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     font-weight: 600 !important;
 }
 
-.cp-right-row{
+.cp-right-row {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -2039,16 +1972,15 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     letter-spacing: 1px;
 }
 
-
-
-
 /*media query laptop, tab & mobile here*/
-@media(max-width: 1500px){
+@media (max-width: 1500px) {
     .dsa-banner-sec .dsa-content .dsa-title {
         font-size: 50px;
         line-height: 74px;
     }
-    .mob-nav{display:none;}
+    .mob-nav {
+        display: none;
+    }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .wht-space {
         height: 195px;
     }
@@ -2067,7 +1999,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         top: -45px;
     }
 }
-@media(max-width: 1200px){
+@media (max-width: 1200px) {
     .dsa-banner-sec .dsa-content {
         padding-top: 0px;
         padding-bottom: 20px;
@@ -2151,9 +2083,6 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         line-height: 30px;
         width: 90%;
     }
-    .latest-post-sec {
-        bottom: -100px;
-    }
     .get-in-touch-sec .custom-get p {
         font-size: 18px;
         width: 95%;
@@ -2170,7 +2099,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         align-items: center;
     }
 }
-@media(max-width: 1100px){
+@media (max-width: 1100px) {
     .dsa-india-ayurvedic-sec .cust-iba .iba-box h3 {
         font-size: 20px;
     }
@@ -2182,7 +2111,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         padding: 20px;
     }
     .happy-world-sec .hw-content h2 {
-        font-size: 50px;	
+        font-size: 50px;
     }
     .happy-world-sec .hw-content p {
         font-size: 28px;
@@ -2209,33 +2138,37 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 }
 
-@media(max-width: 991px){
+@media (max-width: 991px) {
     .dsa-banner-sec .dsa-content .dsa-title {
         font-size: 30px;
         line-height: 45px;
     }
     .mob-nav {
         display: block;
-
     }
-    header{display: none!important;}
+    header {
+        /* display: none !important; */
+    }
     .wrp .mz {
-        width: 100%;}
+        width: 100%;
+    }
 
     .wrp .moz {
-
-        width: 100%;}
+        width: 100%;
+    }
 
     .ima {
-        height: auto;}
+        height: auto;
+    }
     .kmoz {
-        float:none;
+        float: none;
         width: 100%;
         height: auto;
     }
 
     .cvn {
-        width: 100%;}
+        width: 100%;
+    }
 
     .navbar-light .navbar-toggler {
         color: #fff !important;
@@ -2247,10 +2180,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: 30%;
     }
     .navbar-menu .dsa-phone {
-        width: 70%;
+        float: right;
     }
-
-
 
     .dsa-banner-sec .dsa-content .dsa-sub-heading {
         font-size: 30px;
@@ -2284,7 +2215,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: calc(95% - 0px);
         margin: 0 auto;
     }
-    .dsa-why-choose .cut-row, .latest-post-sec .lp-post{
+    .dsa-why-choose .cut-row,
+    .latest-post-sec .lp-post {
         width: calc(100% - 0px);
     }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box p {
@@ -2313,28 +2245,26 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-size: 65px;
         top: -21px;
     }
-    .get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+    .get-in-touch-sec .custom-get .email .email-icon,
+    .get-in-touch-sec .custom-get .phone-icon {
         font-size: 15px;
     }
     nav.foo-navbar .navbar-nav .nav-link {
         padding: 10px;
     }
-
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
     .dsa-banner-sec .cust-dsa-banner {
         width: calc(100% - 0px);
         margin: 0 auto;
     }
-    .caso::after{
-        background-color: transparent!important;
+    .caso::after {
+        background-color: transparent !important;
     }
 
     .xd:hover {
-        background-image: linear-gradient( 
-            45deg
-            , transparent, transparent);
+        background-image: linear-gradient(45deg, transparent, transparent);
     }
     .dsa-banner-sec .cust-dsa-banner {
         flex-wrap: wrap;
@@ -2347,10 +2277,10 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .dsa-banner-sec .cust-dsa-banner .col-md-6 {
         width: 50%;
     }
-    .dsa-banner-sec .dsa-content .dsa-title br{
+    .dsa-banner-sec .dsa-content .dsa-title br {
         display: none;
     }
-    .dsa-banner-sec{
+    .dsa-banner-sec {
         padding-top: 50px;
         padding-bottom: 0px;
     }
@@ -2437,7 +2367,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .get-in-touch-sec .custom-get p {
         text-align: center;
     }
-    .get-in-touch-sec .custom-get .email .email-icon, .get-in-touch-sec .custom-get .phone-icon {
+    .get-in-touch-sec .custom-get .email .email-icon,
+    .get-in-touch-sec .custom-get .phone-icon {
         font-size: 16px;
     }
     .get-in-touch-sec .custom-get .email {
@@ -2450,19 +2381,20 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         /*width: 320px;*/
         margin: 0 auto;
     }
-    .get-in-touch-sec .custom-get .email .email-icon .fa-envelope, .get-in-touch-sec .custom-get .phone-icon .fa-phone {
-        font-size: 24px;
-        width: 50px;
-        height: 50px;
-        padding-left: 12px;
+    .get-in-touch-sec .custom-get .email .email-icon .fa-envelope,
+    .get-in-touch-sec .custom-get .phone-icon .fa-phone {
+        font-size: 35px;
+        width: 60px;
+        height: 60px;
         padding-top: 10px;
         margin-right: 5px;
+        text-align: center;
     }
     .latest-post-sec {
         top: 0px;
         bottom: 0px;
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 15px;
     }
     .get-in-touch-sec {
         padding-bottom: 50px;
@@ -2475,7 +2407,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .latest-post-sec .lp-post .post-content h3 {
         text-align: center;
     }
-    .latest-post-sec .lp-post .post-content p, .our-product .cust-product .prod-box .price {
+    .latest-post-sec .lp-post .post-content p,
+    .our-product .cust-product .prod-box .price {
         text-align: center;
     }
     .our-product .prod-tp-content h2 {
@@ -2491,7 +2424,6 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
     .dr-mukesh-sharda-sec .cust-dr {
         width: calc(100% - 0px);
-
     }
     .dr-mukesh-sharda-sec .cust-dr {
         width: calc(100% - 0px);
@@ -2526,7 +2458,10 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         width: 49.33%;
         margin-bottom: 20px;
     }
-    .pl-ayurvedic-treatment-sec, .about-us-sec, .our-product, .client-testimonial {
+    .pl-ayurvedic-treatment-sec,
+    .about-us-sec,
+    .our-product,
+    .client-testimonial {
         padding-top: 50px;
         padding-bottom: 30px;
     }
@@ -2559,9 +2494,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         line-height: 35px;
     }
 
-
-
-    .dsa-why-choose .cut-row, .latest-post-sec .lp-post {
+    .dsa-why-choose .cut-row,
+    .latest-post-sec .lp-post {
         margin-bottom: 20px;
     }
     .dsa-foo-sec .foo-social-icon {
@@ -2585,16 +2519,16 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         padding-bottom: 0px;
         width: calc(95% - 0px);
     }
-
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
     .dr-mukesh-sharda-sec .dr-img-left img {
         position: static;
     }
 
-    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment
-    {margin-bottom: 20px;}
+    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment {
+        margin-bottom: 20px;
+    }
 
     .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
         font-size: 31px;
@@ -2605,7 +2539,8 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 
     .pl-ayurvedic-treatment-sec .cst-boxies .treatment-box p {
-        font-size: 14px;}
+        font-size: 14px;
+    }
 
     .about-us-sec .tp-abt-content h2 {
         font-size: 31px;
@@ -2614,7 +2549,6 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     .about-us-sec .about-right-content p {
         text-align: left;
     }
-
 
     .happy-world-sec .hw-content h2 {
         font-size: 27px;
@@ -2625,19 +2559,19 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 
     .iba-box.box2 {
-        border-radius:  0px;
+        border-radius: 0px;
     }
 
     .iba-box.box3 {
-        border-radius:  0px;
+        border-radius: 0px;
     }
 
-
-
-    .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont
-    {padding: 10px;}
+    .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
+        padding: 10px;
+    }
     .dsa-india-ayurvedic-sec h2 {
-        font-size: 31px;}
+        font-size: 31px;
+    }
 
     .dsa-why-choose {
         padding-top: 48px;
@@ -2649,16 +2583,23 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 
     .causes {
-        padding-top: 59px;}
-
+        padding-top: 59px;
+    }
 
     .acc {
-        text-align: center;}
+        text-align: center;
+    }
 
-    .apn{text-align: center;}
+    .apn {
+        text-align: center;
+    }
 
-    .cvn{margin-top:51px;}
-    .cvn{padding-left:20px;}
+    .cvn {
+        margin-top: 51px;
+    }
+    .cvn {
+        padding-left: 20px;
+    }
     .sym h3 {
         font-size: 31px;
         text-align: center;
@@ -2669,68 +2610,65 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         display: none;
     }
 
-    .mz h3{font-size: 31px;line-height: 33px;}
+    .mz h3 {
+        font-size: 31px;
+        line-height: 33px;
+    }
 
-    .latest-post-sec .lp-post .post-content p{
+    .latest-post-sec .lp-post .post-content p {
         font-size: 14px;
     }
 
-    .latest-post-sec .lp-post .post-content h3
-    {
+    .latest-post-sec .lp-post .post-content h3 {
         font-size: 21px;
         margin-bottom: 14px;
     }
 
-    .get-in-touch-sec .custom-get .email .email-icon
-    {
-        font-size: 20px!important;
+    .get-in-touch-sec .custom-get .email .email-icon {
+        font-size: 20px !important;
     }
 
     .get-in-touch-sec .custom-get .phone-icon {
-        font-size: 20px!important;}
-
-
-
+        font-size: 20px !important;
+    }
 
     .xd:hover {
-
-        background-image: linear-gradient( 
-            45deg
-            , transparent, transparent);
+        background-image: linear-gradient(45deg, transparent, transparent);
         min-height: auto;
     }
     .dsa-india-ayurvedic-sec .cust-iba .iba-box {
-        min-height: auto!important;
+        min-height: auto !important;
     }
 
-    .latest-post-sec .lp-post{
+    .latest-post-sec .lp-post {
         border-radius: 0px;
     }
-
-
 }
 
-
-
-
-@media(max-width: 590px){
+@media (max-width: 590px) {
     .dsa-banner-sec .dsa-content .dsa-sub-heading {
         font-size: 18px;
         line-height: 25px;
     }
 
-    .serlisting li a{padding: 6px 6px;
-                     font-size: 13px;}
+    .serlisting li a {
+        padding: 6px 6px;
+        font-size: 13px;
+    }
 
-    .serlisting .ln{font-size:13px;}
-    .sym h3{margin-top:15px;}
+    .serlisting .ln {
+        font-size: 13px;
+    }
     .sym h3 {
-        font-size: 28px;}
+        margin-top: 15px;
+    }
+    .sym h3 {
+        font-size: 28px;
+    }
 
-
-
-
-    .acc{text-align: left;}
+    .acc {
+        text-align: left;
+    }
     .dsa-banner-sec .dsa-content .dsa-title {
         font-size: 18px;
         line-height: 25px;
@@ -2745,7 +2683,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         height: 42px;
     }
 }
-@media(max-width: 479px){
+@media (max-width: 479px) {
     .dsa-why-choose h2 {
         font-size: 22px;
     }
@@ -2779,33 +2717,28 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
 }
 
-
-
-
-@media screen and (max-width:414px){
+@media screen and (max-width: 414px) {
     .get-in-touch-sec .custom-get {
         width: calc(100% - 0px);
     }
 
-    .about-us-sec .btn-about .btn-aboutus
-    {
+    .about-us-sec .btn-about .btn-aboutus {
         width: 205px;
         height: 61px;
         border-radius: 3px;
     }
 
-
     .happy-world-sec .hw-content h2 {
         font-size: 31px;
     }
 
-    .our-product .cust-product .prod-box .price
-    {
+    .our-product .cust-product .prod-box .price {
         text-align: center;
     }
 
     .dsa-why-choose ul li {
-        font-size: 14px;}
+        font-size: 14px;
+    }
 
     .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
         font-size: 23px;
@@ -2816,22 +2749,24 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     }
     /*9569601105*/
 
-    .get-in-touch-sec .custom-get p
-    {
-        text-align: justify!important;
+    .get-in-touch-sec .custom-get p {
+        text-align: justify !important;
         line-height: 23px;
         font-size: 16px;
         margin-bottom: 14px;
     }
 
-
     .ser-heading {
-        font-size: 31px;}
+        font-size: 31px;
+    }
 
-    .service small{font-size: 11px;}
+    .service small {
+        font-size: 11px;
+    }
 
     .service p {
-        font-size: 24px;}
+        font-size: 24px;
+    }
 
     .left-img {
         margin-bottom: -38px;
@@ -2842,12 +2777,10 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         text-align: center;
     }
 
-
     .dsa-why-choose p {
         font-size: 14px;
         text-align: justify;
     }
-
 
     .crd a {
         font-size: 16px;
@@ -2860,8 +2793,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-size: 27px;
     }
 
-    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment
-    {
+    .dsa-india-ayurvedic-sec .btn-ayurvedic .btn-appointment {
         height: 51px;
         border-radius: 3px;
     }
@@ -2874,94 +2806,102 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         margin-bottom: 3px;
     }
 
-    .acc{padding-bottom: 0px;}
+    .acc {
+        padding-bottom: 0px;
+    }
 
-    .kmoz{margin-top:-41px;} 
+    .kmoz {
+        margin-top: -41px;
+    }
 
-    .mz p{font-size: 14px;}
+    .mz p {
+        font-size: 14px;
+    }
     .sym h3 {
         margin-top: 2px;
         font-size: 26px;
     }
 
+    .client-testimonial {
+        padding-top: 41px;
+    }
 
-    .client-testimonial {padding-top:41px;}
-
-    .client-testimonial .client-test-title
-    {
+    .client-testimonial .client-test-title {
         line-height: 26px;
     }
 
     .testimonial-content p {
         font-size: 15px;
-        line-height: 26px;}
+        line-height: 26px;
+    }
 
     .latest-post-sec .lp-content h2 {
-        font-size: 29px;}
+        font-size: 29px;
+    }
 
     .latest-post-sec .lp-content p {
-        font-size: 14px;}
+        font-size: 14px;
+    }
 
     .latest-post-sec .lp-content {
         margin-bottom: 7px;
     }
 
-    .latest-post-sec .lp-post .post-content p
-    {
+    .latest-post-sec .lp-post .post-content p {
         text-align: left;
     }
 
     .get-in-touch-sec .custom-get .email {
-        padding-top: 9px;}
+        padding-top: 9px;
+    }
 
-    .phone-consult img{width: 31px;}
-    .phone-consult span{font-size: 25px;}
-
-    .get-in-touch-sec .get-form #name{height: 49px; font-size: 15px;}
-    .get-in-touch-sec .get-form .submit{border-radius: 3px; font-size: 24px; height: 55px;}
-
-
+    .get-in-touch-sec .get-form #name {
+        height: 49px;
+        font-size: 15px;
+    }
+    .get-in-touch-sec .get-form .submit {
+        border-radius: 3px;
+        font-size: 24px;
+        height: 55px;
+    }
 
     .get-in-touch-sec .get-form #phone {
         height: 49px;
         font-size: 15px;
     }
 
-
-
-
-
     .get-in-touch-sec .get-form #email {
         height: 49px;
         font-size: 15px;
     }
 
-
-    .get-in-touch-sec .get-form #story
-    {
+    .get-in-touch-sec .get-form #story {
         font-size: 15px;
         height: 142px;
     }
 
     .moz iframe {
-        height: 215px!important;
+        height: 215px !important;
     }
 
-
-    .get-in-touch-sec .custom-get .email .email-icon
-    {font-size: 17px!important;}
+    .get-in-touch-sec .custom-get .email .email-icon {
+        font-size: 17px !important;
+    }
     .consult-ico {
-        font-size: 17px;}
+        font-size: 17px;
+    }
 
     .get-in-touch-sec .custom-get .phone-icon {
-        font-size: 17px!important;
+        font-size: 17px !important;
     }
 
     .get-in-touch-sec {
-        padding-top: 59px;}
+        padding-top: 59px;
+    }
 
-
-    .wrp .mz{margin-top: -49px;}
+    .wrp .mz {
+        margin-top: -49px;
+    }
     .mz h3 {
         font-size: 18px;
         line-height: 23px;
@@ -2970,15 +2910,23 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         font-weight: 600;
     }
 
-    #accordion button.btn.btn-link.collapsed{padding:9px;
-                                             border-radius: 0px;
-                                             /*border-bottom:1px solid #ccc;*/
+    #accordion button.btn.btn-link.collapsed {
+        padding: 9px;
+        border-radius: 0px;
+        /*border-bottom:1px solid #ccc;*/
     }
 
-    .cvn{padding-left:11px;}
+    .cvn {
+        padding-left: 11px;
+    }
 
-    .moz iframe{height:auto;}
-    .wrp .moz{height:auto; margin-top:10px;}
+    .moz iframe {
+        height: auto;
+    }
+    .wrp .moz {
+        height: auto;
+        margin-top: 10px;
+    }
 
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
         padding: 3px;
@@ -2988,86 +2936,63 @@ nav.foo-navbar .navbar-nav .active .nav-link {
         height: 250px;
     }
 
-    .get-in-touch-sec .get-form{
+    .get-in-touch-sec .get-form {
         padding: 15px;
     }
-
 }
 
-
-@media screen and (max-width:360px){
+@media screen and (max-width: 360px) {
     .dsa-why-choose {
         padding-top: 16px;
-        padding-bottom: 16px;}
-
-    .latest-post-sec .lp-post .post-content h3
-    {
-        font-size: 17px;
+        padding-bottom: 16px;
     }
 
+    .latest-post-sec .lp-post .post-content h3 {
+        font-size: 17px;
+    }
 
     .pl-ayurvedic-treatment-sec .pl-tp-content h2 {
         font-size: 21px;
     }
 
     .pl-ayurvedic-treatment-sec .pl-tp-content p {
-
         text-align: initial;
     }
-
-
 
     .phone a {
         display: grid;
     }
-
-    .phone-consult span {
-        display: block;
-        margin-bottom: 15px;
-    }
-
-
-    .phone-consult img {
-        width: 39px;
-        bottom: 6px;
-        left: -4px;
-    }
-
 }
 
-
-
-
-@media screen and (max-width:320px){
+@media screen and (max-width: 320px) {
     .get-in-touch-sec .custom-get .email {
-        max-width:320px!important;
+        max-width: 320px !important;
+    }
+    .tp-abt-lh {
+        line-height: 18px !important;
     }
 
-    .dsa-banner-sec .dsa-content .btn-banner .btn-appointment
-    {
+    .dsa-banner-sec .dsa-content .btn-banner .btn-appointment {
         margin-bottom: 16px;
     }
     .dsa-india-ayurvedic-sec h2 {
         font-size: 24px;
     }
-    .about-us-sec .tp-abt-content p
-    {
+    .about-us-sec .tp-abt-content p {
         line-height: 10px;
     }
-
 
     .happy-world-sec .hw-content h2 {
         font-size: 27px;
     }
 
-    .our-product .cust-product .prod-box .price .rate
-    {
+    .our-product .cust-product .prod-box .price .rate {
         font-size: 27px;
     }
 
     .our-product .cust-product .prod-box .price .btn-shop-know {
-        font-size: 18px;}
-
+        font-size: 18px;
+    }
 
     .ser-heading {
         font-size: 29px;
@@ -3078,49 +3003,64 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 
     .dsa-why-choose h2 {
         font-size: 17px;
-        font-weight: 600;}
+        font-weight: 600;
+        margin-top: 40px;
+    }
 
-    .sym h3{font-size: 24px;}
-    .sub{font-size: 15px}
+    .sym h3 {
+        font-size: 24px;
+    }
+    .sub {
+        font-size: 15px;
+    }
 
     .cvn p {
         padding-left: 26px;
     }
 
     .latest-post-sec .custom-lp {
-        width: calc(100% - 0px);}
+        width: calc(100% - 0px);
+    }
 
-
-
-
-    .crd a{max-width:300px; padding:5px;}
+    .crd a {
+        max-width: 300px;
+        padding: 5px;
+    }
 }
 
-
-@media(min-width: 1920px){
+@media (min-width: 1920px) {
     .dsa-india-ayurvedic-sec .cust-iba .iba-box .cont {
         padding: 30px;
     }
-    .mob-nav{display:none;}
+    .mob-nav {
+        display: none;
+    }
 
-    .pl-tp-content{margin:auto;}
-    .moz iframe{height: 371px;}
-    .wrp .moz{height: 371px; margin-bottom:20px;}
+    .pl-tp-content {
+        margin: auto;
+    }
+    .moz iframe {
+        height: 371px;
+    }
+    .wrp .moz {
+        height: 371px;
+        margin-bottom: 20px;
+    }
 }
 
 /* CSS Added By Mohit*/
 .ser-banner-sec {
     background-image: url(../images/service-header.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: cover;
     padding-top: 50px;
+    max-width: 100%;
 }
 .ser-banner-sec .cust-ser-banner {
     width: calc(92% - 0px);
     margin: 0 auto;
 }
-.ser-banner-sec .ser-content{
+.ser-banner-sec .ser-content {
     padding-top: 60px;
     padding-bottom: 80px;
     text-align: center;
@@ -3133,7 +3073,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     font-family: "Poppins";
 }
 .ser-banner-sec .ser-content .ser-title {
-    font-size: 70px;
+    font-size: 30px;
     line-height: 83px;
     color: #ffffff;
     font-weight: 600;
@@ -3152,7 +3092,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     display: block;
     width: 80px;
     height: 2px;
-    background: #FFF;
+    background: #fff;
     left: 410px;
     position: absolute;
     top: 19%;
@@ -3163,7 +3103,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     display: block;
     width: 80px;
     height: 2px;
-    background: #FFF;
+    background: #fff;
     right: 0;
     position: absolute;
     right: 410px;
@@ -3177,21 +3117,21 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     border: 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    background-color:transparent;
+    background-color: transparent;
     display: inline-block;
 }
-.breadcrumb>li {
+.breadcrumb > li {
     display: inline-block;
 }
-.page-breadcrumb .breadcrumb>.active {
+.page-breadcrumb .breadcrumb > .active {
     color: #ff9000;
 }
-.page-breadcrumb .breadcrumb>li a {
-    color: #FFF;
+.page-breadcrumb .breadcrumb > li a {
+    color: #fff;
     font-size: 19px;
     font-weight: 600;
 }
-.page-breadcrumb .breadcrumb>li+li:before {
+.page-breadcrumb .breadcrumb > li + li:before {
     padding: 0 5px;
     color: #fff;
     content: "\f105";
@@ -3202,7 +3142,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     width: calc(92% - 0px);
     margin: 0 auto;
 }
-.ser-href .cust-ser-href{
+.ser-href .cust-ser-href {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -3220,10 +3160,10 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 .ser-href-listing .ln {
     color: #000;
 }
-.treatment{
+.treatment {
     padding-top: 20px !important;
 }
-.treatment h2{
+.treatment h2 {
     font-size: 33px !important;
 }
 .types .cust-iba .box1 {
@@ -3248,7 +3188,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -3263,19 +3203,19 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 }
 .dsa-india-ayurvedic-sec .btn-ayurvedic {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
-.appointment{
+.appointment {
     background: #e4a732;
 }
 
-.appointment-title{
+.appointment-title {
     color: #fff;
     text-align: right;
     /*text-transform: uppercase;*/
     margin-top: 2%;
 }
-.appointment .btn-appointment{
+.appointment .btn-appointment {
     text-align: left;
     border: 1px solid #fff;
     font-size: 16px;
@@ -3283,7 +3223,7 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     color: #ffffff;
     font-weight: 400;
     margin-top: 2%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #e4a732;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -3293,16 +3233,16 @@ nav.foo-navbar .navbar-nav .active .nav-link {
     justify-content: center;
     padding: 10px;
 }
-.ser-href .cust-appointment{
+.ser-href .cust-appointment {
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
 }
-.symptoms{
+.symptoms {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.symptoms h2{
+.symptoms h2 {
     color: #244236;
 }
 
@@ -3312,68 +3252,105 @@ nav.foo-navbar .navbar-nav .active .nav-link {
 }
 
 #accordion .card-body:before {
-    height: 25px!important;
+    height: 25px !important;
 }
 
-#accordion .btn-link, #accordion1 .btn-link, #accordion2 .btn-link, #accordion3 .btn-link, #accordion4 .btn-link, #accordion5 .btn-link {
+#accordion .btn-link,
+#accordion1 .btn-link,
+#accordion2 .btn-link,
+#accordion3 .btn-link,
+#accordion4 .btn-link,
+#accordion5 .btn-link {
     color: #fff !important;
 }
 
-.pl-tp-content{
+.pl-tp-content {
     margin: 0 auto;
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .dib1{
+.dsa-india-ayurvedic-sec .cust-iba .dib1 {
     background-image: url(../images/wbps.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .dib2{
+.dsa-india-ayurvedic-sec .cust-iba .dib2 {
     background-image: url(../images/wbps2.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .psor1{
+.dsa-india-ayurvedic-sec .cust-iba .psor1 {
     background-image: url(../images/psoraisess_2.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .psor2{
+.dsa-india-ayurvedic-sec .cust-iba .psor2 {
     background-image: url(../images/psoraises_3.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .psor3{
+.dsa-india-ayurvedic-sec .cust-iba .psor3 {
     background-image: url(../images/psoraises_4.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .thyr1{
+.dsa-india-ayurvedic-sec .cust-iba .thyr1 {
     background-image: url(../images/thyroid2.webp);
 }
 
-.dsa-india-ayurvedic-sec .cust-iba .thyr2{
+.dsa-india-ayurvedic-sec .cust-iba .thyr2 {
     background-image: url(../images/thyroid3.webp);
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .dropdown-menu .dropdown-toggle:after {
-        border-top: .3em solid transparent;
+        border-top: 0.3em solid transparent;
         border-right: 0;
-        border-bottom: .3em solid transparent;
-        border-left: .3em solid;
+        border-bottom: 0.3em solid transparent;
+        border-left: 0.3em solid;
     }
-    .dropdown-menu .dropdown-menu{
-        margin-left:0; margin-right: 0;
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
     }
-    .dropdown-menu li{
+    .dropdown-menu li {
         position: relative;
     }
-    .nav-item .submenu{
+    .nav-item .submenu {
         display: none;
         position: absolute;
-        left:100%; top:-7px;
+        left: 100%;
+        top: -7px;
     }
-    .nav-item .submenu-left{
-        right:100%; left:auto;
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
     }
-    .dropdown-menu > li:hover{ background-color: #f1f1f1 }
-    .dropdown-menu > li:hover > .submenu{
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1;
+    }
+    .dropdown-menu > li:hover > .submenu {
         display: block;
     }
 }
 /* End CSS Added By Mohit*/
+@media only screen and (max-width: 425px) {
+    .list-1 {
+        text-align: center;
+    }
+    .text-white {
+        text-align: center;
+    }
+    .phone-consult {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .dr-img-center {
+        text-align: center !important;
+    }
+    .adj-height {
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-about {
+        text-align: center !important;
+    }
+}
